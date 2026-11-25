@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Selection Review</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>✓</text></svg>">
+<style>
+  :root { --bg: #f6f4ef; --panel: #fff; --ink: #1f1d1a; --muted: #6b665e; --line: #e2ddd3; --festive: #d23b2a; --keep: #2e7d32; --reject: #b3261e; --star: #d4a017; --tile: #2a2724; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #17161a; --panel: #222126; --ink: #ecebe8; --muted: #a29d95; --line: #35333a; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, sans-serif; }
+  header { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--line); padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+  h1 { font-size: 19px; margin: 0; }
+  header label { font-size: 14px; color: var(--muted); display: flex; gap: 5px; align-items: center; }
+  header select, header input[type=search] { font: inherit; font-size: 14px; padding: 3px 6px; border: 1px solid var(--line); border-radius: 4px; background: var(--panel); color: var(--ink); }
+  .count { margin-left: auto; font-size: 14px; color: var(--muted); }
+  .help { font-size: 13px; color: var(--muted); flex-basis: 100%; display: flex; gap: 16px; flex-wrap: wrap; }
+  #status { color: var(--ink); }
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 34%); gap: 16px; padding: 16px; }
+  #ctx { position: sticky; top: calc(var(--hdr, 90px) + 16px); align-self: start; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; max-height: calc(100vh - var(--hdr, 90px) - 32px); overflow: auto; }
+  #ctx .frame { position: relative; line-height: 0; overflow: hidden; }
+  #ctx img { width: 100%; display: block; }
+  #ctx .box { position: absolute; border: 3px solid #ffd400; box-shadow: 0 0 0 9999px #0009; display: none; }
+  #ctx h3 { margin: 10px 0 2px; font-size: 16px; }
+  #ctx .sub { color: var(--muted); font-size: 14px; }
+  .art { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin-bottom: 18px; }
+  .art.keep { border-color: var(--keep); box-shadow: 0 0 0 2px var(--keep); }
+  .art.reject { opacity: .45; }
+  .art h2 { font-size: 18px; margin: 0; }
+  .art .sub { color: var(--muted); font-size: 14px; margin: 2px 0 8px; }
+  .head { display: flex; gap: 10px; align-items: flex-start; flex-wrap: wrap; }
+  .head .t { flex: 1 1 300px; }
+  .dec button { font: inherit; font-size: 14px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 5px; padding: 4px 12px; cursor: pointer; margin-left: 4px; }
+  .dec button.k.on { background: var(--keep); border-color: var(--keep); color: #fff; }
+  .dec button.r.on { background: var(--reject); border-color: var(--reject); color: #fff; }
+  .tiles { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tile { position: relative; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; width: 140px; }
+  .tile canvas { display: block; width: 100%; height: 140px; background: var(--tile); }
+  .tile .meta { padding: 4px 6px 6px 7px; font-size: 13.5px; display: flex; flex-wrap: wrap; gap: 4px; align-items: flex-start; }
+  .tile .meta .label { cursor: text; flex: 1 1 70px; min-width: 70px; overflow-wrap: normal; }
+  .tile .acts { margin-left: auto; }
+  .tile .meta b { font-weight: 600; }
+  .tile .meta small { color: var(--muted); }
+  .tile.festive .meta b { color: var(--festive); }
+  .tile .acts { display: flex; gap: 2px; flex: none; }
+  .tile .acts button { width: 24px; height: 24px; border-radius: 4px; border: 1px solid var(--line); background: var(--panel); cursor: pointer; font-size: 13px; padding: 0; display: flex; align-items: center; justify-content: center; }
+  .tile .drop { color: var(--reject); }
+  .tile .star { color: #9a9184; }
+  .tile.starred { border-color: var(--star); box-shadow: 0 0 0 2px var(--star); }
+  .tile.starred .star { color: var(--star); }
+  .tile.dropped { opacity: .35; }
+  .tile.quarantined { border: 2px dashed var(--muted); }
+  .tile .qbadge { display: none; font-size: 11px; color: var(--muted); padding: 0 7px 4px; }
+  .tile.quarantined .qbadge { display: block; }
+  .tile .quar { color: var(--muted); font-weight: 700; }
+  .tile.quarantined .quar { background: var(--muted); color: var(--panel); }
+  .tile.hover { outline: 3px solid #ffd400; }
+  .empty { color: var(--muted); font-style: italic; font-size: 14px; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } #ctx { position: static; order: -1; max-height: none; } }
+</style>
+</head>
+<body>
+<header id="hdr">
+  <h1>Selection review</h1>
+  <label>Show <select id="show"><option value="all">all works</option><option value="undecided">undecided</option><option value="keep">kept</option><option value="reject">rejected</option></select></label>
+  <label>From <select id="source"><option value="">both pickers</option><option value="festive">festive picker</option><option value="objects">object paintings</option></select></label>
+  <label>Type <select id="type"><option value="">all types</option></select></label>
+  <input type="search" id="q" placeholder="Find item label">
+  <label><input type="checkbox" id="festiveOnly"> festive items only</label>
+  <label><input type="checkbox" id="starredOnly"> starred only</label>
+  <label><input type="checkbox" id="showDropped"> show removed items</label>
+  <label>Items <select id="quarFilter"><option value="">all</option><option value="q">quarantined only</option><option value="nq">not quarantined</option></select></label>
+  <span class="count" id="count"></span>
+  <div class="help"><span>Hover an item to see it in the painting. <b>X</b> remove item · <b>Q</b> quarantine or release (dashed: no sticker, shown as "also spotted") · <b>S</b> star item (also keeps the work) · <b>E</b> or click label to rename · <b>K</b> keep work · <b>R</b> reject work · <b>U</b> undo</span><span id="status"></span></div>
+</header>
+<div class="layout">
+  <main id="list"></main>
+  <aside id="ctx">
+    <div class="frame"><img id="ctxImg" alt=""><div class="box" id="ctxBox"></div></div>
+    <h3 id="ctxTitle">Hover an item or a work</h3>
+    <div class="sub" id="ctxSub"></div>
+  </aside>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const typeName = t => (t || "").replace("Drawing and Watercolor", "Drawing");
+const isFestive = i => i.festive === "True";
+const proposedQ = i => !!i.quarantine_reason && !i.starred;
+const isQ = i => i.quarantine === "yes" || (i.quarantine === "" && proposedQ(i));
+let data = [], byId = {}, undoStack = [], hoveredTile = null, hoveredArt = null;
+const images = new Map();
+
+function loadImage(id) {
+  if (!images.has(id)) images.set(id, new Promise((resolve, reject) => {
+    const im = new Image(); im.onload = () => resolve(im); im.onerror = reject; im.src = `/images1600/${id}.jpg`;
+  }));
+  return images.get(id);
+}
+const itemOf = key => { const [id, n] = key.split(":"); return byId[id].items.find(i => i.item_id === n); };
+const caption = a => `${a.artist || "Unknown artist"}. ${a.title}, ${String(a.date).replace(/\.$/, "")}. The Art Institute of Chicago.`;
+
+function visibleItems(a) {
+  const q = $("q").value.trim().toLowerCase();
+  return a.items.filter(i => (!$("festiveOnly").checked || isFestive(i)) && ($("showDropped").checked || !i.dropped)
+    && (!$("starredOnly").checked || i.starred) && (!q || i.label.toLowerCase().includes(q))
+    && ($("quarFilter").value === "" || ($("quarFilter").value === "q") === isQ(i)));
+}
+function visibleArts() {
+  const show = $("show").value, source = $("source").value, type = $("type").value, filtering = $("q").value.trim() || $("starredOnly").checked || $("quarFilter").value;
+  return data.filter(a => (show === "all" || (show === "undecided" ? !a.decision : a.decision === show))
+    && (!source || a.source === source) && (!type || a.type === type))
+    .map(a => [a, visibleItems(a)]).filter(([, items]) => !filtering || items.length);
+}
+
+function tileHtml(a, i) {
+  return `<div class="tile ${isFestive(i) ? "festive" : ""} ${i.starred ? "starred" : ""} ${i.dropped ? "dropped" : ""} ${isQ(i) ? "quarantined" : ""}" data-key="${a.id}:${i.item_id}">
+    <canvas></canvas>
+    <div class="meta"><span class="label" title="Click to rename (E)"><b>${esc(i.label)}</b>${i.kind === "group" ? ` <small>group of ~${esc(i.approx_count)}</small>` : ""}</span>
+      <span class="acts"><button class="star" title="Star (S)">${i.starred ? "★" : "☆"}</button><button class="quar" title="Quarantine or release (Q)">Q</button><button class="drop" title="${i.dropped ? "Restore (X)" : "Remove (X)"}">${i.dropped ? "↩" : "✕"}</button></span></div>
+    <div class="qbadge">quarantined${i.quarantine === "yes" ? "" : `: ${esc(i.quarantine_reason)}`}</div></div>`;
+}
+function subLine(a) {
+  const removed = a.items.filter(i => i.dropped).length, starred = a.items.filter(i => i.starred).length;
+  const quarantined = a.items.filter(i => !i.dropped && isQ(i)).length;
+  return `${esc(a.artist)} · ${esc(a.date)} · ${esc(typeName(a.type))} · ${a.items.length} items, ${a.items.filter(isFestive).length} festive`
+    + (removed ? `, ${removed} removed` : "") + (quarantined ? `, ${quarantined} quarantined` : "") + (starred ? `, ${starred} starred` : "");
+}
+
+const observer = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) drawSection(e.target); }), { rootMargin: "800px" });
+function render() {
+  observer.disconnect();
+  const arts = visibleArts();
+  $("list").innerHTML = arts.map(([a, items]) => `<section class="art ${a.decision}" data-id="${a.id}">
+    <div class="head"><div class="t"><h2>${esc(a.title)}</h2><div class="sub">${subLine(a)}</div></div>
+      <div class="dec"><button class="k ${a.decision === "keep" ? "on" : ""}" data-dec="keep">Keep</button><button class="r ${a.decision === "reject" ? "on" : ""}" data-dec="reject">Reject</button></div></div>
+    <div class="tiles">${items.length ? items.map(i => tileHtml(a, i)).join("") : `<span class="empty">No items to show.</span>`}</div></section>`).join("");
+  document.querySelectorAll("section.art").forEach(s => observer.observe(s));
+  updateCount(arts.length);
+}
+function updateCount(shown) {
+  const kept = data.filter(a => a.decision === "keep").length, rejected = data.filter(a => a.decision === "reject").length;
+  const live = data.filter(a => a.decision !== "reject").flatMap(a => a.items.filter(i => !i.dropped)), q = live.filter(isQ).length;
+  $("count").textContent = `${kept} kept · ${rejected} rejected · ${data.length - kept - rejected} undecided · ${live.length - q} items for cutting, ${q} quarantined · showing ${shown ?? document.querySelectorAll("section.art").length} of ${data.length}`;
+}
+
+async function drawSection(sec) {
+  if (sec.dataset.drawn) return;
+  sec.dataset.drawn = "1";
+  const im = await loadImage(sec.dataset.id);
+  sec.querySelectorAll(".tile").forEach(t => drawTile(t, im));
+}
+function drawTile(t, im) {
+  const i = itemOf(t.dataset.key), W = im.naturalWidth, H = im.naturalHeight;
+  const bx = i.x0 * W, by = i.y0 * H, bw = (i.x1 - i.x0) * W, bh = (i.y1 - i.y0) * H, pad = 0.06 * Math.max(bw, bh);
+  const sx = Math.max(0, bx - pad), sy = Math.max(0, by - pad), sw = Math.min(W, bx + bw + pad) - sx, sh = Math.min(H, by + bh + pad) - sy;
+  const h = 140, w = Math.max(120, Math.min(280, Math.round(h * sw / sh))), dpr = window.devicePixelRatio || 1;
+  const c = t.querySelector("canvas");
+  c.width = w * dpr; c.height = h * dpr; t.style.width = w + "px";
+  const g = c.getContext("2d"), scale = Math.min(c.width / sw, c.height / sh), dw = sw * scale, dh = sh * scale;
+  g.drawImage(im, sx, sy, sw, sh, (c.width - dw) / 2, (c.height - dh) / 2, dw, dh);
+}
+
+function showCtx(a, i) {
+  if ($("ctxImg").dataset.id !== a.id) { $("ctxImg").src = `/images1600/${a.id}.jpg`; $("ctxImg").dataset.id = a.id; $("ctxImg").alt = a.title; }
+  const box = $("ctxBox");
+  if (i) Object.assign(box.style, { display: "block", left: i.x0 * 100 + "%", top: i.y0 * 100 + "%", width: (i.x1 - i.x0) * 100 + "%", height: (i.y1 - i.y0) * 100 + "%" });
+  else box.style.display = "none";
+  $("ctxTitle").textContent = i ? i.label + (isFestive(i) ? " (festive)" : "") : a.title;
+  $("ctxSub").textContent = caption(a);
+}
+
+async function post(url, body) {
+  const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  if (!r.ok) { $("status").textContent = "Save failed. Is the server running?"; throw new Error("save failed"); }
+}
+async function setDecision(id, decision, remember = true) {
+  const a = byId[id], previous = a.decision;
+  await post("/api/review/artwork", { ids: [id], decision });
+  a.decision = decision;
+  if (remember) undoStack.push(() => setDecision(id, previous, false));
+  const sec = document.querySelector(`section.art[data-id="${id}"]`);
+  if (sec) {
+    sec.classList.remove("keep", "reject");
+    if (decision) sec.classList.add(decision);
+    sec.querySelector(".k").classList.toggle("on", decision === "keep");
+    sec.querySelector(".r").classList.toggle("on", decision === "reject");
+  }
+  $("status").textContent = decision ? `${decision === "keep" ? "Kept" : "Rejected"} "${a.title}"` : `Cleared "${a.title}"`;
+  updateCount();
+}
+async function setItem(key, field, value, remember = true) {
+  const i = itemOf(key), a = byId[key.split(":")[0]];
+  await post("/api/review/item", { keys: [key], field, value });
+  i[field] = value;
+  const previousDecision = a.decision, autoKeep = field === "starred" && value && a.decision !== "keep";
+  if (autoKeep) await setDecision(a.id, "keep", false);
+  if (remember) undoStack.push(async () => {
+    await setItem(key, field, !value, false);
+    if (autoKeep) await setDecision(a.id, previousDecision, false);
+  });
+  const tile = document.querySelector(`.tile[data-key="${key}"]`);
+  if (tile) {
+    if (field === "dropped" && value && !$("showDropped").checked) tile.remove();
+    else {
+      const im = await loadImage(a.id);
+      tile.outerHTML = tileHtml(a, i);
+      drawTile(document.querySelector(`.tile[data-key="${key}"]`), im);
+    }
+  } else render();
+  const sec = document.querySelector(`section.art[data-id="${a.id}"]`);
+  if (sec) sec.querySelector(".sub").innerHTML = subLine(a);
+  const verb = field === "dropped" ? (value ? "Removed" : "Restored") : (value ? "Starred" : "Unstarred");
+  $("status").textContent = `${verb} "${i.label}" in "${a.title}"` + (autoKeep ? " and kept the work" : "");
+}
+async function toggleQuarantine(key, remember = true) {
+  const i = itemOf(key), a = byId[key.split(":")[0]], previous = i.quarantine, want = !isQ(i);
+  const value = want === proposedQ(i) ? "" : (want ? "yes" : "no");
+  await post("/api/review/item", { keys: [key], field: "quarantine", value });
+  i.quarantine = value;
+  if (remember) undoStack.push(async () => {
+    await post("/api/review/item", { keys: [key], field: "quarantine", value: previous });
+    i.quarantine = previous; redrawTile(key);
+  });
+  await redrawTile(key);
+  $("status").textContent = `${want ? "Quarantined" : "Released"} "${i.label}" in "${a.title}"`;
+}
+async function redrawTile(key) {
+  const i = itemOf(key), a = byId[key.split(":")[0]], tile = document.querySelector(`.tile[data-key="${key}"]`);
+  if (tile) {
+    const im = await loadImage(a.id);
+    tile.outerHTML = tileHtml(a, i);
+    drawTile(document.querySelector(`.tile[data-key="${key}"]`), im);
+  }
+  const sec = document.querySelector(`section.art[data-id="${a.id}"]`);
+  if (sec) sec.querySelector(".sub").innerHTML = subLine(a);
+}
+async function rename(key) {
+  const i = itemOf(key), clean = (prompt(`Rename "${i.label}" to:`, i.label) || "").trim();
+  if (clean && clean !== i.label) await setLabels({ [key]: clean });
+}
+async function setLabels(map, remember = true) {
+  const previous = Object.fromEntries(Object.keys(map).map(k => [k, itemOf(k).label]));
+  const groups = {};
+  Object.entries(map).forEach(([k, v]) => (groups[v] = groups[v] || []).push(k));
+  for (const [value, keys] of Object.entries(groups)) await post("/api/review/item", { keys, field: "new_label", value });
+  Object.entries(map).forEach(([k, v]) => {
+    itemOf(k).label = v;
+    const b = document.querySelector(`.tile[data-key="${k}"] .label b`);
+    if (b) b.textContent = v;
+  });
+  if (remember) undoStack.push(() => setLabels(previous, false));
+  const n = Object.keys(map).length, first = Object.values(map)[0];
+  $("status").textContent = `Renamed ${n} item${n > 1 ? "s" : ""} to "${first}"`;
+}
+function undo() {
+  const last = undoStack.pop();
+  if (last) last(); else $("status").textContent = "Nothing to undo";
+}
+
+$("list").addEventListener("mouseover", e => {
+  const tile = e.target.closest(".tile"), sec = e.target.closest("section.art");
+  hoveredArt = sec ? sec.dataset.id : null;
+  const key = tile ? tile.dataset.key : null;
+  if (key === hoveredTile && tile) return;
+  document.querySelectorAll(".tile.hover").forEach(t => t.classList.remove("hover"));
+  hoveredTile = key;
+  if (tile) { tile.classList.add("hover"); showCtx(byId[hoveredArt], itemOf(key)); }
+  else if (sec) showCtx(byId[hoveredArt], null);
+});
+$("list").addEventListener("click", e => {
+  const tile = e.target.closest(".tile"), dec = e.target.closest("button[data-dec]");
+  if (dec) {
+    const id = dec.closest("section.art").dataset.id;
+    return setDecision(id, byId[id].decision === dec.dataset.dec ? "" : dec.dataset.dec);
+  }
+  if (!tile) return;
+  const i = itemOf(tile.dataset.key);
+  if (e.target.closest(".drop")) setItem(tile.dataset.key, "dropped", !i.dropped);
+  if (e.target.closest(".star")) setItem(tile.dataset.key, "starred", !i.starred);
+  if (e.target.closest(".quar")) toggleQuarantine(tile.dataset.key);
+  if (e.target.closest(".label")) rename(tile.dataset.key);
+});
+document.addEventListener("keydown", e => {
+  if (e.target.matches("input, select, textarea") || e.metaKey || e.ctrlKey || e.altKey) return;
+  const k = e.key.toLowerCase();
+  if (k === "u") return undo();
+  if ((k === "x" || k === "s") && hoveredTile) {
+    const i = itemOf(hoveredTile), key = hoveredTile;
+    if (k === "x") { hoveredTile = null; setItem(key, "dropped", !i.dropped); }
+    else setItem(key, "starred", !i.starred);
+  }
+  if (k === "q" && hoveredTile) return toggleQuarantine(hoveredTile);
+  if (k === "e" && hoveredTile) { e.preventDefault(); return rename(hoveredTile); }
+  if ((k === "k" || k === "r") && hoveredArt) {
+    const want = k === "k" ? "keep" : "reject";
+    setDecision(hoveredArt, byId[hoveredArt].decision === want ? "" : want);
+  }
+});
+["show", "source", "type", "q", "festiveOnly", "starredOnly", "showDropped", "quarFilter"].forEach(id => $(id).addEventListener("input", render));
+new ResizeObserver(() => document.documentElement.style.setProperty("--hdr", $("hdr").offsetHeight + "px")).observe($("hdr"));
+
+fetch("/api/review").then(r => r.json()).then(d => {
+  data = d.artworks;
+  data.forEach(a => { byId[a.id] = a; a.items.forEach(i => ["x0", "y0", "x1", "y1"].forEach(k => i[k] = +i[k])); });
+  [...new Set(data.map(a => a.type))].sort().forEach(t => $("type").insertAdjacentHTML("beforeend", `<option value="${esc(t)}">${esc(typeName(t))}</option>`));
+  render();
+});
+</script>
+</body>
+</html>

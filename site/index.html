@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reverse Advent Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500;1,9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23e6b24c' d='M16 2l3.9 9.2 9.9.8-7.5 6.5 2.3 9.7L16 23l-8.6 5.2 2.3-9.7L2.2 12l9.9-.8z'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1>The Reverse <em>Advent</em> Calendar</h1>
+    <p class="sub">25 festive details from paintings and prints in the Art Institute of Chicago. Open a sticker to find the painting it came from. Collect all stickers and use them to create your very own Christmas card!</p>
+  </div>
+  <div class="top-actions">
+    <a class="nav-link" href="album.html" id="albumLink">My sticker album</a>
+  </div>
+</header>
+
+<main id="calendar" class="calendar" aria-label="Advent calendar, 25 days"></main>
+
+<section id="viewer" class="viewer" role="dialog" aria-modal="true" aria-labelledby="title" aria-hidden="true">
+  <div class="stage" id="stage" tabindex="0"
+    aria-label="Painting. Press plus or minus to zoom, the arrow keys to move around, and 0 to see the whole painting.">
+    <img class="placeholder" id="placeholder" alt="">
+    <div class="canvas" id="canvas">
+      <img id="painting" alt="">
+      <div class="shade" id="shade" aria-hidden="true"></div>
+      <div id="boxes"></div>
+    </div>
+    <a class="spot-link" id="spotLink" hidden></a>
+    <div class="zoom-controls">
+      <button id="zoomIn" aria-label="Zoom in">+</button>
+      <button id="zoomOut" aria-label="Zoom out">&minus;</button>
+      <button id="zoomReset" aria-label="Show the whole painting">&#x2922;</button>
+    </div>
+  </div>
+  <aside class="panel">
+    <button class="close" id="close" aria-label="Close painting">&times;</button>
+    <p class="day" id="day"></p>
+    <h2 id="title" tabindex="-1"></h2>
+    <p class="meta" id="meta"></p>
+    <a class="ng-link" id="ngLink" target="_blank" rel="noopener">See it on the Art Institute of Chicago website &#x2197;</a>
+
+    <h3>In this painting</h3>
+    <div class="found" id="found"></div>
+
+    <section class="focus" id="focus" aria-live="polite"></section>
+    <div id="more" class="more"></div>
+
+    <section class="about" id="aboutSection">
+      <h3>About this painting</h3>
+      <p class="source" id="aboutSource"></p>
+      <div id="about" class="prose"></div>
+      <button class="link" id="readMore" aria-expanded="false">Read more</button>
+      <details class="described" id="describedBox">
+        <summary>Picture description</summary>
+        <p id="described"></p>
+      </details>
+    </section>
+  </aside>
+</section>
+
+<footer class="credit">Images courtesy of the Art Institute of Chicago, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>. Painting texts from the Art Institute of Chicago, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (<a href="https://www.artic.edu/terms">terms</a>). Texts marked "AI-written" were written by Claude (Anthropic) from the image and the museum's catalogue record.</footer>
+
+<img id="flyer" class="flyer" alt="" aria-hidden="true">
+<p id="announce" class="sr-only" aria-live="polite"></p>
+
+<script src="app.js"></script>
+</body>
+</html>

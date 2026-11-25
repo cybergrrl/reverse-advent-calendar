@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Label Groups</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>#</text></svg>">
+<style>
+  :root { --bg: #f6f4ef; --panel: #fff; --ink: #1f1d1a; --muted: #6b665e; --line: #e2ddd3; --accent: #2f5d8a; --star: #d4a017; --tile: #2a2724; --changed: #7b3fa0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #17161a; --panel: #222126; --ink: #ecebe8; --muted: #a29d95; --line: #35333a; --accent: #8ab4dd; --changed: #c79be0; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, sans-serif; }
+  header { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--line); padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+  h1 { font-size: 19px; margin: 0; }
+  header a { color: var(--muted); font-size: 14px; }
+  header label { font-size: 14px; color: var(--muted); display: flex; gap: 5px; align-items: center; }
+  header select, header input[type=search] { font: inherit; font-size: 14px; padding: 3px 6px; border: 1px solid var(--line); border-radius: 4px; background: var(--panel); color: var(--ink); }
+  .count { margin-left: auto; font-size: 14px; color: var(--muted); }
+  .help { font-size: 13px; color: var(--muted); flex-basis: 100%; display: flex; gap: 16px; flex-wrap: wrap; }
+  #status { color: var(--ink); }
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 32%); gap: 16px; padding: 16px; }
+  #ctx { position: sticky; top: calc(var(--hdr, 90px) + 16px); align-self: start; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; max-height: calc(100vh - var(--hdr, 90px) - 32px); overflow: auto; }
+  #ctx .frame { position: relative; line-height: 0; overflow: hidden; width: fit-content; margin: 0 auto; }
+  #ctx img { display: block; max-width: 100%; max-height: 60vh; }
+  #ctx .box { position: absolute; border: 3px solid #ffd400; box-shadow: 0 0 0 9999px #0009; display: none; }
+  #ctx h3 { margin: 10px 0 2px; font-size: 16px; }
+  #ctx .sub { color: var(--muted); font-size: 14px; }
+  .group { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px 12px; margin-bottom: 14px; }
+  .ghead { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; }
+  .ghead h2 { font-size: 18px; margin: 0; cursor: text; }
+  .ghead h2:hover { text-decoration: underline dotted; }
+  .ghead .n { color: var(--muted); font-size: 14px; }
+  .ghead select { font: inherit; font-size: 13px; padding: 2px 4px; border: 1px solid var(--line); border-radius: 4px; background: var(--panel); color: var(--ink); margin-left: auto; }
+  .ghead select.none { border-color: #b3261e; }
+  .variants { display: flex; flex-wrap: wrap; gap: 5px; margin: 8px 0; }
+  .chip { font: inherit; font-size: 13px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 999px; padding: 2px 10px; cursor: pointer; }
+  .chip small { color: var(--muted); }
+  .chip.changed { border-color: var(--changed); color: var(--changed); }
+  .chip:hover, .chip.on { border-color: var(--accent); }
+  .tiles { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tile { background: var(--panel); border: 1px solid var(--line); border-radius: 5px; overflow: hidden; width: 100px; }
+  .tile canvas { display: block; width: 100%; height: 90px; background: var(--tile); }
+  .tile .meta { padding: 2px 5px 4px; font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .tile.starred { border-color: var(--star); box-shadow: 0 0 0 2px var(--star); }
+  .tile.hover { outline: 3px solid #ffd400; }
+  .tile.dim { opacity: .25; }
+  .more { font-size: 13px; color: var(--accent); background: none; border: 0; cursor: pointer; padding: 4px; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } #ctx { position: static; order: -1; max-height: none; } }
+</style>
+</head>
+<body>
+<header id="hdr">
+  <h1>Label groups</h1>
+  <a href="/review">Review</a>
+  <a href="/starred">Starred items</a>
+  <label>Sort <select id="sort"><option value="count">most items first</option><option value="variants">most variants first</option><option value="name">A to Z</option></select></label>
+  <input type="search" id="q" placeholder="Find label or variant">
+  <label><input type="checkbox" id="multi"> merged groups only</label>
+  <span class="count" id="count"></span>
+  <div class="help"><span>Each box is one clickable label in the app ("find the dog in other paintings"). Click the <b>group name</b> to rename the whole group, or rename it to an existing group to merge. Click a <b>variant</b> to move it into another group (empty resets it). Hover a variant to see only its items. <span style="color:var(--changed)">Purple</span> = changed by you. <b>U</b> undo</span><span id="status"></span></div>
+</header>
+<div class="layout">
+  <main id="list"></main>
+  <aside id="ctx">
+    <div class="frame"><img id="ctxImg" alt=""><div class="box" id="ctxBox"></div></div>
+    <h3 id="ctxTitle">Hover an item</h3>
+    <div class="sub" id="ctxSub"></div>
+  </aside>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const caption = a => `${a.artist || "Unknown artist"}. ${a.title}, ${String(a.date).replace(/\.$/, "")}. The Art Institute of Chicago.`;
+const SHOW = 16;
+let items = [], map = {}, categories = [], undoStack = [], expanded = new Set();
+const images = new Map();
+
+function loadImage(id) {
+  if (!images.has(id)) images.set(id, new Promise((resolve, reject) => {
+    const im = new Image(); im.onload = () => resolve(im); im.onerror = reject; im.src = `/images1600/${id}.jpg`;
+  }));
+  return images.get(id);
+}
+const keyOf = l => l.trim().toLowerCase();
+const itemByKey = k => items.find(e => e.key === k);
+
+function groups() {
+  const q = $("q").value.trim().toLowerCase(), gs = new Map();
+  items.forEach(e => {
+    const m = map[keyOf(e.i.label)], g = m.canonical;
+    if (!gs.has(g)) gs.set(g, { name: g, items: [], variants: new Map() });
+    const G = gs.get(g);
+    G.items.push(e);
+    G.variants.set(keyOf(e.i.label), (G.variants.get(keyOf(e.i.label)) || 0) + 1);
+  });
+  let list = [...gs.values()];
+  list = list.filter(G => (!q || G.name.toLowerCase().includes(q) || [...G.variants.keys()].some(v => v.includes(q)))
+    && (!$("multi").checked || G.variants.size > 1));
+  const s = $("sort").value;
+  return list.sort(s === "name" ? (a, b) => a.name.localeCompare(b.name)
+    : s === "variants" ? (a, b) => b.variants.size - a.variants.size || b.items.length - a.items.length
+    : (a, b) => b.items.length - a.items.length || a.name.localeCompare(b.name));
+}
+
+const observer = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) { observer.unobserve(e.target); drawTile(e.target); }
+}), { rootMargin: "600px" });
+async function drawTile(t) {
+  const e = itemByKey(t.dataset.key), im = await loadImage(e.a.id), i = e.i, W = im.naturalWidth, H = im.naturalHeight;
+  const bx = i.x0 * W, by = i.y0 * H, bw = (i.x1 - i.x0) * W, bh = (i.y1 - i.y0) * H, pad = 0.06 * Math.max(bw, bh);
+  const sx = Math.max(0, bx - pad), sy = Math.max(0, by - pad), sw = Math.min(W, bx + bw + pad) - sx, sh = Math.min(H, by + bh + pad) - sy;
+  const h = 90, w = Math.max(70, Math.min(170, Math.round(h * sw / sh))), dpr = window.devicePixelRatio || 1;
+  const c = t.querySelector("canvas");
+  c.width = w * dpr; c.height = h * dpr; t.style.width = w + "px";
+  const g = c.getContext("2d"), scale = Math.min(c.width / sw, c.height / sh), dw = sw * scale, dh = sh * scale;
+  g.drawImage(im, sx, sy, sw, sh, (c.width - dw) / 2, (c.height - dh) / 2, dw, dh);
+}
+
+function render() {
+  observer.disconnect();
+  const gs = groups(), y = window.scrollY;
+  $("list").innerHTML = gs.map(G => {
+    const shown = expanded.has(G.name) ? G.items : G.items.slice(0, SHOW);
+    const works = new Set(G.items.map(e => e.a.id)).size;
+    return `<section class="group" data-group="${esc(G.name)}">
+      <div class="ghead"><h2 title="Click to rename or merge this group">${esc(G.name)}</h2>
+        <span class="n">${G.items.length} item${G.items.length > 1 ? "s" : ""} in ${works} work${works > 1 ? "s" : ""}${G.variants.size > 1 ? ` · ${G.variants.size} variants` : ""}</span>
+</div>
+      <div class="variants">${[...G.variants.entries()].sort((a, b) => b[1] - a[1]).map(([v, n]) =>
+        `<button class="chip ${map[v].canonical !== map[v].rule_canonical ? "changed" : ""}" data-variant="${esc(v)}" title="Click to move to another group">${esc(v)} <small>${n}</small></button>`).join("")}</div>
+      <div class="tiles">${shown.map(e => `<div class="tile ${e.i.starred ? "starred" : ""}" data-key="${e.key}" data-variant="${esc(keyOf(e.i.label))}"><canvas></canvas><div class="meta">${esc(e.i.label)}</div></div>`).join("")}
+        ${G.items.length > shown.length ? `<button class="more" data-more="${esc(G.name)}">show all ${G.items.length}</button>` : ""}</div></section>`;
+  }).join("");
+  document.querySelectorAll("#list .tile").forEach(t => observer.observe(t));
+  window.scrollTo(0, y);
+  const all = new Set(items.map(e => map[keyOf(e.i.label)].canonical)).size, variants = new Set(items.map(e => keyOf(e.i.label))).size;
+  $("count").textContent = `${items.length} items · ${variants} labels → ${all} groups · showing ${gs.length}`;
+}
+
+async function post(labels, field, value) {
+  const r = await fetch("/api/labels", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ labels, field, value }) });
+  if (!r.ok) { $("status").textContent = "Save failed. Is the server running?"; throw new Error("save failed"); }
+}
+async function apply(changes, field, remember = true) {
+  const previous = changes.map(([l]) => [l, map[l][field]]);
+  const byValue = {};
+  changes.forEach(([l, v]) => (byValue[v] = byValue[v] || []).push(l));
+  for (const [v, ls] of Object.entries(byValue)) await post(ls, field, v === map[ls[0]]["rule_" + field] ? "" : v);
+  changes.forEach(([l, v]) => { map[l][field] = v; });
+  if (remember) undoStack.push(() => apply(previous, field, false));
+  render();
+}
+async function renameGroup(name) {
+  const value = (prompt(`Rename or merge the group "${name}" (all its variants) into:`, name) || "").trim();
+  if (!value || value === name) return;
+  const labels = Object.keys(map).filter(l => map[l].canonical === name);
+  const target = Object.values(map).find(m => m.canonical === value);
+  await apply(labels.map(l => [l, value]), "canonical");
+  $("status").textContent = target ? `Merged "${name}" into "${value}"` : `Renamed "${name}" to "${value}"`;
+}
+async function moveVariant(v) {
+  const m = map[v], value = prompt(`Move "${v}" into which group? (now "${m.canonical}"; leave empty to reset to "${m.rule_canonical}")`, m.canonical);
+  if (value === null) return;
+  const target = (value.trim() || m.rule_canonical);
+  if (target === m.canonical) return;
+  await apply([[v, target]], "canonical");
+  $("status").textContent = `Moved "${v}" to "${target}"`;
+}
+
+function showCtx(e) {
+  if ($("ctxImg").dataset.id !== e.a.id) { $("ctxImg").src = `/images1600/${e.a.id}.jpg`; $("ctxImg").dataset.id = e.a.id; $("ctxImg").alt = e.a.title; }
+  Object.assign($("ctxBox").style, { display: "block", left: e.i.x0 * 100 + "%", top: e.i.y0 * 100 + "%", width: (e.i.x1 - e.i.x0) * 100 + "%", height: (e.i.y1 - e.i.y0) * 100 + "%" });
+  $("ctxTitle").textContent = `${e.i.label} → ${map[keyOf(e.i.label)].canonical}`;
+  $("ctxSub").textContent = caption(e.a);
+}
+
+$("list").addEventListener("mouseover", ev => {
+  const t = ev.target.closest(".tile"), chip = ev.target.closest(".chip"), sec = ev.target.closest("section.group");
+  document.querySelectorAll(".tile.hover").forEach(x => x.classList.remove("hover"));
+  if (sec) sec.querySelectorAll(".tile").forEach(x => x.classList.toggle("dim", !!chip && x.dataset.variant !== chip.dataset.variant));
+  if (t) { t.classList.add("hover"); showCtx(itemByKey(t.dataset.key)); }
+});
+$("list").addEventListener("mouseout", ev => {
+  if (ev.target.closest(".chip")) ev.target.closest("section.group").querySelectorAll(".tile.dim").forEach(x => x.classList.remove("dim"));
+});
+$("list").addEventListener("click", ev => {
+  const sec = ev.target.closest("section.group");
+  if (!sec) return;
+  if (ev.target.closest(".ghead h2")) return renameGroup(sec.dataset.group);
+  const chip = ev.target.closest(".chip");
+  if (chip) return moveVariant(chip.dataset.variant);
+  const more = ev.target.closest(".more");
+  if (more) { expanded.add(more.dataset.more); render(); }
+});
+$("list").addEventListener("change", ev => {
+  if (ev.target.matches(".ghead select")) setCategory(ev.target.closest("section.group").dataset.group, ev.target.value);
+});
+document.addEventListener("keydown", ev => {
+  if (ev.target.matches("input, select, textarea") || ev.metaKey || ev.ctrlKey || ev.altKey) return;
+  if (ev.key.toLowerCase() === "u") {
+    const last = undoStack.pop();
+    if (last) { last(); $("status").textContent = "Undone"; } else $("status").textContent = "Nothing to undo";
+  }
+});
+["sort", "q", "multi"].forEach(id => $(id).addEventListener("input", render));
+new ResizeObserver(() => document.documentElement.style.setProperty("--hdr", $("hdr").offsetHeight + "px")).observe($("hdr"));
+
+Promise.all([fetch("/api/review").then(r => r.json()), fetch("/api/labels").then(r => r.json())]).then(([d, l]) => {
+  map = l.labels; categories = l.categories;
+  d.artworks.filter(a => a.decision !== "reject").forEach(a => a.items.forEach(i => {
+    if (i.dropped) return;
+    ["x0", "y0", "x1", "y1"].forEach(k => i[k] = +i[k]);
+    items.push({ key: `${a.id}:${i.item_id}`, a, i });
+  }));
+  render();
+});
+</script>
+</body>
+</html>

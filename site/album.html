@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Sticker Album</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23e6b24c' d='M16 2l3.9 9.2 9.9.8-7.5 6.5 2.3 9.7L16 23l-8.6 5.2 2.3-9.7L2.2 12l9.9-.8z'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="album.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1>My Sticker Album</h1>
+    <p class="sub">Every door you open adds a sticker here. Drag them onto the tree to hang them as ornaments.</p>
+  </div>
+  <a class="nav-link" href="index.html">&larr; Back to the calendar</a>
+</header>
+
+<main class="album">
+  <div class="board-wrap">
+    <div class="board" id="board" aria-label="Christmas tree. Drag stickers here to hang them.">
+      <img class="tree" id="tree" src="tree.jpg" alt="">
+    </div>
+  </div>
+
+  <aside class="side">
+    <section class="tools" id="tools" hidden>
+      <h2 id="selName">Selected sticker</h2>
+      <p class="caption" id="selCaption"></p>
+      <div class="tool-groups">
+        <div class="pad" role="group" aria-label="Move">
+          <button data-act="up" class="up" aria-label="Move up">&#x2191;</button>
+          <button data-act="moveLeft" class="lt" aria-label="Move left">&#x2190;</button>
+          <button data-act="moveRight" class="rt" aria-label="Move right">&#x2192;</button>
+          <button data-act="down" class="dn" aria-label="Move down">&#x2193;</button>
+        </div>
+        <div class="tool-row" role="group" aria-label="Size and rotation">
+          <button data-act="smaller" aria-label="Make smaller">&minus;</button>
+          <button data-act="bigger" aria-label="Make bigger">+</button>
+          <button data-act="left" aria-label="Rotate left">&#x21BA;</button>
+          <button data-act="right" aria-label="Rotate right">&#x21BB;</button>
+        </div>
+      </div>
+      <button data-act="tray" class="tray-btn">Back to tray</button>
+      <p class="hint">Drag the gold handle to resize and rotate. Keys: arrows move, + and &minus; resize, [ and ] rotate, Delete returns it to the tray.</p>
+    </section>
+
+    <section>
+      <h2>Your stickers <span id="count"></span></h2>
+      <div class="tray" id="tray"></div>
+      <p class="empty-tray" id="emptyTray" hidden>No stickers yet. Open a door in the <a href="index.html">calendar</a> to collect your first one.</p>
+    </section>
+
+    <section class="credits" id="creditsBox" hidden>
+      <h2>Where your stickers come from</h2>
+      <ul id="credits"></ul>
+    </section>
+
+    <a class="make-card" href="postcard.html">Make a postcard &rarr;</a>
+    <button class="clear" id="clear">Take everything off the tree</button>
+  </aside>
+</main>
+
+<footer class="credit">Images courtesy of the Art Institute of Chicago, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>. Painting texts from the Art Institute of Chicago, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (<a href="https://www.artic.edu/terms">terms</a>).</footer>
+<p id="announce" class="sr-only" aria-live="polite"></p>
+<script src="album.js"></script>
+</body>
+</html>

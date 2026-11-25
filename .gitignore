@@ -1,0 +1,7 @@
+source/aic-dump/
+runs/
+.env
+__pycache__/
+.DS_Store
+.playwright-mcp/
+deploy/

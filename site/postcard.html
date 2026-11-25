@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Christmas Postcard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23e6b24c' d='M16 2l3.9 9.2 9.9.8-7.5 6.5 2.3 9.7L16 23l-8.6 5.2 2.3-9.7L2.2 12l9.9-.8z'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="album.css">
+<link rel="stylesheet" href="postcard.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1 id="heading">Write your postcard</h1>
+    <p class="sub" id="subheading">Your decorated tree is on the front. Write a message on the back, then send it.</p>
+  </div>
+  <a class="nav-link" id="backLink" href="album.html">&larr; Back to the album</a>
+</header>
+
+<div class="sent-banner" id="sentBanner" hidden>
+  <p><strong>Sent!</strong> This is what your recipient will see. In the finished version this link would arrive by email:</p>
+  <div class="link-row">
+    <input id="cardLink" readonly aria-label="Link to your postcard">
+    <button id="copyLink">Copy link</button>
+  </div>
+</div>
+
+<main class="postcard-page" id="page">
+  <div class="card-area">
+    <div class="postcard" id="postcard">
+      <section class="face front" aria-label="Front of the postcard">
+        <div class="board card-board" id="board">
+          <img class="tree" id="tree" alt="A Christmas tree decorated with stickers of details from paintings">
+        </div>
+      </section>
+      <section class="face back" aria-label="Back of the postcard">
+        <div class="stamp" aria-hidden="true"><img id="stamp" alt=""></div>
+        <div class="postmark" aria-hidden="true">Reverse Advent Calendar<br>&#x2605; Christmas &#x2605;</div>
+        <div class="message">
+          <form id="editor" class="writing">
+            <label class="sr-only" for="to">To</label>
+            <input id="to" class="hand line" placeholder="Dear…" maxlength="60">
+            <label class="sr-only" for="msg">Message</label>
+            <textarea id="msg" class="hand" placeholder="Write your message here" maxlength="500" rows="7"></textarea>
+            <label class="sr-only" for="from">From</label>
+            <input id="from" class="hand line" placeholder="Love from…" maxlength="60">
+            <button type="submit" class="send" id="send">Send postcard</button>
+          </form>
+          <div class="writing" id="reading" hidden>
+            <p class="hand line" id="toText"></p>
+            <p class="hand body" id="msgText"></p>
+            <p class="hand line sign" id="fromText"></p>
+          </div>
+        </div>
+        <p class="card-hint" id="cardHint" hidden>Tap an ornament on the front to find out where it comes from.</p>
+      </section>
+    </div>
+  </div>
+
+  <aside class="info" id="info" aria-labelledby="infoTitle" hidden>
+    <button class="close" id="infoClose" aria-label="Close">&times;</button>
+    <div class="info-sticker"><img id="infoSticker" alt=""></div>
+    <p class="day" id="infoLabel"></p>
+    <h2 id="infoTitle" tabindex="-1"></h2>
+    <p class="meta" id="infoMeta"></p>
+    <img class="info-painting" id="infoPainting" alt="">
+    <p class="note" id="infoNote"></p>
+    <div class="prose" id="infoAbout"></div>
+    <a class="explore" id="infoExplore">Explore this painting &rarr;</a>
+  </aside>
+</main>
+
+<section class="credits card-credits" id="creditsBox" hidden>
+  <h2>Ornaments on this tree</h2>
+  <ul id="credits"></ul>
+</section>
+
+<p class="empty-card" id="emptyCard" hidden>There are no ornaments on your tree yet. <a href="album.html">Go back to the album</a> and hang some first.</p>
+<footer class="credit">Images courtesy of the Art Institute of Chicago, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>. Painting texts from the Art Institute of Chicago, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (<a href="https://www.artic.edu/terms">terms</a>).</footer>
+<p id="announce" class="sr-only" aria-live="polite"></p>
+<script src="postcard.js"></script>
+</body>
+</html>

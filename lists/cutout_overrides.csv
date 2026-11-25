@@ -1,0 +1,14 @@
+key,prompt,box,clip,shape,why
+105660#13,the two boys rolling a giant snowball,0.78 0.77 0.855 0.875,0 0 0.856 1,largest,include the snowball
+111441#10,the head of the ox,,0 0 1 0.595,,keep only the head
+117476#2,the dancing woman,,,largest,remove the floating leg
+154496#1,,,,hull,keep the crossed ribbon inside the envelope
+156596#6,the glass bowl of strawberries,,,,include the bowl
+184371#4,,,0 0 0.405 1,,cut off the neighbouring angel on the right
+184371#5,,,0.398 0 0.662 1,largest,cut off the neighbouring angels on both sides
+184371#6,,,0.604 0 1 1,largest,cut off the neighbouring angel on the left
+20684#18,,,,largest,remove the small umbrella on the left
+22442#6,the boys rolling a giant snowball,0.02 0.38 0.99 0.93,,fill largest,include the children and the whole snowball
+29544#7,the snow-covered mountain,,0.08 0 1 0.275,below largest,fill in the whole of Mount Fuji
+7578#6,the children and the giant snowball,0.08 0.36 0.99 0.97,,fill largest,include the children and the whole snowball
+94126#3,the peaches,,0.575 0 1 1,largest,cut away the melon on the left

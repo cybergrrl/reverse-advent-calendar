@@ -1,0 +1,3166 @@
+id,item_id,label,group,festive,reason
+43678,1,girl in red dress,girl,no,
+43678,2,girl in white dress,girl,no,
+43678,3,black bear,bear,no,
+43678,4,spinning wheel,spinning wheel,no,
+43678,5,conifer,conifer,yes,group: conifer
+43678,6,conifer,conifer,yes,group: conifer
+43678,7,flower crown,flower crown,no,
+43678,8,flower,flower,no,
+43678,9,hooded figure,hooded figure,no,
+22646,1,man in green coat,man,no,
+22646,2,man in brown coat,man,no,
+22646,3,woman in blue coat,woman,no,
+22646,4,horse,horse,no,
+22646,5,sleigh,sleigh,yes,group: sleigh
+22646,6,ice,ice,yes,group: ice
+22646,7,flag,flag,no,
+22646,8,hay bale,haystack,no,
+22646,9,jug,jug,yes,group: jug
+22646,10,bucket,bucket,no,
+22646,11,sailboat,boat,no,
+22646,12,skaters,skater,yes,group: skater
+22646,13,boat,boat,no,
+22646,14,ice blocks,ice block,yes,group: ice block
+26601,1,person,person,no,
+26601,2,person,person,no,
+26601,3,white dog,dog,no,
+26601,4,black dog,dog,no,
+26601,5,piglet,pig,no,
+26601,6,snow,snow,yes,group: snow
+26601,7,snow-covered roof,roof,yes,wintry wording
+26601,8,snow-covered tree,tree,yes,wintry wording
+26601,9,snow-covered conifer,conifer,yes,group: conifer
+26601,10,wooden bridge,bridge,no,
+26601,11,straw bundles,bundle,no,
+26601,12,woven basket,basket,yes,group: basket
+26601,13,woven basket,basket,yes,group: basket
+26601,14,umbrella,umbrella,yes,group: umbrella
+26601,15,wooden cart wheel,wheel,no,
+26601,16,stone wall,wall,no,
+26601,17,pagoda,pagoda,no,
+26601,18,thatched hut,hut,no,
+26601,19,wooden sign,sign,no,
+26601,20,wooden stand,stand,no,
+26601,21,snow-covered ground,snow,yes,group: snow
+77673,1,girl,girl,no,
+77673,2,potted plant,potted plant,no,
+77673,3,teapot,teapot,yes,group: teapot
+77673,4,hanging decoration,hanging decoration,no,
+77673,5,icicles,icicles,yes,group: icicles
+19205,1,person,person,no,
+19205,2,person,person,no,
+19205,3,person,person,no,
+19205,4,person,person,no,
+19205,5,person,person,no,
+19205,6,person,person,no,
+19205,7,person,person,no,
+19205,8,person,person,no,
+19205,9,person,person,no,
+19205,10,person,person,no,
+19205,11,person,person,no,
+19205,12,person,person,no,
+19205,13,person,person,no,
+19205,14,person,person,no,
+19205,15,person,person,no,
+19205,16,person,person,no,
+19205,17,person,person,no,
+19205,18,person,person,no,
+19205,19,horse,horse,no,
+19205,20,horse,horse,no,
+19205,21,horse,horse,no,
+19205,22,horse,horse,no,
+19205,23,horse,horse,no,
+19205,24,horse,horse,no,
+19205,25,snow,snow,yes,group: snow
+19205,26,snow,snow,yes,group: snow
+19205,27,snow-covered building,building,yes,wintry wording
+19205,28,snow-covered mountain,mountain,yes,wintry wording
+19205,29,conifer,conifer,yes,group: conifer
+19205,30,conifer,conifer,yes,group: conifer
+19205,31,conifer,conifer,yes,group: conifer
+19205,32,conifer,conifer,yes,group: conifer
+19205,33,conifer,conifer,yes,group: conifer
+19205,34,conifer,conifer,yes,group: conifer
+19205,35,conifer,conifer,yes,group: conifer
+19205,36,conifer,conifer,yes,group: conifer
+19205,37,conifer,conifer,yes,group: conifer
+19205,38,conifer,conifer,yes,group: conifer
+19205,39,conifer,conifer,yes,group: conifer
+19205,40,conifer,conifer,yes,group: conifer
+19205,41,conifer,conifer,yes,group: conifer
+19205,42,conifer,conifer,yes,group: conifer
+19205,43,conifer,conifer,yes,group: conifer
+19205,44,conifer,conifer,yes,group: conifer
+19205,45,conifer,conifer,yes,group: conifer
+19205,46,conifer,conifer,yes,group: conifer
+19205,47,conifer,conifer,yes,group: conifer
+19205,48,conifer,conifer,yes,group: conifer
+19205,49,conifer,conifer,yes,group: conifer
+19205,50,conifer,conifer,yes,group: conifer
+19205,51,conifer,conifer,yes,group: conifer
+19205,52,conifer,conifer,yes,group: conifer
+19205,53,conifer,conifer,yes,group: conifer
+19205,54,conifer,conifer,yes,group: conifer
+19205,55,conifer,conifer,yes,group: conifer
+19205,56,conifer,conifer,yes,group: conifer
+19205,57,conifer,conifer,yes,group: conifer
+19205,58,conifer,conifer,yes,group: conifer
+19205,59,conifer,conifer,yes,group: conifer
+19205,60,conifer,conifer,yes,group: conifer
+19205,61,conifer,conifer,yes,group: conifer
+19205,62,conifer,conifer,yes,group: conifer
+19205,63,conifer,conifer,yes,group: conifer
+19205,64,conifer,conifer,yes,group: conifer
+19205,65,conifer,conifer,yes,group: conifer
+19205,66,conifer,conifer,yes,group: conifer
+19205,67,conifer,conifer,yes,group: conifer
+19205,68,conifer,conifer,yes,group: conifer
+19205,69,conifer,conifer,yes,group: conifer
+19205,70,conifer,conifer,yes,group: conifer
+19205,71,conifer,conifer,yes,group: conifer
+19205,72,conifer,conifer,yes,group: conifer
+19205,73,conifer,conifer,yes,group: conifer
+19205,74,conifer,conifer,yes,group: conifer
+19205,75,conifer,conifer,yes,group: conifer
+19205,76,conifer,conifer,yes,group: conifer
+19205,77,conifer,conifer,yes,group: conifer
+19205,78,conifer,conifer,yes,group: conifer
+19205,79,conifer,conifer,yes,group: conifer
+19205,80,conifer,conifer,yes,group: conifer
+19205,81,conifer,conifer,yes,group: conifer
+19205,82,conifer,conifer,yes,group: conifer
+19205,83,conifer,conifer,yes,group: conifer
+19205,84,conifer,conifer,yes,group: conifer
+19205,85,conifer,conifer,yes,group: conifer
+19205,86,conifer,conifer,yes,group: conifer
+19205,87,conifer,conifer,yes,group: conifer
+19205,88,conifer,conifer,yes,group: conifer
+19205,89,conifer,conifer,yes,group: conifer
+19205,90,conifer,conifer,yes,group: conifer
+19205,91,conifer,conifer,yes,group: conifer
+19205,92,conifer,conifer,yes,group: conifer
+19205,93,conifer,conifer,yes,group: conifer
+19205,94,conifer,conifer,yes,group: conifer
+34187,1,fox,fox,no,
+34187,2,fox,fox,no,
+34187,3,fox,fox,no,
+34187,4,fox,fox,no,
+34187,5,fox,fox,no,
+34187,6,fox,fox,no,
+34187,7,fox,fox,no,
+34187,8,fox,fox,no,
+34187,9,fox,fox,no,
+34187,10,fox,fox,no,
+34187,11,fox,fox,no,
+34187,12,fox,fox,no,
+34187,13,fox,fox,no,
+34187,14,fox,fox,no,
+34187,15,fox,fox,no,
+34187,16,hay stack,haystack,no,
+34187,17,hay stack,haystack,no,
+34187,18,tree,tree,no,
+34187,19,star,star,yes,group: star
+34187,20,village,village,no,
+34187,21,mountain,mountain,no,
+34187,22,field,field,no,
+130552,1,person,person,no,
+130552,2,person,person,no,
+130552,3,person,person,no,
+130552,4,person,person,no,
+130552,5,person,person,no,
+130552,6,snow,snow,yes,group: snow
+130552,7,conifer,conifer,yes,group: conifer
+130552,8,conifer,conifer,yes,group: conifer
+130552,9,conifer,conifer,yes,group: conifer
+130552,10,red bridge,bridge,no,
+130552,11,temple building,building,no,
+130552,12,covered walkway,covered walkway,no,
+130552,13,river,river,no,
+130552,14,icicles,icicles,yes,group: icicles
+109780,1,woman in yellow coat,woman,no,
+109780,2,child in red coat,child,no,
+109780,3,woman in red coat,woman,no,
+109780,4,woman in white coat,woman,no,
+109780,5,man in dark coat,man,no,
+109780,6,skater,skater,yes,group: skater
+109780,7,skater,skater,yes,group: skater
+109780,8,skater,skater,yes,group: skater
+109780,9,skater,skater,yes,group: skater
+109780,10,skater,skater,yes,group: skater
+109780,11,skater,skater,yes,group: skater
+109780,12,snow,snow,yes,group: snow
+109780,13,snow-covered hill,hill,yes,wintry wording
+109780,14,small house,house,no,
+109780,15,conifer,conifer,yes,group: conifer
+109780,16,conifer,conifer,yes,group: conifer
+109780,17,conifer,conifer,yes,group: conifer
+25743,1,Christ Child,Christ Child,yes,group: Christ Child
+25743,2,Mary,Mary,yes,group: Mary
+25743,3,Joseph,Joseph,yes,group: Joseph
+25743,4,Magi,wise man,yes,group: wise man
+25743,5,Magi,wise man,yes,group: wise man
+25743,6,Magi,wise man,yes,group: wise man
+25743,7,white horse,horse,no,
+25743,8,black horse,horse,no,
+25743,9,camel,camel,yes,group: camel
+25743,10,peacock,peacock,no,
+25743,11,sheep,sheep,yes,group: sheep
+25743,12,monkey,monkey,no,
+25743,13,ship,ship,no,
+25743,14,architectural structure,architectural structure,no,
+25743,15,gifts of the Magi,gifts of the Magi,yes,group: gifts of the Magi
+25743,16,censer,censer,yes,group: censer
+25743,17,crown,crown,no,
+25743,18,group of attendants,crowd,no,
+25743,19,group of riders,crowd,no,
+25743,20,group of onlookers,crowd,no,
+21682,1,pie,pie,yes,group: pie
+21682,2,lemon slices,lemon slices,yes,group: lemon slices
+21682,3,nuts,nuts,yes,group: nuts
+21682,4,bread roll,bread roll,yes,group: bread roll
+21682,5,wine glass,wine glass,yes,group: wine glass
+21682,6,jug,jug,yes,group: jug
+21682,7,olives,olives,yes,group: olives
+21682,8,cookies,biscuits,yes,group: biscuits
+21682,9,sugar skull,sugar skull,no,
+21682,10,glass of water,glass,yes,group: glass
+21682,11,plate,plate,yes,group: plate
+21682,12,knife,knife,no,
+21682,13,tablecloth,tablecloth,yes,group: tablecloth
+16205,1,Christ Child,Christ Child,yes,group: Christ Child
+16205,2,Joseph,Joseph,yes,group: Joseph
+16205,3,Mary,Mary,yes,group: Mary
+16205,4,shepherd,shepherd,yes,group: shepherd
+16205,5,shepherd,shepherd,yes,group: shepherd
+16205,6,shepherd,shepherd,yes,group: shepherd
+16205,7,shepherd,shepherd,yes,group: shepherd
+16205,8,angel,angel,yes,group: angel
+16205,9,ox,ox,yes,group: ox
+16205,10,donkey,donkey,yes,group: donkey
+16205,11,sheep,sheep,yes,group: sheep
+16205,12,manger,manger,yes,group: manger
+16205,13,halo,halo,yes,group: halo
+16205,14,halo,halo,yes,group: halo
+16205,15,halo,halo,yes,group: halo
+16205,16,staff,staff,no,
+16205,17,staff,staff,no,
+16205,18,staff,staff,no,
+16205,19,wooden shelter,shelter,no,
+16205,20,fence,fence,no,
+16205,21,landscape,landscape,no,
+109220,1,shepherd,shepherd,yes,group: shepherd
+109220,2,shepherd,shepherd,yes,group: shepherd
+109220,3,shepherd,shepherd,yes,group: shepherd
+109220,4,angel,angel,yes,group: angel
+109220,5,ox,ox,yes,group: ox
+109220,6,sheep,sheep,yes,group: sheep
+109220,7,goat,goat,no,
+109220,8,dog,dog,no,
+109220,9,pipe,pipe,no,
+60294,1,woman in striped skirt,woman,no,
+60294,2,man in blue uniform,man,no,
+60294,3,man in blue uniform with horse,man,no,
+60294,4,man in blue uniform in background,man,no,
+60294,5,couple walking,crowd,no,
+60294,6,horse-drawn carriage,horse-drawn carriage,no,
+60294,7,horse,horse,no,
+60294,8,horse,horse,no,
+60294,9,snow-covered ground,snow,yes,group: snow
+60294,10,snow-covered trees,tree,yes,wintry wording
+60294,11,street lamp,street lamp,yes,group: street lamp
+60294,12,conifer,conifer,yes,group: conifer
+60294,13,snow-covered post,post,yes,wintry wording
+16648,1,woman,woman,no,
+16648,2,armchair,armchair,no,
+16648,3,orange,orange,yes,group: orange
+16648,4,green apple,apple,yes,group: apple
+16648,5,glass,glass,yes,group: glass
+16648,6,bowl,bowl,yes,group: bowl
+16648,7,book,book,no,
+16648,8,brooch,brooch,no,
+93450,1,person,person,no,
+93450,2,person,person,no,
+93450,3,person,person,no,
+93450,4,black dog,dog,no,
+93450,5,donkey,donkey,yes,group: donkey
+93450,6,snow,snow,yes,group: snow
+93450,7,bare tree,tree,no,
+16549,1,apple,apple,yes,group: apple
+16549,2,apple,apple,yes,group: apple
+16549,3,apple,apple,yes,group: apple
+16549,4,apple,apple,yes,group: apple
+16549,5,apple,apple,yes,group: apple
+16549,6,apple,apple,yes,group: apple
+16549,7,grape,grapes,yes,group: grapes
+16549,8,grape,grapes,yes,group: grapes
+16549,9,bowl,bowl,yes,group: bowl
+16549,10,tablecloth,tablecloth,yes,group: tablecloth
+64957,1,grapes,grapes,yes,group: grapes
+64957,2,apple,apple,yes,group: apple
+64957,3,apple,apple,yes,group: apple
+64957,4,apple,apple,yes,group: apple
+64957,5,pear,pear,yes,group: pear
+64957,6,lemon,lemon,yes,group: lemon
+64957,7,lemon,lemon,yes,group: lemon
+64957,8,tomato,tomato,yes,group: tomato
+64957,9,grape leaf,grape leaf,no,
+64957,10,grape leaf,grape leaf,no,
+65940,1,jug,jug,yes,group: jug
+65940,2,jug,jug,yes,group: jug
+65940,3,bowl,bowl,yes,group: bowl
+65940,4,bowl,bowl,yes,group: bowl
+65940,5,pear,pear,yes,group: pear
+65940,6,pear,pear,yes,group: pear
+65940,7,fig,fig,yes,group: fig
+65940,8,fig,fig,yes,group: fig
+65940,9,fig,fig,yes,group: fig
+65940,10,fig,fig,yes,group: fig
+65940,11,fig,fig,yes,group: fig
+65940,12,fig,fig,yes,group: fig
+65940,13,fig,fig,yes,group: fig
+65940,14,fig,fig,yes,group: fig
+65940,15,fig,fig,yes,group: fig
+265263,1,grapes,grapes,yes,group: grapes
+265263,2,plums,plum,yes,group: plum
+265263,3,plums,plum,yes,group: plum
+265263,4,lemons,lemon,yes,group: lemon
+265263,5,red pepper,pepper,yes,group: pepper
+265263,6,green pepper,pepper,yes,group: pepper
+265263,7,red flower,flower,no,
+265263,8,red flower,flower,no,
+265263,9,red flower,flower,no,
+265263,10,blue flower,flower,no,
+265263,11,blue flower,flower,no,
+265263,12,jug,jug,yes,group: jug
+265263,13,bowl,bowl,yes,group: bowl
+265263,14,grape leaf,grape leaf,no,
+265263,15,thistle,thistle,no,
+265263,16,small red berries,berry,yes,group: berry
+265263,17,vine tendril,vine tendril,no,
+265263,18,spider,spider,no,
+14647,1,woman,woman,no,
+14647,2,vase,vase,no,
+14647,3,flower bouquet,flower bouquet,no,
+14647,4,earring,earring,no,
+14647,5,hairpin,hairpin,no,
+19333,1,basket of chestnuts,basket,yes,group: basket
+19333,2,mushrooms,mushroom,yes,group: mushroom
+19333,3,mushroom,mushroom,yes,group: mushroom
+19333,4,mushroom,mushroom,yes,group: mushroom
+19333,5,black grapes,grapes,yes,group: grapes
+19333,6,plate of nuts,plate,yes,group: plate
+19333,7,cakes,cake,yes,group: cake
+158320,1,man with moustache,man,no,
+158320,2,woman in dark dress,woman,no,
+158320,3,woman in light blouse,woman,no,
+158320,4,woman with feathered hat,woman,no,
+158320,5,woman with scarf,woman,no,
+158320,6,man in hat (background),man,no,
+158320,7,man in uniform (background),man,no,
+158320,8,child in sleigh (background),child,yes,wintry wording
+158320,9,horse pulling sleigh,sleigh,yes,group: sleigh
+158320,10,horse (background),horse,no,
+158320,11,sleigh,sleigh,yes,group: sleigh
+158320,12,sleigh (background),sleigh,yes,group: sleigh
+158320,13,snow-covered ground,snow,yes,group: snow
+158320,14,fur blanket,fur blanket,yes,group: fur blanket
+158320,15,fur-trimmed coat,coat,yes,group: coat
+158320,16,feathered hat,hat,no,
+158320,17,whip,whip,no,
+158320,18,sleigh bells,sleigh bell,yes,group: sleigh bell
+158320,19,sleigh emblem,sleigh emblem,yes,wintry wording
+158320,20,sleigh emblem,sleigh emblem,yes,wintry wording
+158320,21,winter trees,tree,yes,wintry wording
+28875,1,person,person,no,
+28875,2,person,person,no,
+28875,3,person,person,no,
+28875,4,sheep,sheep,yes,group: sheep
+28875,5,moon,moon,no,
+28875,6,conifer,conifer,yes,group: conifer
+28875,7,thatched cottage,cottage,no,
+28875,8,gate,gate,no,
+28875,9,dog,dog,no,
+54305,1,boy,boy,no,
+54305,2,hand holding tray,hand holding tray,no,
+54305,3,holly,holly,yes,group: holly
+54305,4,basket of apples,basket,yes,group: basket
+54305,5,cake,cake,yes,group: cake
+54305,6,wine glass,wine glass,yes,group: wine glass
+54305,7,fur rug,fur rug,yes,group: fur rug
+54305,8,snow,snow,yes,group: snow
+54305,9,bird,bird,no,
+59656,1,girl in blue dress,girl,no,
+59656,2,child sitting on snow,child,yes,wintry wording
+59656,3,woman in red dress,woman,no,
+59656,4,man on roof,man,no,
+59656,5,snow-covered ground,snow,yes,group: snow
+59656,6,bare trees,tree,no,
+59656,7,watermill,watermill,no,
+59656,8,bridge,bridge,no,
+59656,9,frozen stream,river,yes,wintry wording
+59656,10,thatched roof,roof,no,
+59656,11,ladder on roof,ladder,no,
+59656,12,reeds by stream,reed,no,
+59656,13,figures on bridge,crowd,no,
+25428,1,person,person,no,
+25428,2,person,person,no,
+25428,3,person,person,no,
+25428,4,snow,snow,yes,group: snow
+25428,5,conifer,conifer,yes,group: conifer
+25428,6,conifer,conifer,yes,group: conifer
+25428,7,torii gate,torii gate,no,
+25428,8,building,building,no,
+25428,9,lantern,lantern,yes,group: lantern
+25428,10,icicles,icicles,yes,group: icicles
+156299,1,stocking,stocking,yes,group: stocking
+156299,2,stocking,stocking,yes,group: stocking
+156299,3,stocking,stocking,yes,group: stocking
+156299,4,candlestick,candlestick,yes,group: candlestick
+156299,5,books,book,no,
+156299,6,shoes,shoe,no,
+81640,1,person,person,no,
+81640,2,person,person,no,
+81640,3,person,person,no,
+81640,4,person,person,no,
+81640,5,person,person,no,
+81640,6,person,person,no,
+81640,7,person,person,no,
+81640,8,person,person,no,
+81640,9,person,person,no,
+81640,10,firewood,firewood,yes,group: firewood
+81640,11,conifer,conifer,yes,group: conifer
+81640,12,mountains,mountain,no,
+81640,13,water,water,no,
+81640,14,path,path,no,
+81640,15,building,building,no,
+81640,16,rocky slope,hill,no,
+11039,1,bird,bird,no,
+11039,2,bird,bird,no,
+11039,3,snow,snow,yes,group: snow
+11039,4,persimmon,persimmon,no,
+11039,5,persimmon,persimmon,no,
+11039,6,persimmon,persimmon,no,
+11039,7,tree branch,branch,no,
+59654,1,woman in blue dress,woman,no,
+59654,2,child,child,no,
+59654,3,woman in red dress,woman,no,
+59654,4,black dog,dog,no,
+59654,5,watermill,watermill,no,
+59654,6,bare tree,tree,no,
+59654,7,snow-covered ground,snow,yes,group: snow
+59654,8,bridge,bridge,no,
+22442,1,child,child,no,
+22442,2,child,child,no,
+22442,3,child,child,no,
+22442,4,child,child,no,
+22442,5,child,child,no,
+22442,6,snowball,snowball,yes,group: snowball
+22442,7,snow,snow,yes,group: snow
+22442,8,bamboo,bamboo,no,
+22442,9,rope,rope,no,
+22442,10,stick,stick,no,
+20965,1,woman in patterned kimono,woman,no,
+20965,2,child in patterned kimono,child,no,
+20965,3,woman in white and orange kimono,woman,no,
+20965,4,snowman,snowman,yes,group: snowman
+20965,5,snow-covered ground,snow,yes,group: snow
+20965,6,snow-covered bushes,bush,yes,wintry wording
+21937,1,Christ Child,Christ Child,yes,group: Christ Child
+21937,2,Mary,Mary,yes,group: Mary
+21937,3,Magus kneeling,wise man,yes,group: wise man
+21937,4,Magus standing with orb,wise man,yes,group: wise man
+21937,5,Magus with crown,wise man,yes,group: wise man
+21937,6,page boy,page boy,no,
+21937,7,donkey,donkey,yes,group: donkey
+21937,8,Star of Bethlehem,star,yes,group: star
+21937,9,crown,crown,no,
+21937,10,glass orb,glass orb,yes,group: glass orb
+21937,11,golden vessel,vessel,yes,group: vessel
+21937,12,group of soldiers on horseback,crowd,no,
+21937,13,group of onlookers,crowd,no,
+21937,14,castle on hill,castle,no,
+21937,15,architectural column with ornament,architectural column,no,
+21937,16,ruined archway,ruined archway,no,
+21937,17,rock formation,rock,no,
+21937,18,town in valley,town,no,
+111441,1,Christ Child,Christ Child,yes,group: Christ Child
+111441,2,Mary,Mary,yes,group: Mary
+111441,3,Joseph,Joseph,yes,group: Joseph
+111441,4,wise man in gold robe,wise man,yes,group: wise man
+111441,5,wise man in red robe,wise man,yes,group: wise man
+111441,6,wise man in blue robe,wise man,yes,group: wise man
+111441,7,woman in yellow headdress,woman,no,
+111441,8,man in yellow robe,man,no,
+111441,9,man in grey head covering,man,no,
+111441,10,ox,ox,yes,group: ox
+111441,11,donkey,donkey,yes,group: donkey
+111441,12,white horse,horse,no,
+111441,13,brown horse,horse,no,
+111441,14,black horse,horse,no,
+111441,15,greyhound,dog,no,
+111441,16,golden censer,censer,yes,group: censer
+111441,17,golden vessel,vessel,yes,group: vessel
+111441,18,gift bowl,gift bowl,yes,group: gift bowl
+111441,19,castle ruins,castle,no,
+111441,20,rocky cliff,rock,no,
+111441,21,group of riders,crowd,no,
+158368,1,Christ Child,Christ Child,yes,group: Christ Child
+158368,2,Mary,Mary,yes,group: Mary
+158368,3,Joseph,Joseph,yes,group: Joseph
+158368,4,shepherd,shepherd,yes,group: shepherd
+158368,5,angel,angel,yes,group: angel
+158368,6,woman dancing,woman,no,
+158368,7,boy dancing,boy,no,
+158368,8,girl dancing,girl,no,
+158368,9,man in top hat,man,no,
+158368,10,man on horse,man,no,
+158368,11,child reading,child,no,
+158368,12,man holding child,man,no,
+158368,13,woman holding child,woman,no,
+158368,14,black dog,dog,no,
+158368,15,horse,horse,no,
+158368,16,horse,horse,no,
+158368,17,sleigh,sleigh,yes,group: sleigh
+158368,18,Christmas tree,christmas tree,yes,group: christmas tree
+158368,19,holly,holly,yes,group: holly
+158368,20,snow,snow,yes,group: snow
+158368,21,lantern,lantern,yes,group: lantern
+158368,22,musical instrument,musical instrument,yes,group: musical instrument
+158368,23,group of children dancing,crowd,no,
+158368,24,group of adults watching,crowd,no,
+158368,25,group of people in sleigh scene,crowd,yes,wintry wording
+158368,26,group of people in street scene,crowd,no,
+15496,1,Mary,Mary,yes,group: Mary
+15496,2,Christ Child,Christ Child,yes,group: Christ Child
+15496,3,angel,angel,yes,group: angel
+15496,4,angel,angel,yes,group: angel
+15496,5,angel,angel,yes,group: angel
+15496,6,angel,angel,yes,group: angel
+15496,7,donkey,donkey,yes,group: donkey
+15496,8,ox,ox,yes,group: ox
+15496,9,old man,man,no,
+15496,10,woman in blue,woman,no,
+15496,11,iris flowers,iris flower,no,
+15496,12,halo,halo,yes,group: halo
+15496,13,ruined columns,ruined column,no,
+15496,14,landscape,landscape,no,
+105660,1,snow,snow,yes,group: snow
+105660,2,snow-covered roof,roof,yes,wintry wording
+105660,3,horse,horse,no,
+105660,4,horse,horse,no,
+105660,5,horse,horse,no,
+105660,6,horse,horse,no,
+105660,7,person,person,no,
+105660,8,person,person,no,
+105660,9,person,person,no,
+105660,10,person,person,no,
+105660,11,person,person,no,
+105660,12,person,person,no,
+105660,13,person,person,no,
+105660,14,person,person,no,
+105660,15,person,person,no,
+105660,16,snowball,snowball,yes,group: snowball
+105660,17,Christmas tree,christmas tree,yes,group: christmas tree
+105660,18,conifer,conifer,yes,group: conifer
+105660,19,conifer,conifer,yes,group: conifer
+105660,20,conifer,conifer,yes,group: conifer
+105660,21,stagecoach,stagecoach,no,
+105660,22,carriage,carriage,no,
+105660,23,cart,cart,no,
+105660,24,building,building,no,
+105660,25,street lamp,street lamp,yes,group: street lamp
+105660,26,street lamp,street lamp,yes,group: street lamp
+105660,27,bird,bird,no,
+105660,28,dog,dog,no,
+105660,29,person,person,no,
+105660,30,person,person,no,
+105660,31,person,person,no,
+105660,32,person,person,no,
+105660,33,person,person,no,
+105660,34,person,person,no,
+105660,35,person,person,no,
+105660,36,person,person,no,
+105660,37,person,person,no,
+105660,38,person,person,no,
+105660,39,person,person,no,
+105660,40,person,person,no,
+105660,41,person,person,no,
+105660,42,person,person,no,
+105660,43,person,person,no,
+105660,44,person,person,no,
+105660,45,person,person,no,
+105660,46,person,person,no,
+105660,47,person,person,no,
+105660,48,person,person,no,
+105660,49,person,person,no,
+105660,50,person,person,no,
+105660,51,person,person,no,
+105660,52,person,person,no,
+105660,53,person,person,no,
+105660,54,person,person,no,
+105660,55,person,person,no,
+105660,56,person,person,no,
+105660,57,person,person,no,
+105660,58,person,person,no,
+105660,59,person,person,no,
+105660,60,person,person,no,
+105660,61,person,person,no,
+105660,62,person,person,no,
+105660,63,person,person,no,
+105660,64,person,person,no,
+105660,65,person,person,no,
+105660,66,person,person,no,
+105660,67,person,person,no,
+105660,68,person,person,no,
+105660,69,person,person,no,
+105660,70,person,person,no,
+105660,71,person,person,no,
+105660,72,person,person,no,
+105660,73,person,person,no,
+105660,74,group,crowd,no,
+105660,75,group,crowd,no,
+105660,76,group,crowd,no,
+105660,77,group,crowd,no,
+105660,78,group,crowd,no,
+105660,79,group,crowd,no,
+105660,80,group,crowd,no,
+105660,81,group,crowd,no,
+105660,82,group,crowd,no,
+105660,83,group,crowd,no,
+105660,84,group,crowd,no,
+105660,85,group,crowd,no,
+105660,86,group,crowd,no,
+105660,87,group,crowd,no,
+105660,88,group,crowd,no,
+105660,89,group,crowd,no,
+105660,90,group,crowd,no,
+105660,91,group,crowd,no,
+105660,92,group,crowd,no,
+149018,1,Mary,Mary,yes,group: Mary
+149018,2,Joseph,Joseph,yes,group: Joseph
+149018,3,Christ Child,Christ Child,yes,group: Christ Child
+149018,4,angel group,angel,yes,group: angel
+149018,5,angel group,angel,yes,group: angel
+149018,6,ox,ox,yes,group: ox
+149018,7,donkey,donkey,yes,group: donkey
+149018,8,Star of Bethlehem,star,yes,group: star
+149018,9,manger,manger,yes,group: manger
+149018,10,mountain landscape,mountain landscape,no,
+149018,11,small building,building,no,
+149018,12,tower,tower,no,
+149018,13,tree group,tree,no,
+149018,14,decorative border,decorative border,no,
+102614,1,Mary,Mary,yes,group: Mary
+102614,2,Christ Child,Christ Child,yes,group: Christ Child
+102614,3,Magus kneeling,wise man,yes,group: wise man
+102614,4,Magus standing with lantern,wise man,yes,group: wise man
+102614,5,Magus standing with horse,wise man,yes,group: wise man
+102614,6,black horse,horse,no,
+102614,7,gift box,gift box,yes,group: gift box
+102614,8,lantern,lantern,yes,group: lantern
+102614,9,Star of Bethlehem,star,yes,group: star
+102614,10,halo,halo,yes,group: halo
+102614,11,halo,halo,yes,group: halo
+102614,12,arched doorway,doorway,no,
+102614,13,ornate border,border,no,
+71532,1,Joseph,Joseph,yes,group: Joseph
+71532,2,Mary,Mary,yes,group: Mary
+71532,3,Christ Child,Christ Child,yes,group: Christ Child
+71532,4,angel,angel,yes,group: angel
+71532,5,angel,angel,yes,group: angel
+71532,6,donkey,donkey,yes,group: donkey
+71532,7,ox,ox,yes,group: ox
+71532,8,sheep,sheep,yes,group: sheep
+71532,9,sheep,sheep,yes,group: sheep
+71532,10,manger,manger,yes,group: manger
+71532,11,Star of Bethlehem,star,yes,group: star
+71532,12,building,building,no,
+71532,13,tree,tree,no,
+54287,1,Christ Child,Christ Child,yes,group: Christ Child
+54287,2,Mary,Mary,yes,group: Mary
+54287,3,Joseph,Joseph,yes,group: Joseph
+54287,4,shepherd,shepherd,yes,group: shepherd
+54287,5,shepherd,shepherd,yes,group: shepherd
+54287,6,shepherd,shepherd,yes,group: shepherd
+54287,7,angel,angel,yes,group: angel
+54287,8,angel,angel,yes,group: angel
+54287,9,manger,manger,yes,group: manger
+54287,10,staff,staff,no,
+54287,11,staff,staff,no,
+54287,12,lamb,lamb,yes,group: lamb
+54287,13,stable,stable,yes,group: stable
+54287,14,star,star,yes,group: star
+131407,1,jug,jug,yes,group: jug
+131407,2,bottle,bottle,no,
+131407,3,champagne bottle,champagne bottle,yes,group: champagne bottle
+131407,4,wine glass,wine glass,yes,group: wine glass
+131407,5,wine glass,wine glass,yes,group: wine glass
+131407,6,wine glass,wine glass,yes,group: wine glass
+131407,7,tumbler,glass,yes,group: glass
+131407,8,tumbler,glass,yes,group: glass
+131407,9,tumbler,glass,yes,group: glass
+131407,10,bowl of biscuits,bowl,yes,group: bowl
+131407,11,bowl of fruit,bowl,yes,group: bowl
+131407,12,grapes,grapes,yes,group: grapes
+131407,13,apple,apple,yes,group: apple
+131407,14,orange,orange,yes,group: orange
+131407,15,nuts,nuts,yes,group: nuts
+131407,16,bread,bread,yes,group: bread
+131407,17,knife,knife,no,
+131407,18,tablecloth,tablecloth,yes,group: tablecloth
+193362,1,woman in red robe,woman,no,
+193362,2,man in red robe,man,no,
+193362,3,Christ Child,Christ Child,yes,group: Christ Child
+193362,4,ox,ox,yes,group: ox
+193362,5,donkey,donkey,yes,group: donkey
+193362,6,manger,manger,yes,group: manger
+193362,7,stable,stable,yes,group: stable
+193362,8,castle,castle,no,
+44065,1,grapes,grapes,yes,group: grapes
+44065,2,coconut,coconut,yes,group: coconut
+44065,3,wine bottle,wine bottle,yes,group: wine bottle
+44065,4,copper jug,jug,yes,group: jug
+44065,5,metal jug,jug,yes,group: jug
+44065,6,turquoise jar,turquoise jar,no,
+44065,7,wooden box,box,no,
+44065,8,leafy branch,branch,no,
+94126,1,monkey,monkey,no,
+94126,2,grapes,grapes,yes,group: grapes
+94126,3,peaches,peach,yes,group: peach
+94126,4,melon,melon,yes,group: melon
+94126,5,figs,fig,yes,group: fig
+94126,6,silver dish,dish,yes,group: dish
+94126,7,flower vase,flower vase,no,
+94126,8,hollyhocks,hollyhock,no,
+94126,9,stone ledge,ledge,no,
+94126,10,porcelain bowl,bowl,yes,group: bowl
+23842,1,person carrying child,person,no,
+23842,2,person with umbrella,person,no,
+23842,3,man carrying box,man,no,
+23842,4,person in straw cloak,person,no,
+23842,5,woman at window,woman,no,
+23842,6,dog,dog,no,
+23842,7,sparrows,sparrow,no,
+23842,8,flying bird,bird,no,
+23842,9,plum blossom branch,plum blossom branch,no,
+23842,10,wreath,wreath,yes,group: wreath
+23842,11,snow,snow,yes,group: snow
+23842,12,wooden building,building,no,
+23842,13,umbrella,umbrella,yes,group: umbrella
+23842,14,conical hat,hat,no,
+23842,15,jug,jug,yes,group: jug
+23842,16,black box,box,no,
+23842,17,bowl on stand,bowl,yes,group: bowl
+25614,1,woman in blue kimono,woman,no,
+25614,2,man with umbrella,man,no,
+25614,3,snow-covered pine branches,branch,yes,wintry wording
+25614,4,snow-covered pine branches,branch,yes,wintry wording
+25614,5,snow-covered pine branches,branch,yes,wintry wording
+25614,6,snow-covered village,village,yes,wintry wording
+25614,7,snow,snow,yes,group: snow
+25614,8,birds in flight,bird,no,
+25614,9,birds in flight,bird,no,
+25614,10,birds in flight,bird,no,
+25614,11,umbrella,umbrella,yes,group: umbrella
+25614,12,snow-covered roof,roof,yes,wintry wording
+25614,13,snow-covered fence,fence,yes,wintry wording
+25614,14,snow-covered lantern,lantern,yes,group: lantern
+25614,15,snow-covered hill,hill,yes,wintry wording
+25614,16,snow-covered trees,tree,yes,wintry wording
+25614,17,snow-covered river,river,yes,wintry wording
+25614,18,snow-covered bridge,bridge,yes,wintry wording
+25614,19,snow-covered boat,boat,yes,wintry wording
+25614,20,snow-covered building,building,yes,wintry wording
+25614,21,snow-covered building,building,yes,wintry wording
+25614,22,snow-covered building,building,yes,wintry wording
+25614,23,snow-covered building,building,yes,wintry wording
+25614,24,snow-covered building,building,yes,wintry wording
+25614,25,snow-covered building,building,yes,wintry wording
+25614,26,snow-covered building,building,yes,wintry wording
+25614,27,snow-covered building,building,yes,wintry wording
+25614,28,snow-covered building,building,yes,wintry wording
+25614,29,snow-covered building,building,yes,wintry wording
+25614,30,snow-covered building,building,yes,wintry wording
+25614,31,snow-covered building,building,yes,wintry wording
+25614,32,snow-covered building,building,yes,wintry wording
+25614,33,snow-covered building,building,yes,wintry wording
+25614,34,snow-covered building,building,yes,wintry wording
+25614,35,snow-covered building,building,yes,wintry wording
+25614,36,snow-covered building,building,yes,wintry wording
+25614,37,snow-covered building,building,yes,wintry wording
+25614,38,snow-covered building,building,yes,wintry wording
+25614,39,snow-covered building,building,yes,wintry wording
+25614,40,snow-covered building,building,yes,wintry wording
+25614,41,snow-covered building,building,yes,wintry wording
+25614,42,snow-covered building,building,yes,wintry wording
+114835,1,Mary,Mary,yes,group: Mary
+114835,2,Christ Child,Christ Child,yes,group: Christ Child
+114835,3,kneeling Magus,wise man,yes,group: wise man
+114835,4,standing Magus with gift,wise man,yes,group: wise man
+114835,5,Magus in green robe,wise man,yes,group: wise man
+114835,6,man at left,man,no,
+114835,7,golden vessel,vessel,yes,group: vessel
+114835,8,golden vessel,vessel,yes,group: vessel
+114835,9,sword,sword,no,
+114835,10,mountains,mountain,no,
+111041,1,dead hare,dead hare,no,
+111041,2,bowl of eggs,bowl,yes,group: bowl
+111041,3,carrot,carrot,yes,group: carrot
+111041,4,onion,onion,yes,group: onion
+111041,5,cabbage,cabbage,yes,group: cabbage
+111041,6,pot,pot,yes,group: pot
+111041,7,spice jar,spice jar,no,
+111041,8,wooden board,board,no,
+111041,9,white cloth,cloth,no,
+111041,10,blue cloth,cloth,no,
+111041,11,steam,steam,no,
+75507,1,jug,jug,yes,group: jug
+75507,2,wine glass,wine glass,yes,group: wine glass
+75507,3,teacup,cup,no,
+75507,4,silver creamer,jug,yes,group: jug
+75507,5,decanter,decanter,yes,group: decanter
+75507,6,bowl of fruit,bowl,yes,group: bowl
+75507,7,apple,apple,yes,group: apple
+75507,8,rhododendron flowers,rhododendron flower,no,
+75507,9,tablecloth,tablecloth,yes,group: tablecloth
+75507,10,picture frame,framed picture,no,
+120154,1,strawberries,strawberry,yes,group: strawberry
+120154,2,lemon,lemon,yes,group: lemon
+120154,3,nuts,nuts,yes,group: nuts
+120154,4,grapes,grapes,yes,group: grapes
+120154,5,porcelain cup,cup,no,
+120154,6,saucers,saucer,no,
+120154,7,pitcher,jug,yes,group: jug
+120154,8,glass jar,glass jar,no,
+120154,9,bowl,bowl,yes,group: bowl
+120154,10,painted scene on cup,scene,no,
+47742,1,woman in purple kimono,woman,no,
+47742,2,woman in red and blue kimono,woman,no,
+47742,3,person with white umbrella,person,no,
+47742,4,person with yellow umbrella,person,no,
+47742,5,person in blue hood,person,no,
+47742,6,snow-covered tree,tree,yes,wintry wording
+47742,7,snow-covered building,building,yes,wintry wording
+47742,8,snow,snow,yes,group: snow
+47742,9,icicles,icicles,yes,group: icicles
+47742,10,umbrella,umbrella,yes,group: umbrella
+47742,11,umbrella,umbrella,yes,group: umbrella
+47742,12,umbrella,umbrella,yes,group: umbrella
+47742,13,umbrella,umbrella,yes,group: umbrella
+47742,14,snow-covered fence,fence,yes,wintry wording
+47742,15,snow-covered stone lantern,stone lantern,yes,group: stone lantern
+13202,1,person,person,no,
+13202,2,person,person,no,
+13202,3,person,person,no,
+13202,4,person,person,no,
+13202,5,snow,snow,yes,group: snow
+13202,6,torii gate,torii gate,no,
+13202,7,stone lantern,stone lantern,yes,group: stone lantern
+13202,8,stone lantern,stone lantern,yes,group: stone lantern
+13202,9,umbrella,umbrella,yes,group: umbrella
+13202,10,umbrella,umbrella,yes,group: umbrella
+13202,11,conifer,conifer,yes,group: conifer
+13202,12,conifer,conifer,yes,group: conifer
+13202,13,fence,fence,no,
+13202,14,roof,roof,no,
+22842,1,child in green kimono,child,no,
+22842,2,child in red kimono standing,child,no,
+22842,3,child in green kimono sitting,child,no,
+22842,4,child in pink kimono sitting,child,no,
+22842,5,child in patterned kimono lying,child,no,
+22842,6,drum,drum,yes,group: drum
+22842,7,fan,fan,no,
+22842,8,stringed toy,stringed toy,no,
+22842,9,small wooden box,box,no,
+22842,10,bonsai tree,tree,no,
+22842,11,hanging decoration,hanging decoration,no,
+22842,12,black hat,hat,no,
+22842,13,black hat,hat,no,
+22842,14,flower crown,flower crown,no,
+22842,15,flower crown,flower crown,no,
+22842,16,golden objects,object,no,
+184371,1,Joseph,Joseph,yes,group: Joseph
+184371,2,Mary,Mary,yes,group: Mary
+184371,3,Christ Child,Christ Child,yes,group: Christ Child
+184371,4,angel,angel,yes,group: angel
+184371,5,angel,angel,yes,group: angel
+184371,6,angel,angel,yes,group: angel
+184371,7,angel,angel,yes,group: angel
+184371,8,angel,angel,yes,group: angel
+184371,9,staff,staff,no,
+184371,10,halo,halo,yes,group: halo
+184371,11,halo,halo,yes,group: halo
+184371,12,tree,tree,no,
+184371,13,building,building,no,
+184371,14,sheep,sheep,yes,group: sheep
+184371,15,cow,cow,no,
+184371,16,horse,horse,no,
+184371,17,horse,horse,no,
+184371,18,bird,bird,no,
+184371,19,bird,bird,no,
+158317,1,soldier,soldier,no,
+158317,2,soldier,soldier,no,
+158317,3,soldier,soldier,no,
+158317,4,soldier,soldier,no,
+158317,5,soldier,soldier,no,
+158317,6,soldier,soldier,no,
+158317,7,soldier,soldier,no,
+158317,8,soldier,soldier,no,
+158317,9,soldier,soldier,no,
+158317,10,soldier,soldier,no,
+158317,11,soldier,soldier,no,
+158317,12,soldier,soldier,no,
+158317,13,soldier,soldier,no,
+158317,14,soldier,soldier,no,
+158317,15,soldier,soldier,no,
+158317,16,soldier,soldier,no,
+158317,17,soldier,soldier,no,
+158317,18,soldier,soldier,no,
+158317,19,soldier,soldier,no,
+158317,20,soldier,soldier,no,
+158317,21,soldier,soldier,no,
+158317,22,soldier,soldier,no,
+158317,23,soldier,soldier,no,
+158317,24,soldier,soldier,no,
+158317,25,soldier,soldier,no,
+158317,26,soldier,soldier,no,
+158317,27,soldier,soldier,no,
+158317,28,soldier,soldier,no,
+158317,29,soldier,soldier,no,
+158317,30,soldier,soldier,no,
+158317,31,soldier,soldier,no,
+158317,32,soldier,soldier,no,
+158317,33,soldier,soldier,no,
+158317,34,soldier,soldier,no,
+158317,35,tent,tent,no,
+158317,36,tent,tent,no,
+158317,37,tent,tent,no,
+158317,38,tent,tent,no,
+158317,39,tent,tent,no,
+158317,40,tent,tent,no,
+158317,41,tent,tent,no,
+158317,42,tent,tent,no,
+158317,43,tent,tent,no,
+158317,44,tent,tent,no,
+158317,45,tent,tent,no,
+158317,46,tent,tent,no,
+158317,47,tent,tent,no,
+158317,48,tent,tent,no,
+158317,49,conifer,conifer,yes,group: conifer
+158317,50,wreath,wreath,yes,group: wreath
+158317,51,box,box,no,
+158317,52,book,book,no,
+158317,53,book,book,no,
+158317,54,book,book,no,
+158317,55,book,book,no,
+158317,56,book,book,no,
+158317,57,book,book,no,
+158317,58,book,book,no,
+158317,59,book,book,no,
+158317,60,book,book,no,
+158317,61,book,book,no,
+158317,62,book,book,no,
+158317,63,pipe,pipe,no,
+158317,64,pipe,pipe,no,
+158317,65,pipe,pipe,no,
+158317,66,pipe,pipe,no,
+158317,67,pipe,pipe,no,
+158317,68,pipe,pipe,no,
+158317,69,pipe,pipe,no,
+158317,70,pipe,pipe,no,
+158317,71,pipe,pipe,no,
+158317,72,pipe,pipe,no,
+158317,73,pipe,pipe,no,
+158317,74,pipe,pipe,no,
+158317,75,pipe,pipe,no,
+158317,76,pipe,pipe,no,
+158317,77,pipe,pipe,no,
+158317,78,pipe,pipe,no,
+158317,79,pipe,pipe,no,
+158317,80,pipe,pipe,no,
+158317,81,pipe,pipe,no,
+158317,82,pipe,pipe,no,
+158317,83,pipe,pipe,no,
+158317,84,pipe,pipe,no,
+158317,85,pipe,pipe,no,
+158317,86,pipe,pipe,no,
+158317,87,pipe,pipe,no,
+158317,88,pipe,pipe,no,
+158317,89,pipe,pipe,no,
+158317,90,pipe,pipe,no,
+158317,91,sword,sword,no,
+158317,92,sword,sword,no,
+158317,93,sword,sword,no,
+158317,94,sword,sword,no,
+158317,95,sword,sword,no,
+158317,96,sword,sword,no,
+158317,97,sword,sword,no,
+89505,1,person,person,no,
+89505,2,person,person,no,
+89505,3,horse,horse,no,
+89505,4,snow,snow,yes,group: snow
+89505,5,conifer,conifer,yes,group: conifer
+89505,6,birds,bird,no,
+8913,1,person in black robe,person,no,
+8913,2,person in white robe,person,no,
+8913,3,umbrella,umbrella,yes,group: umbrella
+8913,4,icicles,icicles,yes,group: icicles
+8913,5,snow-covered ground,snow,yes,group: snow
+8913,6,tree with snow,tree,yes,wintry wording
+9893,1,person,person,no,
+9893,2,person,person,no,
+9893,3,person,person,no,
+9893,4,person,person,no,
+9893,5,person,person,no,
+9893,6,snow-covered tree,tree,yes,wintry wording
+9893,7,snow-covered tree,tree,yes,wintry wording
+9893,8,snow-covered building,building,yes,wintry wording
+9893,9,snow-covered building,building,yes,wintry wording
+9893,10,snow-covered building,building,yes,wintry wording
+9893,11,pagoda,pagoda,no,
+9893,12,snow,snow,yes,group: snow
+9893,13,snow-covered ground,snow,yes,group: snow
+9893,14,snow-covered water,water,yes,wintry wording
+9893,15,umbrella,umbrella,yes,group: umbrella
+9893,16,umbrella,umbrella,yes,group: umbrella
+9893,17,umbrella,umbrella,yes,group: umbrella
+25436,1,person,person,no,
+25436,2,snow,snow,yes,group: snow
+25436,3,icicles,icicles,yes,group: icicles
+25436,4,snow-covered roof,roof,yes,wintry wording
+25436,5,snow-covered roof,roof,yes,wintry wording
+25436,6,conifer,conifer,yes,group: conifer
+25436,7,conifer,conifer,yes,group: conifer
+25436,8,bridge,bridge,no,
+25436,9,lantern,lantern,yes,group: lantern
+25436,10,building,building,no,
+89976,1,person with umbrella,person,no,
+89976,2,person with umbrella,person,no,
+89976,3,person with umbrella,person,no,
+89976,4,person with umbrella,person,no,
+89976,5,person with umbrella,person,no,
+89976,6,person with umbrella,person,no,
+89976,7,snow-covered temple,building,yes,wintry wording
+89976,8,snow-covered building,building,yes,wintry wording
+89976,9,snow-covered house,house,yes,wintry wording
+89976,10,snow-covered house,house,yes,wintry wording
+89976,11,snow-covered house,house,yes,wintry wording
+89976,12,snow-covered tree,tree,yes,wintry wording
+89976,13,snow-covered conifer,conifer,yes,group: conifer
+89976,14,snow-covered river,river,yes,wintry wording
+89976,15,snow,snow,yes,group: snow
+89976,16,stone bridge,bridge,no,
+89976,17,stone wall,wall,no,
+89976,18,torii gate,torii gate,no,
+32676,1,woman in blue and white kimono,woman,no,
+32676,2,child in red kimono,child,no,
+32676,3,woman in black and red kimono,woman,no,
+32676,4,woman in grey patterned kimono,woman,no,
+32676,5,woman in green kimono,woman,no,
+32676,6,conifer,conifer,yes,group: conifer
+32676,7,conifer,conifer,yes,group: conifer
+32676,8,wreath,wreath,yes,group: wreath
+32676,9,setting sun,setting sun,no,
+32676,10,building,building,no,
+86998,1,snow,snow,yes,group: snow
+86998,2,bridge,bridge,no,
+86998,3,house,house,no,
+86998,4,tree,tree,no,
+86998,5,conifer,conifer,yes,group: conifer
+86998,6,mountain,mountain,no,
+86998,7,roof,roof,no,
+86998,8,window,window,no,
+51577,1,loaf of bread,loaf of bread,no,
+51577,2,sliced sausage,sausage,yes,group: sausage
+51577,3,wine glass,wine glass,yes,group: wine glass
+51577,4,knife,knife,no,
+51577,5,silver plate,plate,yes,group: plate
+51577,6,wooden bucket,bucket,no,
+51577,7,white tablecloth,tablecloth,yes,group: tablecloth
+51577,8,small cup,cup,no,
+51577,9,wooden board,board,no,
+25023,1,snow,snow,yes,group: snow
+25023,2,person,person,no,
+25023,3,person,person,no,
+25023,4,person,person,no,
+25023,5,person,person,no,
+25023,6,person,person,no,
+25023,7,person,person,no,
+25023,8,pagoda,pagoda,no,
+25023,9,snow-covered roof,roof,yes,wintry wording
+25023,10,bare tree,tree,no,
+25023,11,bare tree,tree,no,
+25023,12,umbrella,umbrella,yes,group: umbrella
+25023,13,umbrella,umbrella,yes,group: umbrella
+25023,14,umbrella,umbrella,yes,group: umbrella
+25023,15,umbrella,umbrella,yes,group: umbrella
+25023,16,umbrella,umbrella,yes,group: umbrella
+25023,17,umbrella,umbrella,yes,group: umbrella
+89001,1,child in pink kimono,child,no,
+89001,2,child in checkered kimono,child,no,
+89001,3,woman in pink kimono,woman,no,
+89001,4,snowball,snowball,yes,group: snowball
+89001,5,snow-covered roof,roof,yes,wintry wording
+89001,6,snow on ground,snow,yes,group: snow
+29544,1,person in red robe,person,no,
+29544,2,person with straw raincoat,person,no,
+29544,3,snow-covered bridge,bridge,yes,wintry wording
+29544,4,snow-covered trees,tree,yes,wintry wording
+29544,5,snow-covered roofs,roof,yes,wintry wording
+29544,6,snow-covered ground,snow,yes,group: snow
+29544,7,snow-covered mountain,mountain,yes,wintry wording
+29544,8,frozen river,river,yes,wintry wording
+60651,1,woman in patterned kimono,woman,no,
+60651,2,woman with tray,woman,no,
+60651,3,woman near gate,woman,no,
+60651,4,snow,snow,yes,group: snow
+60651,5,umbrella,umbrella,yes,group: umbrella
+60651,6,umbrella,umbrella,yes,group: umbrella
+60651,7,tray with covered dish,tray,no,
+60651,8,conifer,conifer,yes,group: conifer
+60651,9,conifer,conifer,yes,group: conifer
+60651,10,conifer,conifer,yes,group: conifer
+60651,11,red gate,gate,no,
+60651,12,boat,boat,no,
+60651,13,sandals,sandal,no,
+60651,14,sandals,sandal,no,
+60651,15,sandals,sandal,no,
+35100,1,person in green kimono holding umbrella,person,no,
+35100,2,person in yellow straw cloak,person,no,
+35100,3,person in dark kimono holding umbrella,person,no,
+35100,4,snow-covered ground,snow,yes,group: snow
+35100,5,snow-covered pine tree,conifer,yes,group: conifer
+35100,6,umbrella,umbrella,yes,group: umbrella
+35100,7,umbrella,umbrella,yes,group: umbrella
+35100,8,wooden bridge,bridge,no,
+2156,1,candle,candle,yes,group: candle
+2156,2,candle,candle,yes,group: candle
+2156,3,candle,candle,yes,group: candle
+2156,4,candle,candle,yes,group: candle
+2156,5,lantern,lantern,yes,group: lantern
+2156,6,lantern,lantern,yes,group: lantern
+2156,7,candlestick,candlestick,yes,group: candlestick
+2156,8,candlestick,candlestick,yes,group: candlestick
+2156,9,candlestick,candlestick,yes,group: candlestick
+2156,10,candlestick,candlestick,yes,group: candlestick
+2156,11,book,book,no,
+2156,12,bell,bell,yes,group: bell
+2156,13,bell,bell,yes,group: bell
+2156,14,bell,bell,yes,group: bell
+2156,15,mirror,mirror,no,
+2156,16,telescope,telescope,no,
+2156,17,telescope,telescope,no,
+2156,18,wooden table,table,no,
+2156,19,metal container,container,yes,group: container
+2156,20,metal container,container,yes,group: container
+2156,21,metal container,container,yes,group: container
+2156,22,metal container,container,yes,group: container
+2156,23,metal container,container,yes,group: container
+2156,24,metal container,container,yes,group: container
+2156,25,metal container,container,yes,group: container
+2156,26,metal container,container,yes,group: container
+2156,27,metal container,container,yes,group: container
+2156,28,metal container,container,yes,group: container
+2156,29,metal container,container,yes,group: container
+2156,30,metal container,container,yes,group: container
+2156,31,metal container,container,yes,group: container
+2156,32,metal container,container,yes,group: container
+2156,33,metal container,container,yes,group: container
+2156,34,metal container,container,yes,group: container
+2156,35,metal container,container,yes,group: container
+2156,36,metal container,container,yes,group: container
+2156,37,metal container,container,yes,group: container
+2156,38,metal container,container,yes,group: container
+2156,39,metal container,container,yes,group: container
+2156,40,metal container,container,yes,group: container
+2156,41,metal container,container,yes,group: container
+2156,42,metal container,container,yes,group: container
+2156,43,metal container,container,yes,group: container
+2156,44,metal container,container,yes,group: container
+2156,45,metal container,container,yes,group: container
+2156,46,metal container,container,yes,group: container
+2156,47,metal container,container,yes,group: container
+2156,48,metal container,container,yes,group: container
+2156,49,metal container,container,yes,group: container
+2156,50,metal container,container,yes,group: container
+54285,1,Christ Child,Christ Child,yes,group: Christ Child
+54285,2,Mary,Mary,yes,group: Mary
+54285,3,Joseph,Joseph,yes,group: Joseph
+54285,4,shepherd,shepherd,yes,group: shepherd
+54285,5,shepherd,shepherd,yes,group: shepherd
+54285,6,shepherd,shepherd,yes,group: shepherd
+54285,7,angel,angel,yes,group: angel
+54285,8,manger,manger,yes,group: manger
+54285,9,staff,staff,no,
+54285,10,crook,staff,no,
+54285,11,small dog,dog,no,
+54285,12,stable,stable,yes,group: stable
+54285,13,distant figures,crowd,no,
+10932,1,person with yellow umbrella,person,no,
+10932,2,person with green umbrella,person,no,
+10932,3,person with straw hat and basket,person,no,
+10932,4,person with conical hat and bundle,person,no,
+10932,5,snow-covered boat,boat,yes,wintry wording
+10932,6,snow-covered boat,boat,yes,wintry wording
+10932,7,snow-covered boat,boat,yes,wintry wording
+10932,8,snow-covered bridge,bridge,yes,wintry wording
+10932,9,snow-covered pagoda,pagoda,yes,wintry wording
+10932,10,snow-covered tower,tower,yes,wintry wording
+10932,11,snow-covered trees,tree,yes,wintry wording
+10932,12,snow-covered roofs,roof,yes,wintry wording
+10932,13,snow-covered hillside,hill,yes,wintry wording
+10932,14,snow-covered hillside,hill,yes,wintry wording
+10932,15,snow-covered riverbank,riverbank,yes,wintry wording
+10932,16,snowfall,snow,yes,group: snow
+10932,17,group of people on bridge,crowd,no,
+10932,18,group of people near buildings,crowd,no,
+77318,1,person,person,no,
+77318,2,person,person,no,
+77318,3,person,person,no,
+77318,4,person,person,no,
+77318,5,umbrella,umbrella,yes,group: umbrella
+77318,6,umbrella,umbrella,yes,group: umbrella
+77318,7,torii gate,torii gate,no,
+77318,8,snow,snow,yes,group: snow
+77318,9,icicles,icicles,yes,group: icicles
+77318,10,stone lantern,stone lantern,yes,group: stone lantern
+77318,11,stone lantern,stone lantern,yes,group: stone lantern
+77318,12,conifer,conifer,yes,group: conifer
+77318,13,conifer,conifer,yes,group: conifer
+77318,14,fence,fence,no,
+77318,15,fence,fence,no,
+77318,16,roof,roof,no,
+77318,17,roof,roof,no,
+26189,1,bird,bird,no,
+26189,2,bird,bird,no,
+26189,3,snow,snow,yes,group: snow
+26189,4,tree branch,branch,no,
+59615,1,person,person,no,
+59615,2,person,person,no,
+59615,3,person,person,no,
+59615,4,person,person,no,
+59615,5,person,person,no,
+59615,6,person,person,no,
+59615,7,person,person,no,
+59615,8,person,person,no,
+59615,9,person,person,no,
+59615,10,person,person,no,
+59615,11,person,person,no,
+59615,12,group,crowd,no,
+59615,13,snow,snow,yes,group: snow
+59615,14,moon,moon,no,
+59615,15,mountain peak,mountain peak,no,
+59615,16,mountain peak,mountain peak,no,
+59615,17,mountain peak,mountain peak,no,
+59615,18,conifer,conifer,yes,group: conifer
+24418,1,woman in black kimono,woman,no,
+24418,2,woman in white and orange kimono,woman,no,
+24418,3,woman in green kimono,woman,no,
+24418,4,woman in pink floral kimono,woman,no,
+24418,5,conifer,conifer,yes,group: conifer
+24418,6,wooden railing,railing,no,
+24418,7,building with veranda,building,no,
+24418,8,group of people on veranda,crowd,no,
+21174,1,cat,cat,no,
+21174,2,cat,cat,no,
+21174,3,cat,cat,no,
+21174,4,cat,cat,no,
+21174,5,cat,cat,no,
+21174,6,cat,cat,no,
+21174,7,daffodil,daffodil,no,
+21174,8,daffodil,daffodil,no,
+21174,9,plant,plant,no,
+21174,10,cloud,cloud,no,
+21174,11,cloud,cloud,no,
+21174,12,sky,sky,no,
+21174,13,ground,ground,no,
+7578,1,child,child,no,
+7578,2,child,child,no,
+7578,3,child,child,no,
+7578,4,child,child,no,
+7578,5,child,child,no,
+7578,6,snowball,snowball,yes,group: snowball
+7578,7,snowball,snowball,yes,group: snowball
+7578,8,snow,snow,yes,group: snow
+88574,1,person on horse,person,no,
+88574,2,person walking in snow,person,yes,wintry wording
+88574,3,horse,horse,no,
+88574,4,snow-covered tree,tree,yes,wintry wording
+88574,5,snow,snow,yes,group: snow
+88574,6,birds,bird,no,
+87073,1,bird,bird,no,
+87073,2,bird,bird,no,
+87073,3,snow,snow,yes,group: snow
+87073,4,red flower,flower,no,
+87073,5,red fruit,fruit,yes,group: fruit
+45838,1,person,person,no,
+45838,2,snow,snow,yes,group: snow
+45838,3,bare trees,tree,no,
+45838,4,snow-covered building,building,yes,wintry wording
+497,1,woman holding baby,woman,no,
+497,2,child standing,child,no,
+497,3,baby,child,no,
+497,4,man in background,man,no,
+497,5,small dog,dog,no,
+497,6,wicker cradle,cradle,no,
+497,7,wooden cabinet,cabinet,no,
+497,8,hanging birdcage,hanging birdcage,no,
+497,9,table with food,table,no,
+497,10,jug,jug,yes,group: jug
+497,11,bread,bread,yes,group: bread
+497,12,sliced fruit,fruit,yes,group: fruit
+497,13,bowl of mussels,bowl,yes,group: bowl
+497,14,wooden stool,stool,no,
+497,15,wooden chair,chair,no,
+497,16,lantern,lantern,yes,group: lantern
+497,17,wooden beam ceiling,beam ceiling,no,
+497,18,slippers,slipper,no,
+497,19,broom,broom,no,
+497,20,small picture,framed picture,no,
+497,21,bottle,bottle,no,
+497,22,blanket,blanket,no,
+497,23,pillow,pillow,no,
+497,24,cloth on table,cloth,no,
+497,25,wooden floor,floor,no,
+151899,1,bird,bird,no,
+151899,2,strawberry,strawberry,yes,group: strawberry
+151899,3,strawberry,strawberry,yes,group: strawberry
+151899,4,flower,flower,no,
+151899,5,flower,flower,no,
+151899,6,flower,flower,no,
+151899,7,flower,flower,no,
+151899,8,flower,flower,no,
+151899,9,flower,flower,no,
+151899,10,flower,flower,no,
+151899,11,flower,flower,no,
+151899,12,flower,flower,no,
+151899,13,flower,flower,no,
+110342,1,child,child,no,
+110342,2,toy boat,toy boat,yes,group: toy boat
+110342,3,stick,stick,no,
+110342,4,dress,dress,no,
+110342,5,shoes,shoe,no,
+27952,1,fish,fish,yes,group: fish
+27952,2,pumpkin slice,pumpkin slice,yes,group: pumpkin slice
+27952,3,jug,jug,yes,group: jug
+69533,1,bird's nest,bird's nest,no,
+69533,2,blue eggs,egg,yes,group: egg
+69533,3,fern,fern,no,
+69533,4,fern,fern,no,
+69533,5,fern,fern,no,
+69533,6,fern,fern,no,
+69533,7,leaf,leaf,no,
+69533,8,leaf,leaf,no,
+69533,9,leaf,leaf,no,
+69533,10,leaf,leaf,no,
+69533,11,leaf,leaf,no,
+111670,1,woman in white and gold gown,woman,no,
+111670,2,woman in gold brocade gown,woman,no,
+111670,3,woman in red gown,woman,no,
+111670,4,man in blue robe with turban,man,no,
+111670,5,man in blue robe with red hat,man,no,
+111670,6,man in pink robe with blue hat,man,no,
+111670,7,greyhound,dog,no,
+111670,8,golden vessel,vessel,yes,group: vessel
+111670,9,golden vessel on pedestal,vessel,yes,group: vessel
+111670,10,statue on column,statue,no,
+111670,11,castle in background,castle,no,
+111670,12,white bird on staff,bird,no,
+111670,13,jewellery,jewellery,no,
+111670,14,architectural column,architectural column,no,
+111670,15,patterned wall,wall,no,
+111670,16,archway,archway,no,
+111670,17,floor tiles,floor tile,no,
+21934,1,person,person,no,
+21934,2,jug,jug,yes,group: jug
+21934,3,bowl,bowl,yes,group: bowl
+21934,4,decorated jug,jug,yes,group: jug
+21934,5,mortar and pestle,mortar and pestle,yes,group: mortar and pestle
+21934,6,stacked bowls,bowl,yes,group: bowl
+21934,7,woven basket,basket,yes,group: basket
+21934,8,crumpled cloth,cloth,no,
+39954,1,lute,lute,yes,group: lute
+39954,2,sword,sword,no,
+39954,3,armchair,armchair,no,
+39954,4,tablecloth,tablecloth,yes,group: tablecloth
+39954,5,open book,book,no,
+39954,6,blue and white vase,vase,no,
+39954,7,grapes,grapes,yes,group: grapes
+39954,8,peach,peach,yes,group: peach
+39954,9,wine glass,wine glass,yes,group: wine glass
+39954,10,gold plate,plate,yes,group: plate
+39954,11,black cat,cat,no,
+39954,12,rose,rose,no,
+39954,13,white rose,rose,no,
+39954,14,black cloak,cloak,no,
+39954,15,hat,hat,no,
+39954,16,pouch,pouch,no,
+16410,1,woman,woman,no,
+16410,2,rooster,chicken,no,
+16410,3,hen,chicken,no,
+16410,4,black bird,bird,no,
+16410,5,black cat,cat,no,
+16410,6,wooden barrel,barrel,no,
+16410,7,wooden bucket,bucket,no,
+16410,8,wicker basket,basket,yes,group: basket
+16410,9,earthenware jug,jug,yes,group: jug
+16410,10,earthenware jug,jug,yes,group: jug
+16410,11,earthenware jug,jug,yes,group: jug
+16410,12,metal plate,plate,yes,group: plate
+16410,13,china plate,china plate,yes,group: china plate
+16410,14,animal skull,animal skull,no,
+16410,15,pitchfork,pitchfork,no,
+16410,16,wooden bowl,bowl,yes,group: bowl
+16410,17,wooden box,box,no,
+16410,18,wooden beam,beam,no,
+16410,19,brick wall,brick wall,no,
+561,1,man playing lute,man,no,
+561,2,woman at table,woman,no,
+561,3,man with recorder,man,no,
+561,4,boy with viola da gamba,boy,no,
+561,5,woman standing in doorway,woman,no,
+561,6,man in background,man,no,
+561,7,woman in background,woman,no,
+561,8,man behind lute player,man,no,
+561,9,black cat,cat,no,
+561,10,brown and white dog,dog,no,
+561,11,lute,lute,yes,group: lute
+561,12,viola da gamba,viola da gamba,yes,group: viola da gamba
+561,13,recorder,recorder,yes,group: recorder
+561,14,music book,music book,yes,group: music book
+561,15,wine glass,wine glass,yes,group: wine glass
+561,16,metal plate,plate,yes,group: plate
+561,17,red curtain,curtain,no,
+561,18,window with windmill view,window,no,
+561,19,fringed tablecloth,fringed tablecloth,yes,group: fringed tablecloth
+561,20,white tablecloth,tablecloth,yes,group: tablecloth
+561,21,wooden chair,chair,no,
+561,22,hanging violin,hanging violin,yes,group: hanging violin
+561,23,framed painting,framed picture,no,
+561,24,glass on tray,glass,yes,group: glass
+561,25,earthenware jug,jug,yes,group: jug
+561,26,broken jug,jug,yes,group: jug
+561,27,glass on windowsill,glass,yes,group: glass
+512,1,man in hat,man,no,
+512,2,woman playing lute,woman,no,
+512,3,sleeping dog,dog,no,
+512,4,lute,lute,yes,group: lute
+512,5,music book,music book,yes,group: music book
+512,6,table with cloth,table,no,
+512,7,chair with dog,chair,no,
+512,8,open door,door,no,
+512,9,violin case,violin case,no,
+256795,1,woman with flower crown,woman,no,
+256795,2,woman with wheat crown,woman,no,
+256795,3,child with wings,child,no,
+256795,4,grapes,grapes,yes,group: grapes
+256795,5,fruit basket,fruit basket,no,
+256795,6,wheat sheaf,wheat sheaf,no,
+256795,7,flower crown,flower crown,no,
+256795,8,wheat crown,wheat crown,no,
+256795,9,necklace with pendant,necklace,no,
+256795,10,necklace with red beads,necklace,no,
+256795,11,gold armband,armband,no,
+256795,12,blue sash,sash,no,
+256795,13,pink bodice,bodice,no,
+256795,14,blue drapery,drapery,no,
+256795,15,white veil,veil,no,
+256795,16,apple,apple,yes,group: apple
+256795,17,pear,pear,yes,group: pear
+256795,18,quince,quince,yes,group: quince
+256795,19,green apple,apple,yes,group: apple
+256795,20,red berries,berry,yes,group: berry
+256795,21,leaves in fruit basket,leaf,no,
+256795,22,gold brooch,brooch,no,
+256795,23,gold brooch on sash,brooch,no,
+256795,24,blue shawl,shawl,no,
+256795,25,red robe,robe,no,
+256795,26,blue robe,robe,no,
+256795,27,pink robe,robe,no,
+256795,28,white robe,robe,no,
+256795,29,blue robe with pattern,robe,no,
+256795,30,blue robe with pattern on right,robe,no,
+256795,31,gold chain,chain,no,
+256795,32,gold armband on right,armband,no,
+256795,33,blue sash with gold trim,sash,no,
+256795,34,blue sash with gold trim on left,sash,no,
+256795,35,blue robe with pattern on left,robe,no,
+256795,36,blue robe with pattern on right,robe,no,
+256795,37,blue robe with pattern on left,robe,no,
+256795,38,blue robe with pattern on right,robe,no,
+185775,1,peacock,peacock,no,
+185775,2,woman in red shawl,woman,no,
+185775,3,seated figure,person,no,
+185775,4,distant figures,crowd,no,
+185775,5,stone urn,urn,no,
+185775,6,stone balustrade,balustrade,no,
+185775,7,umbrella pine tree,conifer,yes,group: conifer
+16417,1,man playing recorder,man,no,
+16417,2,old woman reading,woman,no,
+16417,3,man in doorway,man,no,
+16417,4,jug,jug,yes,group: jug
+16417,5,glass,glass,yes,group: glass
+16417,6,recorder,recorder,yes,group: recorder
+16417,7,wooden chair,chair,no,
+16417,8,table,table,no,
+16417,9,paper,paper,no,
+16417,10,hat with feather,hat,no,
+16417,11,pipe on floor,pipe,no,
+81568,1,nun,nun,no,
+81568,2,nun,nun,no,
+81568,3,man with dog,man,no,
+81568,4,black dog,dog,no,
+81568,5,man with wheelbarrow,man,no,
+81568,6,man in top hat,man,no,
+81568,7,man in top hat,man,no,
+81568,8,Notre Dame Cathedral,notre dame cathedral,no,
+81568,9,horse-drawn carriage,horse-drawn carriage,no,
+81568,10,wheelbarrow,wheelbarrow,no,
+81568,11,street lamp,street lamp,yes,group: street lamp
+81568,12,fallen leaves,fallen leaf,no,
+81568,13,people on bridge,crowd,no,
+81568,14,people on street,crowd,no,
+12658,1,woman in red dress,woman,no,
+12658,2,girl in blue shawl,girl,no,
+12658,3,white and brown dog,dog,no,
+12658,4,flower basket,flower basket,no,
+12658,5,flower crown,flower crown,no,
+12658,6,roses,rose,no,
+105474,1,boy with bow,boy,no,
+105474,2,black dog,dog,no,
+105474,3,brown dog,dog,no,
+105474,4,red house,house,no,
+105474,5,white house,house,no,
+105474,6,white picket fence,fence,no,
+105474,7,tall tree,tree,no,
+105474,8,tall tree,tree,no,
+105474,9,tall tree,tree,no,
+105474,10,tall tree,tree,no,
+105474,11,small tree,tree,no,
+105474,12,small tree,tree,no,
+105474,13,small tree,tree,no,
+105474,14,dirt path,dirt path,no,
+105474,15,grass,grass,no,
+105474,16,sky,sky,no,
+65847,1,woman,woman,no,
+65847,2,child,child,no,
+65847,3,child,child,no,
+65847,4,chicken,chicken,no,
+65847,5,bread,bread,yes,group: bread
+65847,6,plate,plate,yes,group: plate
+65847,7,wooden chair,chair,no,
+65847,8,table,table,no,
+65847,9,window,window,no,
+65847,10,stool,stool,no,
+65847,11,wall hanging,framed picture,no,
+65847,12,dried herbs,dried herb,no,
+111667,1,white dog,dog,no,
+111667,2,black and white dog,dog,no,
+111667,3,greyhound,dog,no,
+111667,4,person on platform,person,no,
+111667,5,woman in yellow dress,woman,no,
+111667,6,man in red coat,man,no,
+111667,7,man in black coat,man,no,
+111667,8,woman in black with white collar,woman,no,
+111667,9,man in black with white collar,man,no,
+111667,10,man in red coat with sword,man,no,
+111667,11,group of people on platform,crowd,no,
+111667,12,group of people in background,crowd,no,
+111667,13,group of people in foreground,crowd,no,
+111667,14,garland,garland,yes,group: garland
+111667,15,coat of arms,coat of arm,no,
+186425,1,old man,man,no,
+186425,2,old woman,woman,no,
+186425,3,cat,cat,no,
+186425,4,teapot,teapot,yes,group: teapot
+186425,5,cream jug,jug,yes,group: jug
+186425,6,tea cup,cup,no,
+186425,7,tea cup,cup,no,
+186425,8,saucer,saucer,no,
+186425,9,saucer,saucer,no,
+186425,10,table,table,no,
+186425,11,potted plant,potted plant,no,
+186425,12,potted plant,potted plant,no,
+186425,13,window,window,no,
+186425,14,cloth,cloth,no,
+94241,1,woman,woman,no,
+94241,2,baby,child,no,
+94241,3,candle,candle,yes,group: candle
+94241,4,vase,vase,no,
+94241,5,clock,clock,no,
+94241,6,armchair,armchair,no,
+94241,7,side table,side table,no,
+94241,8,rug,rug,no,
+94241,9,fireplace,fireplace,yes,group: fireplace
+94241,10,flowers,flower,no,
+160229,1,person,person,no,
+160229,2,orange tree,orange tree,no,
+160229,3,orange tree,orange tree,no,
+160229,4,orange tree,orange tree,no,
+160229,5,orange tree,orange tree,no,
+160229,6,orange,orange,yes,group: orange
+160229,7,orange,orange,yes,group: orange
+160229,8,orange,orange,yes,group: orange
+160229,9,rose bush,rose bush,no,
+160229,10,terracotta pot,terracotta pot,yes,group: terracotta pot
+160229,11,stone pillar,pillar,no,
+160229,12,stone pillar,pillar,no,
+160229,13,stone pillar,pillar,no,
+160229,14,stone wall,wall,no,
+160229,15,stone wall,wall,no,
+160229,16,arched gate,gate,no,
+160229,17,chair,chair,no,
+896,1,woman on donkey,woman,no,
+896,2,boy walking,boy,no,
+896,3,man on horse,man,no,
+896,4,donkey,donkey,yes,group: donkey
+896,5,black dog,dog,no,
+896,6,sheep,sheep,yes,group: sheep
+896,7,horse,horse,no,
+39496,1,woman,woman,no,
+39496,2,poodle,dog,no,
+39496,3,handbag,handbag,no,
+39496,4,hat,hat,no,
+39496,5,shawl,shawl,no,
+39496,6,poster,poster,no,
+39496,7,red upholstered chair,chair,no,
+16398,1,man with lute,man,no,
+16398,2,woman with violin,woman,no,
+16398,3,small dog,dog,no,
+16398,4,lute,lute,yes,group: lute
+16398,5,violin,violin,yes,group: violin
+16398,6,viola da gamba,viola da gamba,yes,group: viola da gamba
+16398,7,music sheet,music sheet,yes,group: music sheet
+16398,8,green upholstered chair,chair,no,
+16398,9,pearl necklace,pearl necklace,no,
+16398,10,white headdress,headdress,no,
+16398,11,framed map or drawing,framed map or drawing,no,
+160032,1,woman on ladder,woman,no,
+160032,2,kneeling woman,woman,no,
+160032,3,flower wreath,flower wreath,yes,group: flower wreath
+160032,4,basket of roses,basket,yes,group: basket
+160032,5,vase,vase,no,
+160032,6,roses on floor,rose,no,
+160032,7,flower crown,flower crown,no,
+160032,8,ladder,ladder,no,
+160032,9,column,column,no,
+160032,10,red drapery,drapery,no,
+117477,1,woman,woman,no,
+117477,2,bread,bread,yes,group: bread
+117477,3,wine bottle,wine bottle,yes,group: wine bottle
+117477,4,glass,glass,yes,group: glass
+117477,5,cup,cup,no,
+117477,6,spoon,spoon,no,
+117477,7,tablecloth,tablecloth,yes,group: tablecloth
+117477,8,earthenware jug,jug,yes,group: jug
+117477,9,wooden chair,chair,no,
+117477,10,onion,onion,yes,group: onion
+10550,1,man playing flute,man,no,
+10550,2,woman knitting,woman,no,
+10550,3,girl in white dress,girl,no,
+10550,4,small girl,girl,no,
+10550,5,girl holding stick,girl,no,
+10550,6,jug,jug,yes,group: jug
+10550,7,flute,flute,yes,group: flute
+10550,8,knitting needles,knitting needle,no,
+10550,9,stick,stick,no,
+10550,10,hat,hat,no,
+10550,11,hat,hat,no,
+10550,12,headscarf,headscarf,no,
+10550,13,headscarf,headscarf,no,
+10550,14,headscarf,headscarf,no,
+10550,15,stool,stool,no,
+10550,16,shelf,shelf,no,
+10550,17,hanging pan,hanging pan,no,
+10550,18,pot,pot,yes,group: pot
+111648,1,man in straw hat,man,no,
+111648,2,man in brown hat,man,no,
+111648,3,girl in white bonnet,girl,no,
+111648,4,child in blue coat,child,no,
+111648,5,child in pink dress,child,no,
+111648,6,brown cow,cow,no,
+111648,7,calf,calf,no,
+111648,8,hay fork,hay fork,no,
+111648,9,stone building,building,no,
+111648,10,stone wall,wall,no,
+111648,11,tree,tree,no,
+111648,12,dirt path,dirt path,no,
+27984,1,woman,woman,no,
+27984,2,fishbowl,fishbowl,no,
+27984,3,goldfish,goldfish,no,
+27984,4,pinecone,pinecone,yes,group: pinecone
+27984,5,pinecone,pinecone,yes,group: pinecone
+27984,6,pinecone,pinecone,yes,group: pinecone
+27984,7,pinecone,pinecone,yes,group: pinecone
+27984,8,pinecone,pinecone,yes,group: pinecone
+27984,9,evergreen sprig,branch,no,
+27984,10,table,table,no,
+27984,11,chair,chair,no,
+27984,12,curtain,curtain,no,
+80475,1,snow,snow,yes,group: snow
+80475,2,conifer,conifer,yes,group: conifer
+80475,3,building,building,no,
+80475,4,building,building,no,
+80475,5,building,building,no,
+80475,6,waterfall,waterfall,no,
+80475,7,bare branches,branch,no,
+80475,8,bare branches,branch,no,
+80475,9,bare branches,branch,no,
+111617,1,woman in bonnet,woman,no,
+111617,2,child,child,no,
+111617,3,black dog,dog,no,
+111617,4,white dog,dog,no,
+111617,5,goose,goose,yes,group: goose
+111617,6,chicken,chicken,no,
+111617,7,log cabin,log cabin,no,
+111617,8,barn,barn,no,
+111617,9,conifer,conifer,yes,group: conifer
+111617,10,tree,tree,no,
+111617,11,wooden fence,fence,no,
+111617,12,barrel,barrel,no,
+111617,13,wagon wheel,wheel,no,
+111617,14,clouds,cloud,no,
+111617,15,field of white flowers,flower,no,
+44063,1,child,child,no,
+44063,2,bucket,bucket,no,
+44063,3,broom,broom,no,
+44063,4,pot,pot,yes,group: pot
+44063,5,crate,crate,no,
+44063,6,cloth,cloth,no,
+44063,7,wall,wall,no,
+44063,8,building,building,no,
+44063,9,trees,tree,no,
+133859,1,woman,woman,no,
+133859,2,book,book,no,
+133859,3,book,book,no,
+133859,4,pearl necklace,pearl necklace,no,
+133859,5,red upholstered chair,chair,no,
+133859,6,wooden table,table,no,
+133859,7,blue ribbon in hair,ribbon,no,
+133859,8,fur stole,fur stole,no,
+133859,9,white dress,dress,no,
+133859,10,pink shawl,shawl,no,
+49068,1,woman in grey dress,woman,no,
+49068,2,woman in brown dress,woman,no,
+49068,3,child,child,no,
+49068,4,spaniel dog,dog,no,
+49068,5,red apple,apple,yes,group: apple
+49068,6,checkered floor,floor,no,
+81521,1,man,man,no,
+81521,2,axe,axe,no,
+81521,3,stack of firewood,stack,no,
+81521,4,hat,hat,no,
+81521,5,blue cloth,cloth,no,
+81521,6,sawhorse,sawhorse,no,
+81521,7,logs,log,yes,group: log
+81521,8,forest,forest,no,
+70118,1,old man,man,no,
+70118,2,jug,jug,yes,group: jug
+70118,3,paintbrush,brush,no,
+70118,4,bread,bread,yes,group: bread
+70118,5,bowl,bowl,yes,group: bowl
+70118,6,table,table,no,
+70118,7,chair,chair,no,
+27777,1,woman in yellow dress,woman,no,
+27777,2,woman in blue dress,woman,no,
+27777,3,watering can,watering can,no,
+27777,4,birch tree,tree,no,
+27777,5,flower,flower,no,
+111059,1,pear,pear,yes,group: pear
+111059,2,pear,pear,yes,group: pear
+111059,3,pear,pear,yes,group: pear
+111059,4,pear,pear,yes,group: pear
+111059,5,pear,pear,yes,group: pear
+111059,6,pear,pear,yes,group: pear
+111059,7,pear,pear,yes,group: pear
+111059,8,pear,pear,yes,group: pear
+111059,9,pear,pear,yes,group: pear
+111059,10,pear,pear,yes,group: pear
+111059,11,pear,pear,yes,group: pear
+111059,12,apple,apple,yes,group: apple
+111059,13,apple,apple,yes,group: apple
+111059,14,apple,apple,yes,group: apple
+111059,15,apple,apple,yes,group: apple
+111059,16,apple,apple,yes,group: apple
+111059,17,apple,apple,yes,group: apple
+111059,18,apple,apple,yes,group: apple
+111059,19,flower,flower,no,
+111059,20,flower,flower,no,
+111059,21,flower,flower,no,
+111059,22,flower,flower,no,
+111059,23,flower,flower,no,
+111059,24,flower,flower,no,
+111059,25,flower,flower,no,
+111059,26,flower,flower,no,
+111059,27,flower,flower,no,
+111059,28,flower,flower,no,
+111059,29,flower,flower,no,
+111059,30,flower,flower,no,
+111059,31,flower,flower,no,
+111059,32,flower,flower,no,
+111059,33,flower,flower,no,
+111059,34,flower,flower,no,
+111059,35,flower,flower,no,
+111059,36,flower,flower,no,
+111059,37,flower,flower,no,
+111059,38,flower,flower,no,
+111059,39,flower,flower,no,
+111059,40,flower,flower,no,
+111059,41,flower,flower,no,
+111059,42,flower,flower,no,
+111059,43,bowl,bowl,yes,group: bowl
+6005,1,person,person,no,
+6005,2,child,child,no,
+6005,3,tree,tree,no,
+6005,4,tree,tree,no,
+6005,5,tree,tree,no,
+6005,6,tree,tree,no,
+6005,7,tree,tree,no,
+6005,8,tree,tree,no,
+6005,9,tree,tree,no,
+6005,10,tree,tree,no,
+6005,11,house,house,no,
+6005,12,house,house,no,
+6005,13,house,house,no,
+6005,14,horse,horse,no,
+6005,15,cart,cart,no,
+182381,1,bunch of grapes,grapes,yes,group: grapes
+182381,2,bunch of grapes,grapes,yes,group: grapes
+182381,3,bunch of grapes,grapes,yes,group: grapes
+182381,4,bunch of grapes,grapes,yes,group: grapes
+182381,5,bunch of grapes,grapes,yes,group: grapes
+182381,6,strawberry,strawberry,yes,group: strawberry
+182381,7,strawberry,strawberry,yes,group: strawberry
+182381,8,strawberry,strawberry,yes,group: strawberry
+182381,9,strawberry,strawberry,yes,group: strawberry
+182381,10,strawberry,strawberry,yes,group: strawberry
+182381,11,strawberry,strawberry,yes,group: strawberry
+182381,12,strawberry,strawberry,yes,group: strawberry
+182381,13,strawberry,strawberry,yes,group: strawberry
+182381,14,peach,peach,yes,group: peach
+182381,15,peach,peach,yes,group: peach
+182381,16,peach,peach,yes,group: peach
+182381,17,peach,peach,yes,group: peach
+182381,18,lemon,lemon,yes,group: lemon
+182381,19,wine glass,wine glass,yes,group: wine glass
+156596,1,orange,orange,yes,group: orange
+156596,2,orange,orange,yes,group: orange
+156596,3,orange,orange,yes,group: orange
+156596,4,apple,apple,yes,group: apple
+156596,5,apple,apple,yes,group: apple
+156596,6,strawberry,strawberry,yes,group: strawberry
+156596,7,banana,banana,yes,group: banana
+156596,8,banana,banana,yes,group: banana
+156596,9,pineapple,pineapple,yes,group: pineapple
+156596,10,lemon,lemon,yes,group: lemon
+156596,11,sugar cube,sugar cube,yes,group: sugar cube
+156596,12,sugar tongs,sugar tong,no,
+15717,1,person,person,no,
+15717,2,person,person,no,
+15717,3,person,person,no,
+15717,4,person,person,no,
+15717,5,person,person,no,
+15717,6,person,person,no,
+15717,7,person,person,no,
+15717,8,person,person,no,
+15717,9,person,person,no,
+15717,10,person,person,no,
+15717,11,person,person,no,
+15717,12,person,person,no,
+15717,13,person,person,no,
+15717,14,person,person,no,
+15717,15,person,person,no,
+15717,16,person,person,no,
+15717,17,person,person,no,
+15717,18,person,person,no,
+15717,19,person,person,no,
+15717,20,person,person,no,
+15717,21,person,person,no,
+15717,22,musician,musician,no,
+15717,23,musician,musician,no,
+15717,24,musician,musician,no,
+15717,25,musical instrument,musical instrument,yes,group: musical instrument
+15717,26,crown,crown,no,
+15717,27,crown,crown,no,
+15717,28,halo,halo,yes,group: halo
+15717,29,halo,halo,yes,group: halo
+15717,30,halo,halo,yes,group: halo
+15717,31,halo,halo,yes,group: halo
+15717,32,staff,staff,no,
+15717,33,staff,staff,no,
+15717,34,table,table,no,
+15717,35,food,food,yes,group: food
+15717,36,food,food,yes,group: food
+222528,1,person,person,no,
+222528,2,person,person,no,
+222528,3,person,person,no,
+222528,4,person,person,no,
+222528,5,person,person,no,
+222528,6,person,person,no,
+222528,7,person,person,no,
+222528,8,person,person,no,
+222528,9,person,person,no,
+222528,10,person,person,no,
+222528,11,person,person,no,
+222528,12,person,person,no,
+222528,13,person,person,no,
+222528,14,musician,musician,no,
+222528,15,musical instrument,musical instrument,yes,group: musical instrument
+222528,16,candle,candle,yes,group: candle
+222528,17,candle,candle,yes,group: candle
+222528,18,table,table,no,
+222528,19,food,food,yes,group: food
+21687,1,person,person,no,
+21687,2,person,person,no,
+21687,3,person,person,no,
+21687,4,person,person,no,
+21687,5,person,person,no,
+21687,6,person,person,no,
+21687,7,person,person,no,
+21687,8,person,person,no,
+21687,9,person,person,no,
+21687,10,person,person,no,
+21687,11,person,person,no,
+21687,12,lantern,lantern,yes,group: lantern
+21687,13,lantern,lantern,yes,group: lantern
+21687,14,lantern,lantern,yes,group: lantern
+21687,15,lantern,lantern,yes,group: lantern
+133394,1,person,person,no,
+133394,2,person,person,no,
+133394,3,person,person,no,
+133394,4,person,person,no,
+133394,5,person,person,no,
+133394,6,person,person,no,
+133394,7,person,person,no,
+133394,8,person,person,no,
+133394,9,person,person,no,
+133394,10,person,person,no,
+133394,11,person,person,no,
+133394,12,person,person,no,
+133394,13,person,person,no,
+133394,14,person,person,no,
+133394,15,person,person,no,
+133394,16,person,person,no,
+133394,17,person,person,no,
+133394,18,person,person,no,
+133394,19,person,person,no,
+133394,20,person,person,no,
+133394,21,person,person,no,
+133394,22,person,person,no,
+133394,23,person,person,no,
+133394,24,person,person,no,
+133394,25,person,person,no,
+133394,26,person,person,no,
+133394,27,person,person,no,
+133394,28,person,person,no,
+133394,29,person,person,no,
+133394,30,person,person,no,
+133394,31,person,person,no,
+133394,32,person,person,no,
+133394,33,person,person,no,
+133394,34,person,person,no,
+133394,35,person,person,no,
+133394,36,person,person,no,
+133394,37,person,person,no,
+111436,1,apple,apple,yes,group: apple
+111436,2,apple,apple,yes,group: apple
+111436,3,apple,apple,yes,group: apple
+111436,4,apple,apple,yes,group: apple
+111436,5,apple,apple,yes,group: apple
+111436,6,apple,apple,yes,group: apple
+111436,7,apple,apple,yes,group: apple
+111436,8,apple,apple,yes,group: apple
+111436,9,apple,apple,yes,group: apple
+111436,10,apple,apple,yes,group: apple
+111436,11,apple,apple,yes,group: apple
+111436,12,apple,apple,yes,group: apple
+111436,13,apple,apple,yes,group: apple
+111436,14,apple,apple,yes,group: apple
+111436,15,apple,apple,yes,group: apple
+111436,16,apple,apple,yes,group: apple
+111436,17,apple,apple,yes,group: apple
+111436,18,apple,apple,yes,group: apple
+111436,19,apple,apple,yes,group: apple
+111436,20,apple,apple,yes,group: apple
+111436,21,apple,apple,yes,group: apple
+111436,22,apple,apple,yes,group: apple
+111436,23,basket,basket,yes,group: basket
+111436,24,bread,bread,yes,group: bread
+111436,25,bottle,bottle,no,
+111436,26,plate,plate,yes,group: plate
+111436,27,tablecloth,tablecloth,yes,group: tablecloth
+16629,1,orange,orange,yes,group: orange
+16629,2,orange,orange,yes,group: orange
+16629,3,orange,orange,yes,group: orange
+16629,4,orange,orange,yes,group: orange
+16629,5,pepper,pepper,yes,group: pepper
+16629,6,pepper,pepper,yes,group: pepper
+16629,7,aubergine,aubergine,yes,group: aubergine
+16629,8,lemon,lemon,yes,group: lemon
+16629,9,lemon,lemon,yes,group: lemon
+16629,10,lemon,lemon,yes,group: lemon
+16629,11,pomegranate,pomegranate,yes,group: pomegranate
+16629,12,pomegranate,pomegranate,yes,group: pomegranate
+62450,1,peach,peach,yes,group: peach
+62450,2,peach,peach,yes,group: peach
+62450,3,peach,peach,yes,group: peach
+62450,4,peach,peach,yes,group: peach
+62450,5,peach,peach,yes,group: peach
+62450,6,peach,peach,yes,group: peach
+62450,7,peach,peach,yes,group: peach
+62450,8,plum,plum,yes,group: plum
+62450,9,plum,plum,yes,group: plum
+62450,10,plum,plum,yes,group: plum
+62450,11,plum,plum,yes,group: plum
+62450,12,plum,plum,yes,group: plum
+62450,13,plum,plum,yes,group: plum
+62450,14,plum,plum,yes,group: plum
+62450,15,plum,plum,yes,group: plum
+62450,16,plum,plum,yes,group: plum
+62450,17,plum,plum,yes,group: plum
+62450,18,plum,plum,yes,group: plum
+62450,19,plum,plum,yes,group: plum
+62450,20,plum,plum,yes,group: plum
+62450,21,plum,plum,yes,group: plum
+62450,22,cherry,cherry,yes,group: cherry
+62450,23,cherry,cherry,yes,group: cherry
+62450,24,cherry,cherry,yes,group: cherry
+62450,25,cherry,cherry,yes,group: cherry
+62450,26,cherry,cherry,yes,group: cherry
+62450,27,cherry,cherry,yes,group: cherry
+62450,28,cherry,cherry,yes,group: cherry
+62450,29,cherry,cherry,yes,group: cherry
+62450,30,cherry,cherry,yes,group: cherry
+62450,31,cherry,cherry,yes,group: cherry
+62450,32,cherry,cherry,yes,group: cherry
+62450,33,cherry,cherry,yes,group: cherry
+62450,34,cherry,cherry,yes,group: cherry
+62450,35,cherry,cherry,yes,group: cherry
+62450,36,cherry,cherry,yes,group: cherry
+62450,37,cherry,cherry,yes,group: cherry
+62450,38,cherry,cherry,yes,group: cherry
+62450,39,cherry,cherry,yes,group: cherry
+62450,40,cherry,cherry,yes,group: cherry
+62450,41,cherry,cherry,yes,group: cherry
+62450,42,cherry,cherry,yes,group: cherry
+62450,43,bunch of grapes,grapes,yes,group: grapes
+62450,44,asparagus,asparagus,yes,group: asparagus
+62450,45,pea pod,pea pod,yes,group: pea pod
+62450,46,pea pod,pea pod,yes,group: pea pod
+62450,47,basket,basket,yes,group: basket
+65811,1,apple,apple,yes,group: apple
+65811,2,plate,plate,yes,group: plate
+257286,1,oyster,oyster,yes,group: oyster
+257286,2,oyster,oyster,yes,group: oyster
+257286,3,oyster,oyster,yes,group: oyster
+257286,4,oyster,oyster,yes,group: oyster
+257286,5,oyster,oyster,yes,group: oyster
+257286,6,oyster,oyster,yes,group: oyster
+257286,7,oyster,oyster,yes,group: oyster
+257286,8,oyster,oyster,yes,group: oyster
+257286,9,oyster,oyster,yes,group: oyster
+257286,10,oyster,oyster,yes,group: oyster
+257286,11,oyster,oyster,yes,group: oyster
+257286,12,oyster,oyster,yes,group: oyster
+257286,13,wine glass,wine glass,yes,group: wine glass
+257286,14,flute glass,flute glass,yes,group: flute glass
+257286,15,glass jug,glass jug,yes,group: glass jug
+257286,16,salt cellar,salt cellar,yes,group: salt cellar
+257286,17,pewter jug,jug,yes,group: jug
+257286,18,gilt cup,cup,no,
+257286,19,plate,plate,yes,group: plate
+257286,20,plate,plate,yes,group: plate
+257286,21,plate,plate,yes,group: plate
+257286,22,plate,plate,yes,group: plate
+257286,23,knife,knife,no,
+257286,24,paper cone,paper cone,no,
+257286,25,tablecloth,tablecloth,yes,group: tablecloth
+154496,1,envelope,envelope,yes,group: envelope
+154496,2,envelope,envelope,yes,group: envelope
+154496,3,envelope,envelope,yes,group: envelope
+154496,4,envelope,envelope,yes,group: envelope
+154496,5,envelope,envelope,yes,group: envelope
+154496,6,postage stamp,postage stamp,yes,group: postage stamp
+154496,7,postage stamp,postage stamp,yes,group: postage stamp
+154496,8,postage stamp,postage stamp,yes,group: postage stamp
+154496,9,postage stamp,postage stamp,yes,group: postage stamp
+154496,10,postage stamp,postage stamp,yes,group: postage stamp
+154496,11,postcard,postcard,yes,group: postcard
+154496,12,photograph,photograph,no,
+154496,13,ticket,ticket,no,
+154496,14,ribbon,ribbon,no,
+154496,15,match,match,no,
+154496,16,drawing,drawing,no,
+154496,17,drawing,drawing,no,
+154496,18,drawing,drawing,no,
+154496,19,drawing,drawing,no,
+154496,20,note,note,yes,group: note
+27992,1,person,person,no,
+27992,2,person,person,no,
+27992,3,person,person,no,
+27992,4,person,person,no,
+27992,5,person,person,no,
+27992,6,person,person,no,
+27992,7,person,person,no,
+27992,8,person,person,no,
+27992,9,person,person,no,
+27992,10,person,person,no,
+27992,11,person,person,no,
+27992,12,person,person,no,
+27992,13,person,person,no,
+27992,14,person,person,no,
+27992,15,person,person,no,
+27992,16,person,person,no,
+27992,17,person,person,no,
+27992,18,person,person,no,
+27992,19,person,person,no,
+27992,20,person,person,no,
+27992,21,person,person,no,
+27992,22,person,person,no,
+27992,23,person,person,no,
+27992,24,person,person,no,
+27992,25,person,person,no,
+27992,26,person,person,no,
+27992,27,person,person,no,
+27992,28,person,person,no,
+27992,29,person,person,no,
+27992,30,person,person,no,
+27992,31,person,person,no,
+27992,32,dog,dog,no,
+27992,33,dog,dog,no,
+27992,34,dog,dog,no,
+27992,35,umbrella,umbrella,yes,group: umbrella
+27992,36,umbrella,umbrella,yes,group: umbrella
+27992,37,umbrella,umbrella,yes,group: umbrella
+27992,38,umbrella,umbrella,yes,group: umbrella
+27992,39,umbrella,umbrella,yes,group: umbrella
+27992,40,umbrella,umbrella,yes,group: umbrella
+27992,41,parasol,parasol,no,
+27992,42,parasol,parasol,no,
+27992,43,parasol,parasol,no,
+27992,44,parasol,parasol,no,
+27992,45,parasol,parasol,no,
+27992,46,parasol,parasol,no,
+27992,47,top hat,top hat,no,
+27992,48,top hat,top hat,no,
+27992,49,walking stick,stick,no,
+27992,50,sailing boat,boat,no,
+27992,51,sailing boat,boat,no,
+27992,52,sailing boat,boat,no,
+27992,53,rowing boat,boat,no,
+27992,54,rowing boat,boat,no,
+27992,55,rowing boat,boat,no,
+27992,56,basket,basket,yes,group: basket
+27992,57,bouquet,bouquet,no,
+27992,58,hat,hat,no,
+27992,59,hat,hat,no,
+27992,60,hat,hat,no,
+27992,61,hat,hat,no,
+27992,62,hat,hat,no,
+27992,63,hat,hat,no,
+27992,64,hat,hat,no,
+27992,65,hat,hat,no,
+27992,66,hat,hat,no,
+27992,67,hat,hat,no,
+27992,68,hat,hat,no,
+27992,69,hat,hat,no,
+27992,70,fishing rod,fishing rod,no,
+27992,71,fishing rod,fishing rod,no,
+27992,72,fishing rod,fishing rod,no,
+27992,73,fishing rod,fishing rod,no,
+27992,74,fan,fan,no,
+27992,75,handbag,handbag,no,
+117476,1,person,person,no,
+117476,2,person,person,no,
+117476,3,person,person,no,
+117476,4,person,person,no,
+117476,5,person,person,no,
+117476,6,person,person,no,
+117476,7,person,person,no,
+117476,8,person,person,no,
+117476,9,person,person,no,
+117476,10,person,person,no,
+117476,11,person,person,no,
+117476,12,person,person,no,
+117476,13,person,person,no,
+117476,14,person,person,no,
+117476,15,person,person,no,
+117476,16,person,person,no,
+117476,17,person,person,no,
+117476,18,person,person,no,
+117476,19,person,person,no,
+117476,20,dog,dog,no,
+117476,21,doll,doll,yes,group: doll
+117476,22,violin,violin,yes,group: violin
+117476,23,chair,chair,no,
+117476,24,chair,chair,no,
+117476,25,chair,chair,no,
+117476,26,stool,stool,no,
+117476,27,table,table,no,
+117476,28,jug,jug,yes,group: jug
+117476,29,tankard,tankard,yes,group: tankard
+117476,30,tankard,tankard,yes,group: tankard
+117476,31,tankard,tankard,yes,group: tankard
+117476,32,basket,basket,yes,group: basket
+117476,33,cabinet,cabinet,no,
+117476,34,bag,bag,no,
+117476,35,shelf,shelf,no,
+117476,36,vegetable,vegetable,no,
+110760,1,person,person,no,
+110760,2,person,person,no,
+110760,3,person,person,no,
+110760,4,person,person,no,
+110760,5,person,person,no,
+110760,6,person,person,no,
+110760,7,person,person,no,
+110760,8,person,person,no,
+110760,9,person,person,no,
+110760,10,person,person,no,
+110760,11,person,person,no,
+110760,12,person,person,no,
+110760,13,person,person,no,
+110760,14,person,person,no,
+110760,15,person,person,no,
+110760,16,person,person,no,
+110760,17,person,person,no,
+110760,18,person,person,no,
+110760,19,person,person,no,
+110760,20,person,person,no,
+110760,21,person,person,no,
+110760,22,person,person,no,
+110760,23,person,person,no,
+110760,24,person,person,no,
+110760,25,person,person,no,
+110760,26,person,person,no,
+110760,27,person,person,no,
+110760,28,person,person,no,
+110760,29,person,person,no,
+110760,30,person,person,no,
+110760,31,person,person,no,
+110760,32,person,person,no,
+110760,33,person,person,no,
+110760,34,person,person,no,
+110760,35,person,person,no,
+110760,36,person,person,no,
+110760,37,person,person,no,
+110760,38,person,person,no,
+110760,39,person,person,no,
+110760,40,person,person,no,
+110760,41,person,person,no,
+110760,42,person,person,no,
+110760,43,person,person,no,
+110760,44,person,person,no,
+110760,45,person,person,no,
+110760,46,person,person,no,
+110760,47,person,person,no,
+110760,48,person,person,no,
+110760,49,throne,throne,no,
+110760,50,crown,crown,no,
+110760,51,crown,crown,no,
+110760,52,crown,crown,no,
+110760,53,crown,crown,no,
+110760,54,crown,crown,no,
+110760,55,crown,crown,no,
+110760,56,crown,crown,no,
+110760,57,crown,crown,no,
+110760,58,crown,crown,no,
+110760,59,crown,crown,no,
+110760,60,crown,crown,no,
+110760,61,crown,crown,no,
+110760,62,crown,crown,no,
+110760,63,crown,crown,no,
+110760,64,crown,crown,no,
+110760,65,crown,crown,no,
+110760,66,crown,crown,no,
+110760,67,crown,crown,no,
+110760,68,crown,crown,no,
+110760,69,crown,crown,no,
+110760,70,crown,crown,no,
+110760,71,crown,crown,no,
+110760,72,crown,crown,no,
+110760,73,crown,crown,no,
+110760,74,crown,crown,no,
+110760,75,crown,crown,no,
+110760,76,crown,crown,no,
+110760,77,crown,crown,no,
+110760,78,crown,crown,no,
+110760,79,crown,crown,no,
+110760,80,crown,crown,no,
+110760,81,crown,crown,no,
+110760,82,helmet,helmet,no,
+110760,83,helmet,helmet,no,
+110760,84,helmet,helmet,no,
+110760,85,helmet,helmet,no,
+110760,86,helmet,helmet,no,
+110760,87,helmet,helmet,no,
+110760,88,helmet,helmet,no,
+110760,89,helmet,helmet,no,
+110760,90,helmet,helmet,no,
+110760,91,helmet,helmet,no,
+110760,92,helmet,helmet,no,
+110760,93,helmet,helmet,no,
+110760,94,helmet,helmet,no,
+110760,95,helmet,helmet,no,
+110760,96,helmet,helmet,no,
+110760,97,helmet,helmet,no,
+110760,98,helmet,helmet,no,
+110760,99,helmet,helmet,no,
+110760,100,helmet,helmet,no,
+110760,101,helmet,helmet,no,
+110760,102,helmet,helmet,no,
+110760,103,helmet,helmet,no,
+110760,104,helmet,helmet,no,
+110760,105,helmet,helmet,no,
+110760,106,helmet,helmet,no,
+110760,107,helmet,helmet,no,
+110760,108,helmet,helmet,no,
+110760,109,helmet,helmet,no,
+110760,110,helmet,helmet,no,
+110760,111,helmet,helmet,no,
+110760,112,helmet,helmet,no,
+110760,113,helmet,helmet,no,
+110760,114,helmet,helmet,no,
+110760,115,helmet,helmet,no,
+110760,116,helmet,helmet,no,
+110760,117,helmet,helmet,no,
+110760,118,helmet,helmet,no,
+110760,119,helmet,helmet,no,
+62460,1,person,person,no,
+62460,2,person,person,no,
+62460,3,person,person,no,
+62460,4,person,person,no,
+62460,5,dog,dog,no,
+62460,6,violin,violin,yes,group: violin
+62460,7,lute,lute,yes,group: lute
+62460,8,sword,sword,no,
+62460,9,chair,chair,no,
+62460,10,stool,stool,no,
+62460,11,jug,jug,yes,group: jug
+62460,12,bowl,bowl,yes,group: bowl
+62460,13,statue,statue,no,
+62460,14,statue,statue,no,
+62460,15,potted plant,potted plant,no,
+62460,16,book,book,no,
+62460,17,book,book,no,
+62460,18,book,book,no,
+62460,19,book,book,no,
+62460,20,gate,gate,no,
+62460,21,cloak,cloak,no,
+62460,22,tablecloth,tablecloth,yes,group: tablecloth
+144969,1,person,person,no,
+144969,2,person,person,no,
+144969,3,person,person,no,
+144969,4,person,person,no,
+144969,5,palm tree,palm tree,no,
+144969,6,palm tree,palm tree,no,
+144969,7,palm tree,palm tree,no,
+144969,8,palm tree,palm tree,no,
+144969,9,potted plant,potted plant,no,
+144969,10,fern,fern,no,
+144969,11,fern,fern,no,
+144969,12,vase,vase,no,
+144969,13,rug,rug,no,
+144969,14,cushion,cushion,no,
+144969,15,musical instrument,musical instrument,yes,group: musical instrument
+144969,16,fountain,fountain,no,
+144969,17,curtain,curtain,no,
+53495,1,person,person,no,
+53495,2,person,person,no,
+53495,3,person,person,no,
+53495,4,person,person,no,
+53495,5,person,person,no,
+53495,6,person,person,no,
+53495,7,person,person,no,
+53495,8,creature,creature,no,
+53495,9,creature,creature,no,
+53495,10,creature,creature,no,
+53495,11,creature,creature,no,
+53495,12,creature,creature,no,
+53495,13,creature,creature,no,
+53495,14,goat,goat,no,
+53495,15,dog,dog,no,
+53495,16,cat,cat,no,
+53495,17,frog,frog,no,
+53495,18,butterfly,butterfly,no,
+53495,19,staff,staff,no,
+53495,20,staff,staff,no,
+53495,21,hat,hat,no,
+53495,22,chain,chain,no,
+53495,23,sack,sack,no,
+53495,24,cushion,cushion,no,
+53495,25,spear,spear,no,
+53495,26,horn,horn,yes,group: horn
+104106,1,person,person,no,
+104106,2,person,person,no,
+104106,3,person,person,no,
+104106,4,person,person,no,
+104106,5,person,person,no,
+104106,6,person,person,no,
+104106,7,person,person,no,
+104106,8,person,person,no,
+104106,9,person,person,no,
+104106,10,person,person,no,
+104106,11,person,person,no,
+104106,12,dog,dog,no,
+104106,13,basket,basket,yes,group: basket
+104106,14,basket,basket,yes,group: basket
+104106,15,laundry bundle,laundry,no,
+104106,16,laundry bundle,laundry,no,
+104106,17,carriage,carriage,no,
+104106,18,barrel,barrel,no,
+104106,19,hat,hat,no,
+104106,20,gate,gate,no,
+111062,1,person,person,no,
+111062,2,person,person,no,
+111062,3,person,person,no,
+111062,4,dog,dog,no,
+111062,5,dog,dog,no,
+111062,6,hat,hat,no,
+111062,7,hat,hat,no,
+111062,8,palm tree,palm tree,no,
+111062,9,palm tree,palm tree,no,
+111062,10,palm tree,palm tree,no,
+111062,11,hut,hut,no,
+111062,12,walking stick,stick,no,
+28560,1,bed,bed,no,
+28560,2,chair,chair,no,
+28560,3,chair,chair,no,
+28560,4,table,table,no,
+28560,5,jug,jug,yes,group: jug
+28560,6,jug,jug,yes,group: jug
+28560,7,bowl,bowl,yes,group: bowl
+28560,8,bowl,bowl,yes,group: bowl
+28560,9,bottle,bottle,no,
+28560,10,bottle,bottle,no,
+28560,11,blanket,blanket,no,
+28560,12,pillow,pillow,no,
+28560,13,pillow,pillow,no,
+28560,14,towel,towel,no,
+28560,15,window,window,no,
+28560,16,framed picture,framed picture,no,
+28560,17,framed picture,framed picture,no,
+28560,18,framed picture,framed picture,no,
+28560,19,framed picture,framed picture,no,
+28560,20,framed picture,framed picture,no,
+28560,21,framed picture,framed picture,no,
+28560,22,clothes,clothes,no,
+28560,23,clothes,clothes,no,
+28560,24,clothes,clothes,no,
+28560,25,clothes,clothes,no,
+28560,26,door,door,no,
+28560,27,door,door,no,
+28560,28,mirror,mirror,no,
+20598,1,person,person,no,
+20598,2,person,person,no,
+20598,3,person,person,no,
+20598,4,person,person,no,
+20598,5,incense burner,incense burner,no,
+20598,6,table,table,no,
+20598,7,chest,chest,no,
+20598,8,decanter,decanter,yes,group: decanter
+20598,9,cup,cup,no,
+20598,10,curtain,curtain,no,
+20598,11,cushion,cushion,no,
+20598,12,carpet,carpet,no,
+20598,13,window,window,no,
+44742,1,person,person,no,
+44742,2,person,person,no,
+44742,3,person,person,no,
+44742,4,sheep,sheep,yes,group: sheep
+44742,5,sheep,sheep,yes,group: sheep
+44742,6,sheep,sheep,yes,group: sheep
+44742,7,sheep,sheep,yes,group: sheep
+44742,8,sheep,sheep,yes,group: sheep
+44742,9,sheep,sheep,yes,group: sheep
+44742,10,goat,goat,no,
+44742,11,goat,goat,no,
+44742,12,basket,basket,yes,group: basket
+44742,13,flower,flower,no,
+44742,14,flower,flower,no,
+44742,15,ribbon,ribbon,no,
+44742,16,necklace,necklace,no,
+44742,17,bunch of grapes,grapes,yes,group: grapes
+16496,1,person,person,no,
+16496,2,person,person,no,
+16496,3,person,person,no,
+16496,4,person,person,no,
+16496,5,person,person,no,
+16496,6,person,person,no,
+16496,7,chicken,chicken,no,
+16496,8,chicken,chicken,no,
+16496,9,chicken,chicken,no,
+16496,10,chicken,chicken,no,
+16496,11,chicken,chicken,no,
+16496,12,chicken,chicken,no,
+16496,13,chicken,chicken,no,
+16496,14,rooster,chicken,no,
+16496,15,chick,chick,no,
+16496,16,chick,chick,no,
+16496,17,chick,chick,no,
+16496,18,chick,chick,no,
+16496,19,palm tree,palm tree,no,
+16496,20,hut,hut,no,
+16496,21,hut,hut,no,
+16496,22,fence,fence,no,
+20684,1,person,person,no,
+20684,2,person,person,no,
+20684,3,person,person,no,
+20684,4,person,person,no,
+20684,5,person,person,no,
+20684,6,person,person,no,
+20684,7,person,person,no,
+20684,8,person,person,no,
+20684,9,person,person,no,
+20684,10,person,person,no,
+20684,11,person,person,no,
+20684,12,person,person,no,
+20684,13,person,person,no,
+20684,14,person,person,no,
+20684,15,person,person,no,
+20684,16,person,person,no,
+20684,17,person,person,no,
+20684,18,umbrella,umbrella,yes,group: umbrella
+20684,19,umbrella,umbrella,yes,group: umbrella
+20684,20,umbrella,umbrella,yes,group: umbrella
+20684,21,umbrella,umbrella,yes,group: umbrella
+20684,22,umbrella,umbrella,yes,group: umbrella
+20684,23,umbrella,umbrella,yes,group: umbrella
+20684,24,umbrella,umbrella,yes,group: umbrella
+20684,25,umbrella,umbrella,yes,group: umbrella
+20684,26,top hat,top hat,no,
+20684,27,top hat,top hat,no,
+20684,28,bowler hat,bowler hat,no,
+20684,29,street lamp,street lamp,yes,group: street lamp
+20684,30,carriage,carriage,no,
+20684,31,carriage,carriage,no,
+20684,32,horse,horse,no,
+20684,33,walking stick,stick,no,
+20684,34,glove,glove,no,
+20684,35,glove,glove,no,
+16347,1,person,person,no,
+16347,2,person,person,no,
+16347,3,person,person,no,
+16347,4,person,person,no,
+16347,5,person,person,no,
+16347,6,person,person,no,
+16347,7,person,person,no,
+16347,8,person,person,no,
+16347,9,person,person,no,
+16347,10,person,person,no,
+16347,11,person,person,no,
+16347,12,person,person,no,
+16347,13,person,person,no,
+16347,14,person,person,no,
+16347,15,person,person,no,
+16347,16,person,person,no,
+16347,17,violin,violin,yes,group: violin
+16347,18,drum,drum,yes,group: drum
+16347,19,instrument case,instrument case,no,
+16347,20,sheet music,sheet music,yes,group: sheet music
+16347,21,sheet music,sheet music,yes,group: sheet music
+16347,22,sheet music,sheet music,yes,group: sheet music
+16347,23,candlestick,candlestick,yes,group: candlestick
+16347,24,candlestick,candlestick,yes,group: candlestick
+16347,25,goblet,goblet,yes,group: goblet
+16347,26,goblet,goblet,yes,group: goblet
+16347,27,platter,platter,yes,group: platter
+16347,28,platter,platter,yes,group: platter
+16347,29,platter,platter,yes,group: platter
+16347,30,wine bottle,wine bottle,yes,group: wine bottle
+16347,31,jug,jug,yes,group: jug
+16347,32,hat,hat,no,
+16347,33,hat,hat,no,
+16347,34,book,book,no,
+16347,35,book,book,no,
+16347,36,chair,chair,no,
+16347,37,chair,chair,no,
+16347,38,tablecloth,tablecloth,yes,group: tablecloth
+75393,1,person,person,no,
+75393,2,person,person,no,
+75393,3,person,person,no,
+75393,4,person,person,no,
+75393,5,person,person,no,
+75393,6,dog,dog,no,
+75393,7,horse,horse,no,
+75393,8,carriage,carriage,no,
+75393,9,tent,tent,no,
+75393,10,chair,chair,no,
+75393,11,chair,chair,no,
+75393,12,book,book,no,
+75393,13,book,book,no,
+75393,14,hat,hat,no,
+75393,15,toy,toy,no,
+75393,16,fence,fence,no,
+81555,1,person,person,no,
+81555,2,person,person,no,
+81555,3,person,person,no,
+81555,4,person,person,no,
+81555,5,wine bottle,wine bottle,yes,group: wine bottle
+81555,6,wine bottle,wine bottle,yes,group: wine bottle
+81555,7,wine bottle,wine bottle,yes,group: wine bottle
+81555,8,wine glass,wine glass,yes,group: wine glass
+81555,9,wine glass,wine glass,yes,group: wine glass
+81555,10,wine glass,wine glass,yes,group: wine glass
+81555,11,wine glass,wine glass,yes,group: wine glass
+81555,12,bunch of grapes,grapes,yes,group: grapes
+81555,13,boat,boat,no,
+81555,14,chair,chair,no,
+81555,15,chair,chair,no,
+81555,16,tablecloth,tablecloth,yes,group: tablecloth
+81555,17,hat,hat,no,
+16571,1,person,person,no,
+16571,2,person,person,no,
+16571,3,person,person,no,
+16571,4,person,person,no,
+16571,5,person,person,no,
+16571,6,person,person,no,
+16571,7,person,person,no,
+16571,8,person,person,no,
+16571,9,steam locomotive,steam locomotive,no,
+16571,10,railway carriage,railway carriage,no,
+16571,11,lamp post,street lamp,yes,group: street lamp
+16571,12,lamp post,street lamp,yes,group: street lamp
+16571,13,railway signal,railway signal,no,
+8983,1,person,person,no,
+8983,2,person,person,no,
+8983,3,person,person,no,
+8983,4,horse,horse,no,
+8983,5,sleigh,sleigh,yes,group: sleigh
+8983,6,cart,cart,no,
+8983,7,flower,flower,no,
+8983,8,tree,tree,no,
+160029,1,person,person,no,
+160029,2,ladder,ladder,no,
+160029,3,column,column,no,
+160029,4,column,column,no,
+160029,5,fountain,fountain,no,
+160029,6,bunch of grapes,grapes,yes,group: grapes
+160029,7,bunch of grapes,grapes,yes,group: grapes
+160029,8,bunch of grapes,grapes,yes,group: grapes
+160029,9,bunch of grapes,grapes,yes,group: grapes
+160029,10,bunch of grapes,grapes,yes,group: grapes
+160029,11,bunch of grapes,grapes,yes,group: grapes
+160029,12,bunch of grapes,grapes,yes,group: grapes
+160029,13,bunch of grapes,grapes,yes,group: grapes
+160029,14,bunch of grapes,grapes,yes,group: grapes
+160029,15,bunch of grapes,grapes,yes,group: grapes
+160029,16,pergola,pergola,no,
+33212,1,person,person,no,
+33212,2,person,person,no,
+33212,3,person,person,no,
+33212,4,person,person,no,
+33212,5,person,person,no,
+33212,6,person,person,no,
+33212,7,person,person,no,
+33212,8,umbrella,umbrella,yes,group: umbrella
+33212,9,umbrella,umbrella,yes,group: umbrella
+33212,10,hat,hat,no,
+33212,11,hat,hat,no,
+33212,12,hat,hat,no,
+33212,13,hat,hat,no,
+33212,14,hat,hat,no,
+33212,15,bridge,bridge,no,
+33212,16,fence,fence,no,
+33212,17,fence,fence,no,
+33212,18,house,house,no,
+33212,19,house,house,no,
+33212,20,telegraph pole,telegraph pole,no,
+33212,21,telegraph pole,telegraph pole,no,
+874,1,person,person,no,
+874,2,shed,shed,no,
+874,3,laundry,laundry,no,
+874,4,laundry,laundry,no,
+874,5,laundry,laundry,no,
+874,6,laundry,laundry,no,
+874,7,laundry,laundry,no,
+874,8,laundry,laundry,no,
+874,9,haystack,haystack,no,
+874,10,fence post,fence post,no,
+874,11,fence post,fence post,no,
+109314,1,person,person,no,
+109314,2,rowing boat,boat,no,
+109314,3,rowing boat,boat,no,
+109314,4,fishing rod,fishing rod,no,
+109314,5,bridge,bridge,no,
+109314,6,hat,hat,no,
+97681,1,person,person,no,
+97681,2,person,person,no,
+97681,3,person,person,no,
+97681,4,person,person,no,
+97681,5,person,person,no,
+97681,6,person,person,no,
+97681,7,person,person,no,
+97681,8,person,person,no,
+97681,9,person,person,no,
+97681,10,person,person,no,
+97681,11,person,person,no,
+97681,12,person,person,no,
+97681,13,person,person,no,
+97681,14,person,person,no,
+97681,15,person,person,no,
+97681,16,person,person,no,
+97681,17,person,person,no,
+97681,18,person,person,no,
+97681,19,person,person,no,
+97681,20,person,person,no,
+97681,21,horse,horse,no,
+97681,22,dog,dog,no,
+97681,23,dog,dog,no,
+97681,24,dog,dog,no,
+97681,25,dog,dog,no,
+97681,26,cart,cart,no,
+97681,27,cart,cart,no,
+97681,28,cart,cart,no,
+97681,29,dog cart,dog cart,no,
+97681,30,chair,chair,no,
+97681,31,chair,chair,no,
+97681,32,table,table,no,
+97681,33,cushion,cushion,no,
+97681,34,bedding,bedding,no,
+97681,35,basket,basket,yes,group: basket
+97681,36,sack,sack,no,
+97681,37,sack,sack,no,
+97681,38,sack,sack,no,
+97681,39,crate,crate,no,
+97681,40,ladder,ladder,no,
+97681,41,umbrella,umbrella,yes,group: umbrella
+97681,42,hat,hat,no,
+97681,43,hat,hat,no,
+97681,44,hat,hat,no,
+97681,45,hat,hat,no,
+97681,46,hat,hat,no,
+97681,47,hat,hat,no,
+97681,48,hat,hat,no,
+97681,49,hat,hat,no,
+97681,50,hat,hat,no,
+97681,51,hat,hat,no,
+97681,52,hat,hat,no,
+97681,53,hat,hat,no,
+97681,54,walking stick,stick,no,
+81551,1,person,person,no,
+81551,2,person,person,no,
+81551,3,person,person,no,
+81551,4,person,person,no,
+81551,5,person,person,no,
+81551,6,person,person,no,
+81551,7,person,person,no,
+81551,8,person,person,no,
+81551,9,person,person,no,
+81551,10,person,person,no,
+81551,11,person,person,no,
+81551,12,person,person,no,
+81551,13,person,person,no,
+81551,14,person,person,no,
+81551,15,person,person,no,
+81551,16,person,person,no,
+81551,17,person,person,no,
+81551,18,person,person,no,
+81551,19,person,person,no,
+81551,20,person,person,no,
+81551,21,person,person,no,
+81551,22,person,person,no,
+81551,23,person,person,no,
+81551,24,person,person,no,
+81551,25,person,person,no,
+81551,26,person,person,no,
+81551,27,person,person,no,
+81551,28,person,person,no,
+81551,29,person,person,no,
+81551,30,person,person,no,
+81551,31,person,person,no,
+81551,32,person,person,no,
+81551,33,horse,horse,no,
+81551,34,horse,horse,no,
+81551,35,horse,horse,no,
+81551,36,carriage,carriage,no,
+81551,37,carriage,carriage,no,
+81551,38,carriage,carriage,no,
+81551,39,carriage,carriage,no,
+81551,40,carriage,carriage,no,
+81551,41,carriage,carriage,no,
+81551,42,carriage,carriage,no,
+81551,43,carriage,carriage,no,
+81551,44,carriage,carriage,no,
+81551,45,carriage,carriage,no,
+81551,46,cart,cart,no,
+81551,47,street lamp,street lamp,yes,group: street lamp
+81551,48,street lamp,street lamp,yes,group: street lamp
+81551,49,street lamp,street lamp,yes,group: street lamp
+81551,50,street lamp,street lamp,yes,group: street lamp
+81551,51,street lamp,street lamp,yes,group: street lamp
+81551,52,umbrella,umbrella,yes,group: umbrella
+81551,53,flag,flag,no,
+81551,54,flag,flag,no,
+81551,55,signpost,signpost,no,
+5292,1,person,person,no,
+5292,2,person,person,no,
+5292,3,potted plant,potted plant,no,
+5292,4,potted plant,potted plant,no,
+5292,5,potted plant,potted plant,no,
+5292,6,potted plant,potted plant,no,
+5292,7,potted plant,potted plant,no,
+5292,8,potted plant,potted plant,no,
+5292,9,laundry,laundry,no,
+5292,10,laundry,laundry,no,
+5292,11,laundry,laundry,no,
+5292,12,ladder,ladder,no,
+5292,13,scaffolding,scaffolding,no,
+5292,14,scaffolding,scaffolding,no,
+5292,15,shutter,shutter,no,
+5292,16,shutter,shutter,no,
+5292,17,shutter,shutter,no,
+5292,18,chimney,chimney,no,
+5292,19,chimney,chimney,no,
+5292,20,chimney,chimney,no,
+5292,21,door,door,no,
+24674,1,person,person,no,
+24674,2,person,person,no,
+24674,3,person,person,no,
+24674,4,person,person,no,
+24674,5,person,person,no,
+24674,6,person,person,no,
+24674,7,person,person,no,
+24674,8,person,person,no,
+24674,9,person,person,no,
+24674,10,dog,dog,no,
+24674,11,chandelier,chandelier,no,
+24674,12,pulpit,pulpit,no,
+24674,13,pulpit,pulpit,no,
+24674,14,pulpit,pulpit,no,
+24674,15,coffin,coffin,no,
+24674,16,coffin,coffin,no,
+24674,17,coffin,coffin,no,
+24674,18,bench,bench,no,
+24674,19,lectern,lectern,no,
+24674,20,banner,banner,no,
+24674,21,banner,banner,no,
+24674,22,banner,banner,no,
+24674,23,banner,banner,no,
+24674,24,banner,banner,no,
+24674,25,banner,banner,no,
+24674,26,banner,banner,no,
+24674,27,banner,banner,no,
+24674,28,banner,banner,no,
+24674,29,banner,banner,no,
+24674,30,banner,banner,no,
+24674,31,banner,banner,no,
+24674,32,banner,banner,no,
+24674,33,banner,banner,no,
+24674,34,banner,banner,no,
+24674,35,banner,banner,no,
+24674,36,staircase,staircase,no,
+24674,37,lantern,lantern,yes,group: lantern
+81539,1,person,person,no,
+81539,2,person,person,no,
+81539,3,person,person,no,
+81539,4,person,person,no,
+81539,5,person,person,no,
+81539,6,rowing boat,boat,no,
+81539,7,rowing boat,boat,no,
+81539,8,rowing boat,boat,no,
+81539,9,hat,hat,no,
+81539,10,house,house,no,
+81539,11,house,house,no,
+81539,12,house,house,no,
+81539,13,house,house,no,
+28849,1,person,person,no,
+28849,2,person,person,no,
+28849,3,person,person,no,
+28849,4,person,person,no,
+28849,5,person,person,no,
+28849,6,person,person,no,
+28849,7,person,person,no,
+28849,8,person,person,no,
+28849,9,person,person,no,
+28849,10,person,person,no,
+28849,11,person,person,no,
+28849,12,person,person,no,
+28849,13,person,person,no,
+28849,14,person,person,no,
+28849,15,child,child,no,
+28849,16,child,child,no,
+28849,17,child,child,no,
+28849,18,child,child,no,
+28849,19,child,child,no,
+28849,20,child,child,no,
+28849,21,child,child,no,
+28849,22,child,child,no,
+28849,23,bench,bench,no,
+28849,24,hat,hat,no,
+28849,25,hat,hat,no,
+28849,26,parasol,parasol,no,
+28849,27,walking stick,stick,no,
+28849,28,agave,agave,no,
+28849,29,lamp post,street lamp,yes,group: street lamp
+16473,1,person,person,no,
+16473,2,person,person,no,
+16473,3,person,person,no,
+16473,4,person,person,no,
+16473,5,person,person,no,
+16473,6,person,person,no,
+16473,7,person,person,no,
+16473,8,person,person,no,
+16473,9,person,person,no,
+16473,10,person,person,no,
+16473,11,person,person,no,
+16473,12,person,person,no,
+16473,13,person,person,no,
+16473,14,person,person,no,
+16473,15,person,person,no,
+16473,16,person,person,no,
+16473,17,person,person,no,
+16473,18,person,person,no,
+16473,19,person,person,no,
+16473,20,person,person,no,
+16473,21,person,person,no,
+16473,22,person,person,no,
+16473,23,person,person,no,
+16473,24,person,person,no,
+16473,25,person,person,no,
+16473,26,person,person,no,
+16473,27,chair,chair,no,
+16473,28,chair,chair,no,
+16473,29,chair,chair,no,
+16473,30,chair,chair,no,
+16473,31,chair,chair,no,
+16473,32,chair,chair,no,
+16473,33,table,table,no,
+16473,34,table,table,no,
+16473,35,table,table,no,
+16473,36,stool,stool,no,
+16473,37,plate,plate,yes,group: plate
+16473,38,plate,plate,yes,group: plate
+16473,39,cloth,cloth,no,
+16473,40,bonnet,bonnet,no,
+16473,41,ribbon,ribbon,no,
+16473,42,ribbon,ribbon,no,
+16473,43,ribbon,ribbon,no,
+16473,44,ribbon,ribbon,no,
+16473,45,ribbon,ribbon,no,
+16473,46,ribbon,ribbon,no,
+16473,47,ribbon,ribbon,no,
+16473,48,shawl,shawl,no,
+16473,49,shawl,shawl,no,
+16473,50,hat,hat,no,
+16473,51,hat,hat,no,
+16473,52,hat,hat,no,
+16473,53,hat,hat,no,
+16473,54,hat,hat,no,
+16473,55,hat,hat,no,
+16473,56,hat,hat,no,
+16473,57,coat,coat,yes,group: coat
+16146,1,person,person,no,
+16146,2,person,person,no,
+16146,3,person,person,no,
+16146,4,person,person,no,
+16146,5,person,person,no,
+16146,6,person,person,no,
+16146,7,person,person,no,
+16146,8,person,person,no,
+16146,9,person,person,no,
+16146,10,clown,clown,no,
+16146,11,clown,clown,no,
+16146,12,red nose,nose,no,
+16146,13,horse,horse,no,
+16146,14,whip,whip,no,
+16146,15,fan,fan,no,
+16146,16,top hat,top hat,no,
+16146,17,lampshade,lamp,no,
+16146,18,lampshade,lamp,no,
+16146,19,glove,glove,no,
+44018,1,person,person,no,
+44018,2,person,person,no,
+44018,3,person,person,no,
+44018,4,person,person,no,
+44018,5,croquet mallet,croquet mallet,no,
+44018,6,croquet mallet,croquet mallet,no,
+44018,7,croquet ball,croquet ball,no,
+44018,8,croquet ball,croquet ball,no,
+44018,9,croquet ball,croquet ball,no,
+44018,10,croquet hoop,croquet hoop,no,
+44018,11,croquet hoop,croquet hoop,no,
+44018,12,croquet hoop,croquet hoop,no,
+44018,13,croquet hoop,croquet hoop,no,
+44018,14,straw hat,hat,no,
+97892,1,person,person,no,
+97892,2,person,person,no,
+97892,3,person,person,no,
+97892,4,person,person,no,
+97892,5,person,person,no,
+97892,6,person,person,no,
+97892,7,person,person,no,
+97892,8,person,person,no,
+97892,9,person,person,no,
+97892,10,person,person,no,
+97892,11,person,person,no,
+97892,12,person,person,no,
+97892,13,person,person,no,
+97892,14,horse,horse,no,
+97892,15,wagon,wagon,no,
+97892,16,saddle,saddle,no,
+97892,17,ladder,ladder,no,
+97892,18,hat,hat,no,
+97892,19,cart wheel,wheel,no,
+263513,1,person,person,no,
+263513,2,child,child,no,
+263513,3,baby,child,no,
+263513,4,straw hat,hat,no,
+263513,5,blanket,blanket,no,
+263513,6,basket,basket,yes,group: basket
+263513,7,flower,flower,no,
+263513,8,flower,flower,no,
+263513,9,flower,flower,no,
+263513,10,flower,flower,no,
+263513,11,umbrella,umbrella,yes,group: umbrella
+263513,12,house,house,no,
+79349,1,person,person,no,
+79349,2,person,person,no,
+79349,3,person,person,no,
+79349,4,baby,child,no,
+79349,5,jug,jug,yes,group: jug
+79349,6,glass,glass,yes,group: glass
+79349,7,glass,glass,yes,group: glass
+79349,8,glass,glass,yes,group: glass
+79349,9,top hat,top hat,no,
+79349,10,top hat,top hat,no,
+79349,11,cap,cap,no,
+79349,12,table,table,no,
+117700,1,person,person,no,
+117700,2,umbrella,umbrella,yes,group: umbrella
+117700,3,straw hat,hat,no,
+117700,4,blanket,blanket,no,
+90333,1,person,person,no,
+90333,2,person,person,no,
+90333,3,person,person,no,
+90333,4,person,person,no,
+90333,5,person,person,no,
+90333,6,person,person,no,
+90333,7,person,person,no,
+90333,8,person,person,no,
+90333,9,person,person,no,
+90333,10,person,person,no,
+90333,11,person,person,no,
+90333,12,person,person,no,
+90333,13,person,person,no,
+90333,14,person,person,no,
+90333,15,person,person,no,
+90333,16,bust,bust,no,
+90333,17,bust,bust,no,
+90333,18,bust,bust,no,
+90333,19,bust,bust,no,
+90333,20,bust,bust,no,
+90333,21,statue,statue,no,
+90333,22,statue,statue,no,
+90333,23,statue,statue,no,
+90333,24,statue,statue,no,
+90333,25,statue,statue,no,
+90333,26,statue,statue,no,
+90333,27,easel,easel,no,
+90333,28,easel,easel,no,
+90333,29,canvas,canvas,no,
+90333,30,canvas,canvas,no,
+90333,31,canvas,canvas,no,
+90333,32,canvas,canvas,no,
+90333,33,painting,framed picture,no,
+90333,34,stool,stool,no,
+90333,35,stool,stool,no,
+90333,36,table,table,no,
+90333,37,table,table,no,
+90333,38,coat,coat,yes,group: coat
+90333,39,coat,coat,yes,group: coat
+90333,40,coat,coat,yes,group: coat
+90333,41,coat,coat,yes,group: coat
+90333,42,coat,coat,yes,group: coat
+90333,43,hat,hat,no,
+71573,1,person,person,no,
+71573,2,person,person,no,
+71573,3,person,person,no,
+71573,4,person,person,no,
+71573,5,person,person,no,
+71573,6,person,person,no,
+71573,7,person,person,no,
+71573,8,person,person,no,
+71573,9,person,person,no,
+71573,10,person,person,no,
+71573,11,child,child,no,
+71573,12,child,child,no,
+71573,13,child,child,no,
+71573,14,child,child,no,
+71573,15,child,child,no,
+71573,16,child,child,no,
+71573,17,child,child,no,
+71573,18,dog,dog,no,
+71573,19,toy boat,toy boat,yes,group: toy boat
+71573,20,straw hat,hat,no,
+71573,21,hair bow,hair bow,no,
+71573,22,hair bow,hair bow,no,
+71573,23,hair bow,hair bow,no,
+14664,1,person,person,no,
+14664,2,person,person,no,
+14664,3,person,person,no,
+14664,4,person,person,no,
+14664,5,person,person,no,
+14664,6,person,person,no,
+14664,7,person,person,no,
+14664,8,person,person,no,
+14664,9,person,person,no,
+14664,10,person,person,no,
+14664,11,person,person,no,
+14664,12,person,person,no,
+14664,13,person,person,no,
+14664,14,person,person,no,
+14664,15,person,person,no,
+14664,16,person,person,no,
+14664,17,person,person,no,
+14664,18,top hat,top hat,no,
+14664,19,top hat,top hat,no,
+14664,20,top hat,top hat,no,
+14664,21,top hat,top hat,no,
+14664,22,bowler hat,bowler hat,no,
+14664,23,bowler hat,bowler hat,no,
+14664,24,bowler hat,bowler hat,no,
+14664,25,bench,bench,no,
+14664,26,table,table,no,
+14664,27,plate,plate,yes,group: plate
+14664,28,plate,plate,yes,group: plate
+14664,29,plate,plate,yes,group: plate
+14664,30,plate,plate,yes,group: plate
+14664,31,plate,plate,yes,group: plate
+14664,32,plate,plate,yes,group: plate
+14664,33,glass,glass,yes,group: glass
+27980,1,person,person,no,
+27980,2,divan,divan,no,
+27980,3,curtain,curtain,no,
+27980,4,rug,rug,no,
+27980,5,shawl,shawl,no,
+66144,1,person,person,no,
+66144,2,person,person,no,
+66144,3,person,person,no,
+66144,4,person,person,no,
+66144,5,person,person,no,
+66144,6,person,person,no,
+66144,7,person,person,no,
+66144,8,person,person,no,
+66144,9,hat,hat,no,
+66144,10,hat,hat,no,
+66144,11,hat,hat,no,
+66144,12,hat,hat,no,
+66144,13,hat,hat,no,
+66144,14,hat,hat,no,
+66144,15,hat,hat,no,
+66144,16,hat,hat,no,
+66144,17,hat,hat,no,
+21165,1,person,person,no,
+21165,2,person,person,no,
+21165,3,umbrella,umbrella,yes,group: umbrella
+21165,4,parasol,parasol,no,
+21165,5,parasol,parasol,no,
+21165,6,folding chair,chair,no,
+21165,7,hat,hat,no,
+11723,1,person,person,no,
+11723,2,jar,jar,no,
+11723,3,powder puff,powder puff,no,
+11723,4,powder puff,powder puff,no,
+11723,5,mirror,mirror,no,
+11723,6,table,table,no,

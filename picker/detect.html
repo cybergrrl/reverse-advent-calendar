@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Detection Pilot</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>▢</text></svg>">
+<style>
+  :root { --bg: #f6f4ef; --panel: #fff; --ink: #1f1d1a; --muted: #6b665e; --line: #e2ddd3; --festive: #d23b2a; --other: #2a6fd2; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #17161a; --panel: #222126; --ink: #ecebe8; --muted: #a29d95; --line: #35333a; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.45 system-ui, -apple-system, sans-serif; }
+  header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+  h1 { font-size: 19px; margin: 0; }
+  label { font-size: 14px; color: var(--muted); display: flex; gap: 5px; align-items: center; }
+  .key { font-size: 14px; display: flex; gap: 10px; align-items: center; }
+  .sw { display: inline-block; width: 14px; height: 14px; border: 3px solid; border-radius: 2px; vertical-align: -2px; margin-right: 4px; }
+  main { padding: 16px; display: flex; flex-direction: column; gap: 28px; }
+  .art { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 16px; }
+  .art h2 { margin: 0 0 2px; font-size: 19px; }
+  .sub { color: var(--muted); font-size: 14px; margin-bottom: 8px; }
+  .stage { position: relative; display: inline-block; max-width: 100%; }
+  .stage img { display: block; max-width: 100%; max-height: 80vh; }
+  .box { position: absolute; border: 2px solid var(--other); border-radius: 2px; pointer-events: auto; }
+  .box.festive { border-color: var(--festive); }
+  .box.group { border-style: dashed; }
+  .box span { position: absolute; left: -2px; top: -20px; background: var(--other); color: #fff; font-size: 11.5px; line-height: 1; padding: 3px 5px; border-radius: 3px; white-space: nowrap; }
+  .box.festive span { background: var(--festive); }
+  .hide-labels .box span { display: none; }
+  .box.hl { border-width: 4px; box-shadow: 0 0 0 9999px #0007; z-index: 2; }
+  .box.hl span { display: block; z-index: 3; }
+  .dim .box:not(.hl) { opacity: 0; }
+  ul { list-style: none; margin: 0; padding: 0; font-size: 14.5px; max-height: 80vh; overflow-y: auto; }
+  li { padding: 4px 6px; border-radius: 4px; cursor: default; display: flex; gap: 6px; align-items: baseline; }
+  li:hover { background: #0000000d; }
+  li .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--other); flex: none; }
+  li.festive .dot { background: var(--festive); }
+  li small { color: var(--muted); }
+  .empty { color: var(--festive); font-weight: 600; padding: 10px 0; }
+  .note { font-size: 13px; color: var(--muted); }
+  @media (max-width: 800px) { .art { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Detection pilot</h1>
+  <span class="key"><span><span class="sw" style="border-color: var(--festive)"></span>festive</span><span><span class="sw" style="border-color: var(--other)"></span>other</span><span><span class="sw" style="border-color: var(--muted); border-style: dashed"></span>group box</span></span>
+  <label><input type="checkbox" id="labels" checked> show labels on image</label>
+  <label><input type="checkbox" id="festiveOnly"> festive only</label>
+  <span class="note">Hover an item in a list to highlight its box.</span>
+</header>
+<main id="main"></main>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+let data = [];
+function render() {
+  const festiveOnly = $("festiveOnly").checked;
+  $("main").classList.toggle("hide-labels", !$("labels").checked);
+  $("main").innerHTML = data.map(a => {
+    const items = a.items.filter(i => !festiveOnly || i.festive === "True");
+    const boxes = items.map(i => `<div class="box ${i.festive === "True" ? "festive" : ""} ${i.kind === "group" ? "group" : ""}" data-k="${a.id}-${i.item_id}"
+      style="left:${i.x0 * 100}%;top:${i.y0 * 100}%;width:${(i.x1 - i.x0) * 100}%;height:${(i.y1 - i.y0) * 100}%"><span>${esc(i.label)}</span></div>`).join("");
+    const list = items.map(i => `<li class="${i.festive === "True" ? "festive" : ""}" data-k="${a.id}-${i.item_id}"><span class="dot"></span><span>${esc(i.label)}${i.kind === "group" ? ` <small>(group of ~${esc(i.approx_count)})</small>` : ""} <small>${esc(i.confidence === "candidate" ? "· unsure" : "")}</small></span></li>`).join("");
+    return `<section class="art">
+      <div><div class="stage" data-art="${a.id}"><img src="/images1600/${a.id}.jpg" alt="${esc(a.title)}">${boxes}</div></div>
+      <div><h2>${esc(a.title)}</h2><div class="sub">${esc(a.artist)} · ${esc(a.date)} · ${esc((a.type || "").replace("Drawing and Watercolor", "Drawing"))}</div>
+        ${a.items.length ? `<div class="sub">${a.items.length} items, ${a.items.filter(i => i.festive === "True").length} festive</div><ul>${list}</ul>`
+          : `<div class="empty">No items detected.</div><div class="note">The model returned an empty list for this work${a.note ? ` (${esc(a.note)})` : ""}. Still being fixed.</div>`}
+      </div></section>`;
+  }).join("");
+}
+$("main").addEventListener("mouseover", e => {
+  const li = e.target.closest("li[data-k]");
+  document.querySelectorAll(".box.hl").forEach(b => b.classList.remove("hl"));
+  document.querySelectorAll(".stage.dim").forEach(s => s.classList.remove("dim"));
+  if (!li) return;
+  const box = document.querySelector(`.box[data-k="${li.dataset.k}"]`);
+  if (box) { box.classList.add("hl"); box.parentElement.classList.add("dim"); }
+});
+$("labels").addEventListener("input", render);
+$("festiveOnly").addEventListener("input", render);
+fetch("/api/detect").then(r => r.json()).then(d => { data = d.artworks; render(); });
+</script>
+</body>
+</html>

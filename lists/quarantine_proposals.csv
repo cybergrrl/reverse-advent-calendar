@@ -1,0 +1,1329 @@
+id,item_id,label,group,short_side_px,reason
+22646,9,jug,jug,84,tiny
+22646,13,boat,boat,77,tiny
+26601,1,person,person,142,vague
+26601,2,person,person,89,tiny + vague
+26601,4,black dog,dog,73,tiny
+26601,13,woven basket,basket,93,tiny
+26601,14,umbrella,umbrella,57,tiny
+19205,1,person,person,108,vague
+19205,2,person,person,96,vague
+19205,3,person,person,100,vague
+19205,4,person,person,83,tiny + vague
+19205,5,person,person,81,tiny + vague
+19205,6,person,person,69,tiny + vague
+19205,7,person,person,60,tiny + vague
+19205,8,person,person,65,tiny + vague
+19205,9,person,person,49,tiny + vague
+19205,10,person,person,57,tiny + vague
+19205,11,person,person,68,tiny + vague
+19205,12,person,person,72,tiny + vague
+19205,13,person,person,76,tiny + vague
+19205,14,person,person,81,tiny + vague
+19205,15,person,person,83,tiny + vague
+19205,16,person,person,57,tiny + vague
+19205,17,person,person,56,tiny + vague
+19205,18,person,person,74,tiny + vague
+19205,23,horse,horse,85,tiny
+19205,24,horse,horse,81,tiny
+19205,41,conifer,conifer,87,tiny
+19205,42,conifer,conifer,83,tiny
+19205,43,conifer,conifer,83,tiny
+19205,44,conifer,conifer,83,tiny
+19205,45,conifer,conifer,83,tiny
+19205,46,conifer,conifer,83,tiny
+19205,47,conifer,conifer,83,tiny
+19205,48,conifer,conifer,83,tiny
+19205,49,conifer,conifer,83,tiny
+19205,50,conifer,conifer,83,tiny
+19205,51,conifer,conifer,83,tiny
+19205,52,conifer,conifer,83,tiny
+19205,53,conifer,conifer,83,tiny
+19205,54,conifer,conifer,21,tiny
+19205,56,conifer,conifer,87,tiny
+19205,57,conifer,conifer,83,tiny
+19205,58,conifer,conifer,83,tiny
+19205,59,conifer,conifer,83,tiny
+19205,60,conifer,conifer,83,tiny
+19205,61,conifer,conifer,83,tiny
+19205,62,conifer,conifer,83,tiny
+19205,63,conifer,conifer,83,tiny
+19205,64,conifer,conifer,83,tiny
+19205,65,conifer,conifer,83,tiny
+19205,66,conifer,conifer,83,tiny
+19205,67,conifer,conifer,83,tiny
+19205,68,conifer,conifer,83,tiny
+19205,69,conifer,conifer,21,tiny
+19205,71,conifer,conifer,87,tiny
+19205,72,conifer,conifer,83,tiny
+19205,73,conifer,conifer,83,tiny
+19205,74,conifer,conifer,83,tiny
+19205,75,conifer,conifer,83,tiny
+19205,76,conifer,conifer,83,tiny
+19205,77,conifer,conifer,83,tiny
+19205,78,conifer,conifer,83,tiny
+19205,79,conifer,conifer,83,tiny
+19205,80,conifer,conifer,83,tiny
+19205,81,conifer,conifer,83,tiny
+19205,82,conifer,conifer,83,tiny
+19205,83,conifer,conifer,83,tiny
+19205,84,conifer,conifer,21,tiny
+19205,86,conifer,conifer,87,tiny
+19205,87,conifer,conifer,83,tiny
+19205,88,conifer,conifer,83,tiny
+19205,89,conifer,conifer,83,tiny
+19205,90,conifer,conifer,83,tiny
+19205,91,conifer,conifer,83,tiny
+19205,92,conifer,conifer,83,tiny
+19205,93,conifer,conifer,83,tiny
+19205,94,conifer,conifer,83,tiny
+34187,8,fox,fox,90,tiny
+34187,13,fox,fox,86,tiny
+34187,14,fox,fox,62,tiny
+34187,20,village,village,84,tiny
+130552,1,person,person,39,tiny + vague
+130552,2,person,person,33,tiny + vague
+130552,3,person,person,31,tiny + vague
+130552,4,person,person,37,tiny + vague
+130552,5,person,person,29,tiny + vague
+25743,1,Christ Child,Christ Child,92,tiny
+25743,10,peacock,peacock,87,tiny
+25743,15,gifts of the Magi,gifts of the Magi,67,tiny
+25743,16,censer,censer,45,tiny
+25743,17,crown,crown,54,tiny
+25743,18,group of attendants,crowd,271,vague
+25743,19,group of riders,crowd,468,vague
+25743,20,group of onlookers,crowd,125,vague
+21682,7,olives,olives,94,tiny
+16205,13,halo,halo,86,tiny
+16205,14,halo,halo,86,tiny
+16205,15,halo,halo,60,tiny
+16205,16,staff,staff,33,tiny
+16205,17,staff,staff,30,tiny
+60294,3,man in blue uniform with horse,man,69,tiny
+60294,4,man in blue uniform in background,man,67,tiny
+60294,5,couple walking,crowd,103,vague
+93450,1,person,person,180,vague
+93450,2,person,person,185,vague
+93450,3,person,person,148,vague
+14647,4,earring,earring,48,tiny
+28875,1,person,person,267,vague
+28875,2,person,person,143,vague
+28875,3,person,person,229,vague
+54305,6,wine glass,wine glass,79,tiny
+54305,9,bird,bird,69,tiny
+59656,4,man on roof,man,78,tiny
+59656,13,figures on bridge,crowd,121,vague
+25428,1,person,person,75,tiny + vague
+25428,2,person,person,72,tiny + vague
+25428,3,person,person,69,tiny + vague
+25428,9,lantern,lantern,66,tiny
+25428,10,icicles,icicles,76,tiny
+156299,4,candlestick,candlestick,53,tiny
+156299,5,books,book,88,tiny
+156299,6,shoes,shoe,59,tiny
+81640,1,person,person,49,tiny + vague
+81640,2,person,person,52,tiny + vague
+81640,3,person,person,58,tiny + vague
+81640,4,person,person,46,tiny + vague
+81640,5,person,person,56,tiny + vague
+81640,6,person,person,55,tiny + vague
+81640,7,person,person,51,tiny + vague
+81640,8,person,person,46,tiny + vague
+81640,9,person,person,55,tiny + vague
+81640,10,firewood,firewood,76,tiny
+81640,15,building,building,45,tiny
+59654,1,woman in blue dress,woman,77,tiny
+59654,2,child,child,41,tiny
+59654,3,woman in red dress,woman,67,tiny
+59654,4,black dog,dog,90,tiny
+21937,8,Star of Bethlehem,star,75,tiny
+21937,12,group of soldiers on horseback,crowd,187,vague
+21937,13,group of onlookers,crowd,436,vague
+111441,21,group of riders,crowd,551,vague
+158368,1,Christ Child,Christ Child,37,tiny
+158368,2,Mary,Mary,82,tiny
+158368,3,Joseph,Joseph,72,tiny
+158368,4,shepherd,shepherd,34,tiny
+158368,5,angel,angel,61,tiny
+158368,7,boy dancing,boy,59,tiny
+158368,8,girl dancing,girl,75,tiny
+158368,9,man in top hat,man,48,tiny
+158368,10,man on horse,man,45,tiny
+158368,11,child reading,child,89,tiny
+158368,12,man holding child,man,68,tiny
+158368,13,woman holding child,woman,55,tiny
+158368,14,black dog,dog,29,tiny
+158368,15,horse,horse,44,tiny
+158368,17,sleigh,sleigh,75,tiny
+158368,18,Christmas tree,christmas tree,75,tiny
+158368,21,lantern,lantern,29,tiny
+158368,22,musical instrument,musical instrument,28,tiny
+158368,23,group of children dancing,crowd,244,vague
+158368,24,group of adults watching,crowd,113,vague
+158368,25,group of people in sleigh scene,crowd,130,vague
+158368,26,group of people in street scene,crowd,147,vague
+105660,7,person,person,141,vague
+105660,8,person,person,93,tiny + vague
+105660,9,person,person,78,tiny + vague
+105660,10,person,person,105,vague
+105660,11,person,person,99,vague
+105660,12,person,person,81,tiny + vague
+105660,13,person,person,72,tiny + vague
+105660,14,person,person,96,vague
+105660,15,person,person,78,tiny + vague
+105660,19,conifer,conifer,93,tiny
+105660,20,conifer,conifer,66,tiny
+105660,25,street lamp,street lamp,60,tiny
+105660,26,street lamp,street lamp,45,tiny
+105660,28,dog,dog,92,tiny
+105660,29,person,person,102,vague
+105660,30,person,person,102,vague
+105660,31,person,person,102,vague
+105660,32,person,person,111,vague
+105660,33,person,person,57,tiny + vague
+105660,34,person,person,54,tiny + vague
+105660,35,person,person,66,tiny + vague
+105660,36,person,person,51,tiny + vague
+105660,37,person,person,54,tiny + vague
+105660,38,person,person,63,tiny + vague
+105660,39,person,person,57,tiny + vague
+105660,40,person,person,54,tiny + vague
+105660,41,person,person,54,tiny + vague
+105660,42,person,person,54,tiny + vague
+105660,43,person,person,54,tiny + vague
+105660,44,person,person,54,tiny + vague
+105660,45,person,person,54,tiny + vague
+105660,46,person,person,54,tiny + vague
+105660,47,person,person,54,tiny + vague
+105660,48,person,person,54,tiny + vague
+105660,49,person,person,54,tiny + vague
+105660,50,person,person,54,tiny + vague
+105660,51,person,person,54,tiny + vague
+105660,52,person,person,54,tiny + vague
+105660,53,person,person,54,tiny + vague
+105660,54,person,person,54,tiny + vague
+105660,55,person,person,54,tiny + vague
+105660,56,person,person,54,tiny + vague
+105660,57,person,person,54,tiny + vague
+105660,58,person,person,54,tiny + vague
+105660,59,person,person,54,tiny + vague
+105660,60,person,person,54,tiny + vague
+105660,61,person,person,54,tiny + vague
+105660,62,person,person,54,tiny + vague
+105660,63,person,person,54,tiny + vague
+105660,64,person,person,54,tiny + vague
+105660,65,person,person,54,tiny + vague
+105660,66,person,person,54,tiny + vague
+105660,67,person,person,54,tiny + vague
+105660,68,person,person,54,tiny + vague
+105660,69,person,person,54,tiny + vague
+105660,70,person,person,54,tiny + vague
+105660,71,person,person,54,tiny + vague
+105660,72,person,person,54,tiny + vague
+105660,73,person,person,42,tiny + vague
+105660,74,group,crowd,144,vague
+105660,75,group,crowd,234,vague
+105660,76,group,crowd,111,vague
+105660,77,group,crowd,111,vague
+105660,78,group,crowd,63,tiny + vague
+105660,79,group,crowd,57,tiny + vague
+105660,80,group,crowd,54,tiny + vague
+105660,81,group,crowd,54,tiny + vague
+105660,82,group,crowd,54,tiny + vague
+105660,83,group,crowd,54,tiny + vague
+105660,84,group,crowd,54,tiny + vague
+105660,85,group,crowd,54,tiny + vague
+105660,86,group,crowd,54,tiny + vague
+105660,87,group,crowd,54,tiny + vague
+105660,88,group,crowd,54,tiny + vague
+105660,89,group,crowd,54,tiny + vague
+105660,90,group,crowd,54,tiny + vague
+105660,91,group,crowd,54,tiny + vague
+105660,92,group,crowd,54,tiny + vague
+149018,11,small building,building,68,tiny
+149018,12,tower,tower,60,tiny
+102614,8,lantern,lantern,65,tiny
+23842,1,person carrying child,person,378,vague
+23842,2,person with umbrella,person,297,vague
+23842,4,person in straw cloak,person,432,vague
+23842,7,sparrows,sparrow,94,tiny
+23842,14,conical hat,hat,92,tiny
+23842,15,jug,jug,60,tiny
+23842,17,bowl on stand,bowl,90,tiny
+25614,8,birds in flight,bird,63,tiny
+25614,9,birds in flight,bird,71,tiny
+25614,10,birds in flight,bird,61,tiny
+25614,18,snow-covered bridge,bridge,64,tiny
+25614,19,snow-covered boat,boat,36,tiny
+25614,20,snow-covered building,building,92,tiny
+25614,21,snow-covered building,building,64,tiny
+25614,22,snow-covered building,building,43,tiny
+25614,23,snow-covered building,building,43,tiny
+25614,24,snow-covered building,building,43,tiny
+25614,25,snow-covered building,building,43,tiny
+25614,26,snow-covered building,building,43,tiny
+25614,27,snow-covered building,building,43,tiny
+25614,28,snow-covered building,building,43,tiny
+25614,29,snow-covered building,building,43,tiny
+25614,30,snow-covered building,building,43,tiny
+25614,31,snow-covered building,building,43,tiny
+25614,32,snow-covered building,building,43,tiny
+25614,33,snow-covered building,building,43,tiny
+25614,34,snow-covered building,building,43,tiny
+25614,35,snow-covered building,building,43,tiny
+25614,36,snow-covered building,building,43,tiny
+25614,37,snow-covered building,building,43,tiny
+25614,38,snow-covered building,building,43,tiny
+25614,39,snow-covered building,building,43,tiny
+25614,40,snow-covered building,building,43,tiny
+25614,41,snow-covered building,building,43,tiny
+25614,42,snow-covered building,building,37,tiny
+47742,3,person with white umbrella,person,260,vague
+47742,4,person with yellow umbrella,person,230,vague
+47742,5,person in blue hood,person,137,vague
+13202,1,person,person,318,vague
+13202,2,person,person,159,vague
+13202,3,person,person,294,vague
+13202,4,person,person,108,vague
+184371,11,halo,halo,84,tiny
+184371,14,sheep,sheep,69,tiny
+184371,16,horse,horse,67,tiny
+184371,17,horse,horse,60,tiny
+184371,18,bird,bird,30,tiny
+184371,19,bird,bird,30,tiny
+158317,2,soldier,soldier,89,tiny
+158317,4,soldier,soldier,59,tiny
+158317,5,soldier,soldier,61,tiny
+158317,6,soldier,soldier,52,tiny
+158317,7,soldier,soldier,66,tiny
+158317,8,soldier,soldier,40,tiny
+158317,9,soldier,soldier,21,tiny
+158317,10,soldier,soldier,16,tiny
+158317,11,soldier,soldier,15,tiny
+158317,12,soldier,soldier,11,tiny
+158317,13,soldier,soldier,10,tiny
+158317,14,soldier,soldier,10,tiny
+158317,15,soldier,soldier,10,tiny
+158317,16,soldier,soldier,10,tiny
+158317,17,soldier,soldier,10,tiny
+158317,18,soldier,soldier,10,tiny
+158317,19,soldier,soldier,10,tiny
+158317,20,soldier,soldier,10,tiny
+158317,21,soldier,soldier,10,tiny
+158317,22,soldier,soldier,10,tiny
+158317,23,soldier,soldier,10,tiny
+158317,24,soldier,soldier,10,tiny
+158317,25,soldier,soldier,10,tiny
+158317,26,soldier,soldier,10,tiny
+158317,27,soldier,soldier,10,tiny
+158317,28,soldier,soldier,10,tiny
+158317,29,soldier,soldier,10,tiny
+158317,30,soldier,soldier,10,tiny
+158317,31,soldier,soldier,10,tiny
+158317,32,soldier,soldier,10,tiny
+158317,33,soldier,soldier,10,tiny
+158317,34,soldier,soldier,10,tiny
+158317,36,tent,tent,47,tiny
+158317,37,tent,tent,31,tiny
+158317,38,tent,tent,31,tiny
+158317,39,tent,tent,31,tiny
+158317,40,tent,tent,31,tiny
+158317,41,tent,tent,31,tiny
+158317,42,tent,tent,31,tiny
+158317,43,tent,tent,31,tiny
+158317,44,tent,tent,31,tiny
+158317,45,tent,tent,31,tiny
+158317,46,tent,tent,31,tiny
+158317,47,tent,tent,31,tiny
+158317,48,tent,tent,21,tiny
+158317,49,conifer,conifer,36,tiny
+158317,50,wreath,wreath,31,tiny
+158317,52,book,book,40,tiny
+158317,53,book,book,40,tiny
+158317,54,book,book,40,tiny
+158317,55,book,book,40,tiny
+158317,56,book,book,40,tiny
+158317,57,book,book,40,tiny
+158317,58,book,book,40,tiny
+158317,59,book,book,40,tiny
+158317,60,book,book,40,tiny
+158317,61,book,book,40,tiny
+158317,62,book,book,40,tiny
+158317,63,pipe,pipe,20,tiny
+158317,64,pipe,pipe,19,tiny
+158317,65,pipe,pipe,19,tiny
+158317,66,pipe,pipe,16,tiny
+158317,67,pipe,pipe,11,tiny
+158317,68,pipe,pipe,10,tiny
+158317,69,pipe,pipe,10,tiny
+158317,70,pipe,pipe,10,tiny
+158317,71,pipe,pipe,10,tiny
+158317,72,pipe,pipe,10,tiny
+158317,73,pipe,pipe,10,tiny
+158317,74,pipe,pipe,10,tiny
+158317,75,pipe,pipe,10,tiny
+158317,76,pipe,pipe,10,tiny
+158317,77,pipe,pipe,10,tiny
+158317,78,pipe,pipe,10,tiny
+158317,79,pipe,pipe,10,tiny
+158317,80,pipe,pipe,10,tiny
+158317,81,pipe,pipe,10,tiny
+158317,82,pipe,pipe,10,tiny
+158317,83,pipe,pipe,10,tiny
+158317,84,pipe,pipe,10,tiny
+158317,85,pipe,pipe,10,tiny
+158317,86,pipe,pipe,10,tiny
+158317,87,pipe,pipe,10,tiny
+158317,88,pipe,pipe,10,tiny
+158317,89,pipe,pipe,10,tiny
+158317,90,pipe,pipe,10,tiny
+158317,91,sword,sword,36,tiny
+158317,92,sword,sword,35,tiny
+158317,93,sword,sword,35,tiny
+158317,94,sword,sword,16,tiny
+158317,95,sword,sword,11,tiny
+158317,96,sword,sword,10,tiny
+158317,97,sword,sword,10,tiny
+89505,1,person,person,290,vague
+89505,2,person,person,355,vague
+8913,1,person in black robe,person,614,vague
+8913,2,person in white robe,person,782,vague
+9893,1,person,person,54,tiny + vague
+9893,2,person,person,60,tiny + vague
+9893,3,person,person,60,tiny + vague
+9893,4,person,person,75,tiny + vague
+9893,5,person,person,54,tiny + vague
+9893,15,umbrella,umbrella,38,tiny
+9893,16,umbrella,umbrella,44,tiny
+9893,17,umbrella,umbrella,44,tiny
+25436,1,person,person,162,vague
+89976,1,person with umbrella,person,117,vague
+89976,2,person with umbrella,person,123,vague
+89976,3,person with umbrella,person,102,vague
+89976,4,person with umbrella,person,96,vague
+89976,5,person with umbrella,person,51,tiny + vague
+89976,6,person with umbrella,person,42,tiny + vague
+89976,18,torii gate,torii gate,93,tiny
+32676,1,woman in blue and white kimono,woman,79,tiny
+32676,2,child in red kimono,child,61,tiny
+32676,3,woman in black and red kimono,woman,80,tiny
+32676,4,woman in grey patterned kimono,woman,81,tiny
+32676,6,conifer,conifer,75,tiny
+32676,8,wreath,wreath,51,tiny
+32676,9,setting sun,setting sun,56,tiny
+25023,2,person,person,53,tiny + vague
+25023,3,person,person,55,tiny + vague
+25023,4,person,person,48,tiny + vague
+25023,5,person,person,48,tiny + vague
+25023,6,person,person,56,tiny + vague
+25023,7,person,person,318,vague
+25023,12,umbrella,umbrella,53,tiny
+25023,13,umbrella,umbrella,55,tiny
+25023,14,umbrella,umbrella,48,tiny
+25023,15,umbrella,umbrella,48,tiny
+25023,16,umbrella,umbrella,56,tiny
+29544,1,person in red robe,person,102,vague
+29544,2,person with straw raincoat,person,104,vague
+35100,1,person in green kimono holding umbrella,person,432,vague
+35100,2,person in yellow straw cloak,person,357,vague
+35100,3,person in dark kimono holding umbrella,person,354,vague
+2156,1,candle,candle,72,tiny
+2156,2,candle,candle,60,tiny
+2156,3,candle,candle,72,tiny
+2156,4,candle,candle,66,tiny
+2156,41,metal container,container,18,tiny
+2156,42,metal container,container,18,tiny
+2156,43,metal container,container,18,tiny
+2156,44,metal container,container,18,tiny
+2156,45,metal container,container,18,tiny
+2156,46,metal container,container,18,tiny
+2156,47,metal container,container,18,tiny
+2156,48,metal container,container,18,tiny
+2156,49,metal container,container,18,tiny
+2156,50,metal container,container,18,tiny
+54285,13,distant figures,crowd,78,tiny + vague
+10932,1,person with yellow umbrella,person,87,tiny + vague
+10932,2,person with green umbrella,person,84,tiny + vague
+10932,3,person with straw hat and basket,person,144,vague
+10932,4,person with conical hat and bundle,person,150,vague
+10932,6,snow-covered boat,boat,68,tiny
+10932,7,snow-covered boat,boat,50,tiny
+10932,9,snow-covered pagoda,pagoda,87,tiny
+10932,17,group of people on bridge,crowd,138,vague
+10932,18,group of people near buildings,crowd,200,vague
+77318,1,person,person,165,vague
+77318,2,person,person,297,vague
+77318,3,person,person,300,vague
+77318,4,person,person,114,vague
+59615,1,person,person,228,vague
+59615,2,person,person,249,vague
+59615,3,person,person,195,vague
+59615,4,person,person,192,vague
+59615,5,person,person,144,vague
+59615,6,person,person,135,vague
+59615,7,person,person,84,tiny + vague
+59615,8,person,person,57,tiny + vague
+59615,9,person,person,48,tiny + vague
+59615,10,person,person,39,tiny + vague
+59615,11,person,person,51,tiny + vague
+59615,12,group,crowd,255,vague
+24418,8,group of people on veranda,crowd,234,vague
+88574,1,person on horse,person,300,vague
+88574,2,person walking in snow,person,284,vague
+45838,1,person,person,114,vague
+497,12,sliced fruit,fruit,72,tiny
+497,21,bottle,bottle,65,tiny
+110342,2,toy boat,toy boat,62,tiny
+110342,3,stick,stick,62,tiny
+110342,5,shoes,shoe,38,tiny
+111670,12,white bird on staff,bird,93,tiny
+21934,1,person,person,1173,vague
+561,24,glass on tray,glass,87,tiny
+561,27,glass on windowsill,glass,60,tiny
+256795,20,red berries,berry,79,tiny
+256795,32,gold armband on right,armband,79,tiny
+185775,3,seated figure,person,141,vague
+185775,4,distant figures,crowd,77,tiny + vague
+16417,9,paper,paper,90,tiny
+16417,11,pipe on floor,pipe,60,tiny
+81568,6,man in top hat,man,90,tiny
+81568,7,man in top hat,man,63,tiny
+81568,13,people on bridge,crowd,116,vague
+81568,14,people on street,crowd,141,vague
+65847,5,bread,bread,67,tiny
+65847,6,plate,plate,34,tiny
+65847,11,wall hanging,framed picture,63,tiny
+65847,12,dried herbs,dried herb,62,tiny
+111667,4,person on platform,person,198,vague
+111667,11,group of people on platform,crowd,416,vague
+111667,12,group of people in background,crowd,436,vague
+111667,13,group of people in foreground,crowd,1060,vague
+186425,9,saucer,saucer,92,tiny
+160229,1,person,person,132,vague
+160229,6,orange,orange,46,tiny
+160229,7,orange,orange,33,tiny
+160229,8,orange,orange,39,tiny
+160229,17,chair,chair,90,tiny
+16398,9,pearl necklace,pearl necklace,57,tiny
+117477,3,wine bottle,wine bottle,89,tiny
+117477,4,glass,glass,56,tiny
+117477,5,cup,cup,62,tiny
+117477,6,spoon,spoon,34,tiny
+117477,10,onion,onion,53,tiny
+10550,18,pot,pot,78,tiny
+49068,5,red apple,apple,70,tiny
+111059,17,apple,apple,88,tiny
+111059,31,flower,flower,86,tiny
+111059,38,flower,flower,75,tiny
+111059,39,flower,flower,81,tiny
+111059,40,flower,flower,87,tiny
+111059,42,flower,flower,90,tiny
+6005,1,person,person,72,tiny + vague
+6005,2,child,child,30,tiny
+6005,5,tree,tree,69,tiny
+6005,6,tree,tree,51,tiny
+6005,7,tree,tree,57,tiny
+6005,8,tree,tree,66,tiny
+6005,10,tree,tree,93,tiny
+6005,13,house,house,76,tiny
+6005,14,horse,horse,36,tiny
+6005,15,cart,cart,55,tiny
+182381,7,strawberry,strawberry,82,tiny
+182381,8,strawberry,strawberry,72,tiny
+182381,9,strawberry,strawberry,77,tiny
+182381,10,strawberry,strawberry,86,tiny
+182381,11,strawberry,strawberry,88,tiny
+182381,12,strawberry,strawberry,77,tiny
+15717,1,person,person,207,vague
+15717,2,person,person,158,vague
+15717,3,person,person,262,vague
+15717,4,person,person,252,vague
+15717,5,person,person,246,vague
+15717,6,person,person,205,vague
+15717,7,person,person,321,vague
+15717,8,person,person,162,vague
+15717,9,person,person,143,vague
+15717,10,person,person,210,vague
+15717,11,person,person,80,tiny + vague
+15717,12,person,person,131,vague
+15717,13,person,person,117,vague
+15717,14,person,person,67,tiny + vague
+15717,15,person,person,85,tiny + vague
+15717,16,person,person,89,tiny + vague
+15717,17,person,person,77,tiny + vague
+15717,18,person,person,76,tiny + vague
+15717,19,person,person,71,tiny + vague
+15717,20,person,person,151,vague
+15717,21,person,person,174,vague
+15717,26,crown,crown,87,tiny
+15717,31,halo,halo,67,tiny
+15717,35,food,food,41,tiny
+15717,36,food,food,40,tiny
+222528,1,person,person,273,vague
+222528,2,person,person,585,vague
+222528,3,person,person,567,vague
+222528,4,person,person,168,vague
+222528,5,person,person,570,vague
+222528,6,person,person,633,vague
+222528,7,person,person,285,vague
+222528,8,person,person,513,vague
+222528,9,person,person,450,vague
+222528,10,person,person,99,vague
+222528,11,person,person,333,vague
+222528,12,person,person,222,vague
+222528,13,person,person,132,vague
+222528,16,candle,candle,33,tiny
+222528,17,candle,candle,24,tiny
+222528,19,food,food,44,tiny
+21687,1,person,person,339,vague
+21687,2,person,person,414,vague
+21687,3,person,person,381,vague
+21687,4,person,person,261,vague
+21687,5,person,person,348,vague
+21687,6,person,person,357,vague
+21687,7,person,person,450,vague
+21687,8,person,person,378,vague
+21687,9,person,person,354,vague
+21687,10,person,person,581,vague
+21687,11,person,person,537,vague
+133394,1,person,person,216,vague
+133394,2,person,person,228,vague
+133394,3,person,person,225,vague
+133394,4,person,person,318,vague
+133394,5,person,person,174,vague
+133394,6,person,person,147,vague
+133394,7,person,person,99,vague
+133394,8,person,person,75,tiny + vague
+133394,9,person,person,72,tiny + vague
+133394,10,person,person,60,tiny + vague
+133394,11,person,person,45,tiny + vague
+133394,12,person,person,42,tiny + vague
+133394,13,person,person,51,tiny + vague
+133394,14,person,person,42,tiny + vague
+133394,15,person,person,33,tiny + vague
+133394,16,person,person,42,tiny + vague
+133394,17,person,person,39,tiny + vague
+133394,18,person,person,27,tiny + vague
+133394,19,person,person,33,tiny + vague
+133394,20,person,person,27,tiny + vague
+133394,21,person,person,27,tiny + vague
+133394,22,person,person,24,tiny + vague
+133394,23,person,person,30,tiny + vague
+133394,24,person,person,24,tiny + vague
+133394,25,person,person,30,tiny + vague
+133394,26,person,person,27,tiny + vague
+133394,27,person,person,24,tiny + vague
+133394,28,person,person,21,tiny + vague
+133394,29,person,person,21,tiny + vague
+133394,30,person,person,78,tiny + vague
+133394,31,person,person,57,tiny + vague
+133394,32,person,person,30,tiny + vague
+133394,33,person,person,30,tiny + vague
+133394,34,person,person,33,tiny + vague
+133394,35,person,person,24,tiny + vague
+133394,36,person,person,27,tiny + vague
+133394,37,person,person,24,tiny + vague
+62450,17,plum,plum,91,tiny
+62450,22,cherry,cherry,78,tiny
+62450,24,cherry,cherry,65,tiny
+62450,26,cherry,cherry,75,tiny
+62450,27,cherry,cherry,65,tiny
+62450,28,cherry,cherry,86,tiny
+62450,29,cherry,cherry,67,tiny
+62450,30,cherry,cherry,84,tiny
+62450,31,cherry,cherry,73,tiny
+62450,32,cherry,cherry,78,tiny
+62450,33,cherry,cherry,63,tiny
+62450,34,cherry,cherry,91,tiny
+62450,35,cherry,cherry,78,tiny
+62450,36,cherry,cherry,66,tiny
+62450,37,cherry,cherry,78,tiny
+62450,38,cherry,cherry,67,tiny
+62450,39,cherry,cherry,82,tiny
+62450,40,cherry,cherry,69,tiny
+62450,41,cherry,cherry,66,tiny
+62450,42,cherry,cherry,90,tiny
+257286,4,oyster,oyster,89,tiny
+257286,6,oyster,oyster,85,tiny
+257286,7,oyster,oyster,93,tiny
+257286,23,knife,knife,70,tiny
+154496,19,drawing,drawing,76,tiny
+27992,1,person,person,483,vague
+27992,2,person,person,462,vague
+27992,3,person,person,297,vague
+27992,4,person,person,189,vague
+27992,5,person,person,171,vague
+27992,6,person,person,564,vague
+27992,7,person,person,219,vague
+27992,8,person,person,138,vague
+27992,9,person,person,198,vague
+27992,10,person,person,195,vague
+27992,11,person,person,117,vague
+27992,12,person,person,222,vague
+27992,13,person,person,147,vague
+27992,14,person,person,129,vague
+27992,15,person,person,108,vague
+27992,16,person,person,69,tiny + vague
+27992,17,person,person,57,tiny + vague
+27992,18,person,person,51,tiny + vague
+27992,19,person,person,87,tiny + vague
+27992,20,person,person,129,vague
+27992,21,person,person,42,tiny + vague
+27992,22,person,person,69,tiny + vague
+27992,23,person,person,78,tiny + vague
+27992,24,person,person,42,tiny + vague
+27992,25,person,person,48,tiny + vague
+27992,26,person,person,141,vague
+27992,27,person,person,75,tiny + vague
+27992,28,person,person,141,vague
+27992,29,person,person,144,vague
+27992,30,person,person,81,tiny + vague
+27992,31,person,person,42,tiny + vague
+27992,37,umbrella,umbrella,56,tiny
+27992,38,umbrella,umbrella,82,tiny
+27992,40,umbrella,umbrella,72,tiny
+27992,43,parasol,parasol,56,tiny
+27992,44,parasol,parasol,82,tiny
+27992,46,parasol,parasol,72,tiny
+27992,47,top hat,top hat,88,tiny
+27992,51,sailing boat,boat,30,tiny
+27992,52,sailing boat,boat,48,tiny
+27992,53,rowing boat,boat,76,tiny
+27992,54,rowing boat,boat,84,tiny
+27992,55,rowing boat,boat,58,tiny
+27992,57,bouquet,bouquet,60,tiny
+27992,59,hat,hat,88,tiny
+27992,62,hat,hat,92,tiny
+27992,65,hat,hat,84,tiny
+27992,66,hat,hat,84,tiny
+27992,67,hat,hat,74,tiny
+27992,68,hat,hat,87,tiny
+27992,70,fishing rod,fishing rod,76,tiny
+27992,71,fishing rod,fishing rod,24,tiny
+27992,72,fishing rod,fishing rod,16,tiny
+27992,73,fishing rod,fishing rod,36,tiny
+27992,74,fan,fan,87,tiny
+27992,75,handbag,handbag,60,tiny
+117476,1,person,person,463,vague
+117476,2,person,person,282,vague
+117476,3,person,person,457,vague
+117476,4,person,person,270,vague
+117476,5,person,person,207,vague
+117476,6,person,person,237,vague
+117476,7,person,person,191,vague
+117476,8,person,person,274,vague
+117476,9,person,person,106,vague
+117476,10,person,person,142,vague
+117476,11,person,person,148,vague
+117476,12,person,person,258,vague
+117476,13,person,person,325,vague
+117476,14,person,person,207,vague
+117476,15,person,person,128,vague
+117476,16,person,person,79,tiny + vague
+117476,17,person,person,63,tiny + vague
+117476,18,person,person,106,vague
+117476,19,person,person,47,tiny + vague
+117476,21,doll,doll,79,tiny
+117476,26,stool,stool,63,tiny
+117476,29,tankard,tankard,51,tiny
+117476,30,tankard,tankard,43,tiny
+117476,31,tankard,tankard,85,tiny
+117476,34,bag,bag,79,tiny
+110760,1,person,person,254,vague
+110760,2,person,person,250,vague
+110760,3,person,person,288,vague
+110760,4,person,person,324,vague
+110760,5,person,person,174,vague
+110760,6,person,person,120,vague
+110760,7,person,person,135,vague
+110760,8,person,person,105,vague
+110760,9,person,person,99,vague
+110760,10,person,person,132,vague
+110760,11,person,person,231,vague
+110760,12,person,person,132,vague
+110760,13,person,person,219,vague
+110760,14,person,person,179,vague
+110760,15,person,person,171,vague
+110760,16,person,person,168,vague
+110760,17,person,person,78,tiny + vague
+110760,18,person,person,78,tiny + vague
+110760,19,person,person,63,tiny + vague
+110760,20,person,person,102,vague
+110760,21,person,person,120,vague
+110760,22,person,person,96,vague
+110760,23,person,person,87,tiny + vague
+110760,24,person,person,78,tiny + vague
+110760,25,person,person,69,tiny + vague
+110760,26,person,person,84,tiny + vague
+110760,27,person,person,138,vague
+110760,28,person,person,138,vague
+110760,29,person,person,108,vague
+110760,30,person,person,93,tiny + vague
+110760,31,person,person,150,vague
+110760,32,person,person,123,vague
+110760,33,person,person,150,vague
+110760,34,person,person,90,tiny + vague
+110760,35,person,person,75,tiny + vague
+110760,36,person,person,135,vague
+110760,37,person,person,204,vague
+110760,38,person,person,99,vague
+110760,39,person,person,93,tiny + vague
+110760,40,person,person,72,tiny + vague
+110760,41,person,person,84,tiny + vague
+110760,42,person,person,63,tiny + vague
+110760,43,person,person,78,tiny + vague
+110760,44,person,person,87,tiny + vague
+110760,45,person,person,63,tiny + vague
+110760,46,person,person,93,tiny + vague
+110760,47,person,person,75,tiny + vague
+110760,48,person,person,117,vague
+110760,50,crown,crown,29,tiny
+110760,51,crown,crown,32,tiny
+110760,52,crown,crown,32,tiny
+110760,53,crown,crown,32,tiny
+110760,54,crown,crown,32,tiny
+110760,55,crown,crown,39,tiny
+110760,56,crown,crown,29,tiny
+110760,57,crown,crown,39,tiny
+110760,58,crown,crown,29,tiny
+110760,59,crown,crown,32,tiny
+110760,60,crown,crown,32,tiny
+110760,61,crown,crown,32,tiny
+110760,62,crown,crown,32,tiny
+110760,63,crown,crown,29,tiny
+110760,64,crown,crown,32,tiny
+110760,65,crown,crown,33,tiny
+110760,66,crown,crown,25,tiny
+110760,67,crown,crown,33,tiny
+110760,68,crown,crown,33,tiny
+110760,69,crown,crown,26,tiny
+110760,70,crown,crown,35,tiny
+110760,71,crown,crown,34,tiny
+110760,72,crown,crown,33,tiny
+110760,73,crown,crown,31,tiny
+110760,74,crown,crown,27,tiny
+110760,75,crown,crown,28,tiny
+110760,76,crown,crown,40,tiny
+110760,77,crown,crown,25,tiny
+110760,78,crown,crown,34,tiny
+110760,79,crown,crown,39,tiny
+110760,80,crown,crown,27,tiny
+110760,81,crown,crown,23,tiny
+110760,82,helmet,helmet,60,tiny
+110760,83,helmet,helmet,34,tiny
+110760,84,helmet,helmet,36,tiny
+110760,85,helmet,helmet,33,tiny
+110760,86,helmet,helmet,25,tiny
+110760,87,helmet,helmet,25,tiny
+110760,88,helmet,helmet,18,tiny
+110760,89,helmet,helmet,18,tiny
+110760,90,helmet,helmet,18,tiny
+110760,91,helmet,helmet,23,tiny
+110760,92,helmet,helmet,23,tiny
+110760,93,helmet,helmet,23,tiny
+110760,94,helmet,helmet,26,tiny
+110760,95,helmet,helmet,23,tiny
+110760,96,helmet,helmet,27,tiny
+110760,97,helmet,helmet,33,tiny
+110760,98,helmet,helmet,33,tiny
+110760,99,helmet,helmet,27,tiny
+110760,100,helmet,helmet,23,tiny
+110760,101,helmet,helmet,25,tiny
+110760,102,helmet,helmet,24,tiny
+110760,103,helmet,helmet,24,tiny
+110760,104,helmet,helmet,24,tiny
+110760,105,helmet,helmet,25,tiny
+110760,106,helmet,helmet,24,tiny
+110760,107,helmet,helmet,24,tiny
+110760,108,helmet,helmet,25,tiny
+110760,109,helmet,helmet,24,tiny
+110760,110,helmet,helmet,24,tiny
+110760,111,helmet,helmet,24,tiny
+110760,112,helmet,helmet,24,tiny
+110760,113,helmet,helmet,24,tiny
+110760,114,helmet,helmet,24,tiny
+110760,115,helmet,helmet,24,tiny
+110760,116,helmet,helmet,24,tiny
+110760,117,helmet,helmet,24,tiny
+110760,118,helmet,helmet,24,tiny
+110760,119,helmet,helmet,16,tiny
+62460,1,person,person,433,vague
+62460,2,person,person,224,vague
+62460,3,person,person,105,vague
+62460,4,person,person,66,tiny + vague
+62460,5,dog,dog,90,tiny
+62460,12,bowl,bowl,66,tiny
+62460,16,book,book,93,tiny
+62460,18,book,book,75,tiny
+62460,19,book,book,63,tiny
+144969,1,person,person,336,vague
+144969,2,person,person,145,vague
+144969,3,person,person,310,vague
+144969,4,person,person,342,vague
+53495,1,person,person,453,vague
+53495,2,person,person,153,vague
+53495,3,person,person,714,vague
+53495,4,person,person,555,vague
+53495,5,person,person,561,vague
+53495,6,person,person,261,vague
+53495,7,person,person,213,vague
+53495,21,hat,hat,93,tiny
+104106,1,person,person,690,vague
+104106,2,person,person,633,vague
+104106,3,person,person,246,vague
+104106,4,person,person,60,tiny + vague
+104106,5,person,person,57,tiny + vague
+104106,6,person,person,45,tiny + vague
+104106,7,person,person,42,tiny + vague
+104106,8,person,person,39,tiny + vague
+104106,9,person,person,18,tiny + vague
+104106,10,person,person,21,tiny + vague
+104106,11,person,person,24,tiny + vague
+104106,12,dog,dog,90,tiny
+111062,1,person,person,466,vague
+111062,2,person,person,351,vague
+111062,3,person,person,198,vague
+111062,7,hat,hat,47,tiny
+28560,7,bowl,bowl,63,tiny
+28560,9,bottle,bottle,42,tiny
+28560,10,bottle,bottle,45,tiny
+20598,1,person,person,440,vague
+20598,2,person,person,466,vague
+20598,3,person,person,368,vague
+20598,4,person,person,275,vague
+20598,5,incense burner,incense burner,81,tiny
+20598,8,decanter,decanter,68,tiny
+20598,9,cup,cup,34,tiny
+44742,1,person,person,859,vague
+44742,2,person,person,882,vague
+44742,3,person,person,281,vague
+44742,13,flower,flower,84,tiny
+44742,14,flower,flower,84,tiny
+44742,15,ribbon,ribbon,79,tiny
+44742,16,necklace,necklace,87,tiny
+16496,1,person,person,477,vague
+16496,2,person,person,603,vague
+16496,3,person,person,639,vague
+16496,4,person,person,225,vague
+16496,5,person,person,156,vague
+16496,6,person,person,156,vague
+16496,11,chicken,chicken,86,tiny
+16496,12,chicken,chicken,90,tiny
+16496,13,chicken,chicken,79,tiny
+16496,15,chick,chick,60,tiny
+16496,16,chick,chick,45,tiny
+16496,17,chick,chick,45,tiny
+16496,18,chick,chick,60,tiny
+20684,1,person,person,687,vague
+20684,2,person,person,630,vague
+20684,3,person,person,438,vague
+20684,4,person,person,270,vague
+20684,5,person,person,225,vague
+20684,6,person,person,141,vague
+20684,7,person,person,45,tiny + vague
+20684,8,person,person,54,tiny + vague
+20684,9,person,person,60,tiny + vague
+20684,10,person,person,54,tiny + vague
+20684,11,person,person,57,tiny + vague
+20684,12,person,person,45,tiny + vague
+20684,13,person,person,30,tiny + vague
+20684,14,person,person,30,tiny + vague
+20684,15,person,person,33,tiny + vague
+20684,16,person,person,21,tiny + vague
+20684,17,person,person,39,tiny + vague
+20684,23,umbrella,umbrella,23,tiny
+20684,24,umbrella,umbrella,42,tiny
+20684,25,umbrella,umbrella,35,tiny
+20684,28,bowler hat,bowler hat,58,tiny
+20684,33,walking stick,stick,48,tiny
+20684,34,glove,glove,54,tiny
+20684,35,glove,glove,81,tiny
+16347,1,person,person,288,vague
+16347,2,person,person,240,vague
+16347,3,person,person,321,vague
+16347,4,person,person,453,vague
+16347,5,person,person,537,vague
+16347,6,person,person,480,vague
+16347,7,person,person,147,vague
+16347,8,person,person,234,vague
+16347,9,person,person,399,vague
+16347,10,person,person,237,vague
+16347,11,person,person,129,vague
+16347,12,person,person,120,vague
+16347,13,person,person,138,vague
+16347,14,person,person,114,vague
+16347,15,person,person,225,vague
+16347,16,person,person,117,vague
+16347,20,sheet music,sheet music,77,tiny
+16347,21,sheet music,sheet music,77,tiny
+16347,22,sheet music,sheet music,55,tiny
+16347,23,candlestick,candlestick,36,tiny
+16347,24,candlestick,candlestick,66,tiny
+16347,25,goblet,goblet,93,tiny
+16347,26,goblet,goblet,66,tiny
+16347,27,platter,platter,92,tiny
+16347,28,platter,platter,72,tiny
+16347,29,platter,platter,49,tiny
+16347,30,wine bottle,wine bottle,66,tiny
+16347,31,jug,jug,93,tiny
+16347,34,book,book,79,tiny
+75393,1,person,person,480,vague
+75393,2,person,person,315,vague
+75393,3,person,person,162,vague
+75393,4,person,person,247,vague
+75393,5,person,person,156,vague
+75393,11,chair,chair,54,tiny
+75393,12,book,book,51,tiny
+75393,13,book,book,45,tiny
+75393,15,toy,toy,39,tiny
+81555,1,person,person,1548,vague
+81555,2,person,person,999,vague
+81555,3,person,person,669,vague
+81555,4,person,person,147,vague
+81555,7,wine bottle,wine bottle,90,tiny
+81555,8,wine glass,wine glass,90,tiny
+81555,11,wine glass,wine glass,87,tiny
+81555,17,hat,hat,58,tiny
+16571,1,person,person,78,tiny + vague
+16571,2,person,person,75,tiny + vague
+16571,3,person,person,54,tiny + vague
+16571,4,person,person,66,tiny + vague
+16571,5,person,person,54,tiny + vague
+16571,6,person,person,195,vague
+16571,7,person,person,302,vague
+16571,8,person,person,137,vague
+16571,11,lamp post,street lamp,81,tiny
+16571,12,lamp post,street lamp,57,tiny
+16571,13,railway signal,railway signal,48,tiny
+8983,1,person,person,351,vague
+8983,2,person,person,540,vague
+8983,3,person,person,165,vague
+160029,1,person,person,48,tiny + vague
+160029,6,bunch of grapes,grapes,63,tiny
+160029,7,bunch of grapes,grapes,66,tiny
+160029,8,bunch of grapes,grapes,66,tiny
+160029,9,bunch of grapes,grapes,66,tiny
+160029,10,bunch of grapes,grapes,60,tiny
+160029,11,bunch of grapes,grapes,70,tiny
+160029,12,bunch of grapes,grapes,72,tiny
+160029,13,bunch of grapes,grapes,60,tiny
+160029,14,bunch of grapes,grapes,48,tiny
+160029,15,bunch of grapes,grapes,81,tiny
+33212,1,person,person,76,tiny + vague
+33212,2,person,person,140,vague
+33212,3,person,person,50,tiny + vague
+33212,4,person,person,52,tiny + vague
+33212,5,person,person,67,tiny + vague
+33212,6,person,person,41,tiny + vague
+33212,7,person,person,126,vague
+33212,8,umbrella,umbrella,65,tiny
+33212,9,umbrella,umbrella,32,tiny
+33212,10,hat,hat,38,tiny
+33212,11,hat,hat,38,tiny
+33212,12,hat,hat,22,tiny
+33212,13,hat,hat,27,tiny
+33212,14,hat,hat,23,tiny
+33212,20,telegraph pole,telegraph pole,29,tiny
+33212,21,telegraph pole,telegraph pole,52,tiny
+874,1,person,person,91,tiny + vague
+874,3,laundry,laundry,88,tiny
+874,4,laundry,laundry,93,tiny
+874,5,laundry,laundry,79,tiny
+874,6,laundry,laundry,70,tiny
+874,7,laundry,laundry,62,tiny
+874,8,laundry,laundry,62,tiny
+874,10,fence post,fence post,45,tiny
+874,11,fence post,fence post,51,tiny
+109314,1,person,person,255,vague
+109314,6,hat,hat,83,tiny
+97681,1,person,person,372,vague
+97681,2,person,person,207,vague
+97681,3,person,person,366,vague
+97681,4,person,person,153,vague
+97681,5,person,person,192,vague
+97681,6,person,person,222,vague
+97681,7,person,person,456,vague
+97681,8,person,person,69,tiny + vague
+97681,9,person,person,246,vague
+97681,10,person,person,120,vague
+97681,11,person,person,129,vague
+97681,12,person,person,39,tiny + vague
+97681,13,person,person,51,tiny + vague
+97681,14,person,person,123,vague
+97681,15,person,person,234,vague
+97681,16,person,person,255,vague
+97681,17,person,person,57,tiny + vague
+97681,18,person,person,114,vague
+97681,19,person,person,63,tiny + vague
+97681,20,person,person,54,tiny + vague
+97681,24,dog,dog,92,tiny
+97681,38,sack,sack,75,tiny
+97681,42,hat,hat,90,tiny
+97681,43,hat,hat,28,tiny
+97681,44,hat,hat,37,tiny
+97681,45,hat,hat,51,tiny
+97681,46,hat,hat,55,tiny
+97681,47,hat,hat,78,tiny
+97681,48,hat,hat,57,tiny
+97681,49,hat,hat,83,tiny
+97681,50,hat,hat,83,tiny
+97681,51,hat,hat,76,tiny
+97681,52,hat,hat,60,tiny
+97681,53,hat,hat,87,tiny
+97681,54,walking stick,stick,87,tiny
+81551,1,person,person,117,vague
+81551,2,person,person,90,tiny + vague
+81551,3,person,person,87,tiny + vague
+81551,4,person,person,132,vague
+81551,5,person,person,180,vague
+81551,6,person,person,45,tiny + vague
+81551,7,person,person,39,tiny + vague
+81551,8,person,person,36,tiny + vague
+81551,9,person,person,42,tiny + vague
+81551,10,person,person,45,tiny + vague
+81551,11,person,person,42,tiny + vague
+81551,12,person,person,39,tiny + vague
+81551,13,person,person,63,tiny + vague
+81551,14,person,person,45,tiny + vague
+81551,15,person,person,30,tiny + vague
+81551,16,person,person,24,tiny + vague
+81551,17,person,person,42,tiny + vague
+81551,18,person,person,42,tiny + vague
+81551,19,person,person,42,tiny + vague
+81551,20,person,person,42,tiny + vague
+81551,21,person,person,42,tiny + vague
+81551,22,person,person,42,tiny + vague
+81551,23,person,person,42,tiny + vague
+81551,24,person,person,42,tiny + vague
+81551,25,person,person,42,tiny + vague
+81551,26,person,person,42,tiny + vague
+81551,27,person,person,42,tiny + vague
+81551,28,person,person,42,tiny + vague
+81551,29,person,person,42,tiny + vague
+81551,30,person,person,42,tiny + vague
+81551,31,person,person,42,tiny + vague
+81551,32,person,person,42,tiny + vague
+81551,48,street lamp,street lamp,66,tiny
+81551,49,street lamp,street lamp,60,tiny
+81551,50,street lamp,street lamp,78,tiny
+81551,54,flag,flag,81,tiny
+5292,1,person,person,181,vague
+5292,2,person,person,97,vague
+5292,3,potted plant,potted plant,68,tiny
+5292,4,potted plant,potted plant,65,tiny
+5292,5,potted plant,potted plant,60,tiny
+5292,6,potted plant,potted plant,51,tiny
+5292,7,potted plant,potted plant,54,tiny
+5292,8,potted plant,potted plant,81,tiny
+5292,9,laundry,laundry,77,tiny
+5292,10,laundry,laundry,32,tiny
+5292,11,laundry,laundry,43,tiny
+5292,16,shutter,shutter,81,tiny
+5292,18,chimney,chimney,60,tiny
+5292,19,chimney,chimney,54,tiny
+5292,20,chimney,chimney,60,tiny
+24674,1,person,person,369,vague
+24674,2,person,person,235,vague
+24674,3,person,person,142,vague
+24674,4,person,person,72,tiny + vague
+24674,5,person,person,91,tiny + vague
+24674,6,person,person,48,tiny + vague
+24674,7,person,person,192,vague
+24674,8,person,person,59,tiny + vague
+24674,9,person,person,64,tiny + vague
+24674,21,banner,banner,75,tiny
+24674,22,banner,banner,83,tiny
+24674,23,banner,banner,69,tiny
+24674,25,banner,banner,61,tiny
+24674,26,banner,banner,64,tiny
+24674,27,banner,banner,51,tiny
+24674,28,banner,banner,51,tiny
+24674,29,banner,banner,51,tiny
+24674,30,banner,banner,61,tiny
+24674,32,banner,banner,93,tiny
+24674,33,banner,banner,29,tiny
+24674,34,banner,banner,45,tiny
+24674,35,banner,banner,91,tiny
+81539,1,person,person,768,vague
+81539,2,person,person,78,tiny + vague
+81539,3,person,person,60,tiny + vague
+81539,4,person,person,60,tiny + vague
+81539,5,person,person,48,tiny + vague
+81539,7,rowing boat,boat,80,tiny
+81539,8,rowing boat,boat,53,tiny
+28849,1,person,person,366,vague
+28849,2,person,person,60,tiny + vague
+28849,3,person,person,48,tiny + vague
+28849,4,person,person,36,tiny + vague
+28849,5,person,person,48,tiny + vague
+28849,6,person,person,39,tiny + vague
+28849,7,person,person,45,tiny + vague
+28849,8,person,person,39,tiny + vague
+28849,9,person,person,33,tiny + vague
+28849,10,person,person,30,tiny + vague
+28849,11,person,person,51,tiny + vague
+28849,12,person,person,39,tiny + vague
+28849,13,person,person,30,tiny + vague
+28849,14,person,person,60,tiny + vague
+28849,15,child,child,60,tiny
+28849,16,child,child,48,tiny
+28849,17,child,child,45,tiny
+28849,18,child,child,39,tiny
+28849,19,child,child,33,tiny
+28849,20,child,child,30,tiny
+28849,21,child,child,39,tiny
+28849,22,child,child,60,tiny
+28849,25,hat,hat,29,tiny
+28849,26,parasol,parasol,90,tiny
+28849,27,walking stick,stick,36,tiny
+28849,29,lamp post,street lamp,33,tiny
+16473,1,person,person,99,vague
+16473,2,person,person,218,vague
+16473,3,person,person,121,vague
+16473,4,person,person,55,tiny + vague
+16473,5,person,person,278,vague
+16473,6,person,person,156,vague
+16473,7,person,person,112,vague
+16473,8,person,person,157,vague
+16473,9,person,person,119,vague
+16473,10,person,person,319,vague
+16473,11,person,person,55,tiny + vague
+16473,12,person,person,112,vague
+16473,13,person,person,128,vague
+16473,14,person,person,150,vague
+16473,15,person,person,93,tiny + vague
+16473,16,person,person,203,vague
+16473,17,person,person,260,vague
+16473,18,person,person,352,vague
+16473,19,person,person,562,vague
+16473,20,person,person,474,vague
+16473,21,person,person,265,vague
+16473,22,person,person,117,vague
+16473,23,person,person,130,vague
+16473,24,person,person,88,tiny + vague
+16473,25,person,person,92,tiny + vague
+16473,26,person,person,79,tiny + vague
+16473,29,chair,chair,77,tiny
+16473,31,chair,chair,84,tiny
+16473,32,chair,chair,49,tiny
+16473,37,plate,plate,52,tiny
+16473,38,plate,plate,47,tiny
+16473,41,ribbon,ribbon,62,tiny
+16473,42,ribbon,ribbon,33,tiny
+16473,43,ribbon,ribbon,27,tiny
+16473,44,ribbon,ribbon,29,tiny
+16473,45,ribbon,ribbon,26,tiny
+16473,46,ribbon,ribbon,31,tiny
+16473,47,ribbon,ribbon,61,tiny
+16473,52,hat,hat,79,tiny
+16473,54,hat,hat,65,tiny
+16473,55,hat,hat,70,tiny
+16473,56,hat,hat,59,tiny
+16146,1,person,person,1083,vague
+16146,2,person,person,345,vague
+16146,3,person,person,243,vague
+16146,4,person,person,246,vague
+16146,5,person,person,237,vague
+16146,6,person,person,363,vague
+16146,7,person,person,303,vague
+16146,8,person,person,128,vague
+16146,9,person,person,117,vague
+16146,12,red nose,nose,38,tiny
+44018,1,person,person,831,vague
+44018,2,person,person,591,vague
+44018,3,person,person,822,vague
+44018,4,person,person,438,vague
+44018,7,croquet ball,croquet ball,69,tiny
+44018,8,croquet ball,croquet ball,59,tiny
+44018,9,croquet ball,croquet ball,59,tiny
+44018,10,croquet hoop,croquet hoop,90,tiny
+44018,13,croquet hoop,croquet hoop,30,tiny
+97892,1,person,person,414,vague
+97892,2,person,person,234,vague
+97892,3,person,person,204,vague
+97892,4,person,person,150,vague
+97892,5,person,person,192,vague
+97892,6,person,person,57,tiny + vague
+97892,7,person,person,60,tiny + vague
+97892,8,person,person,69,tiny + vague
+97892,9,person,person,54,tiny + vague
+97892,10,person,person,111,vague
+97892,11,person,person,93,tiny + vague
+97892,12,person,person,114,vague
+97892,13,person,person,57,tiny + vague
+263513,1,person,person,1356,vague
+79349,1,person,person,1077,vague
+79349,2,person,person,1287,vague
+79349,3,person,person,744,vague
+117700,1,person,person,966,vague
+90333,1,person,person,468,vague
+90333,2,person,person,390,vague
+90333,3,person,person,189,vague
+90333,4,person,person,267,vague
+90333,5,person,person,198,vague
+90333,6,person,person,186,vague
+90333,7,person,person,316,vague
+90333,8,person,person,264,vague
+90333,9,person,person,240,vague
+90333,10,person,person,84,tiny + vague
+90333,11,person,person,144,vague
+90333,12,person,person,114,vague
+90333,13,person,person,117,vague
+90333,14,person,person,72,tiny + vague
+90333,15,person,person,166,vague
+90333,30,canvas,canvas,93,tiny
+71573,1,person,person,432,vague
+71573,2,person,person,417,vague
+71573,3,person,person,507,vague
+71573,4,person,person,684,vague
+71573,5,person,person,165,vague
+71573,6,person,person,108,vague
+71573,7,person,person,79,tiny + vague
+71573,8,person,person,471,vague
+71573,9,person,person,318,vague
+71573,10,person,person,330,vague
+71573,18,dog,dog,58,tiny
+71573,19,toy boat,toy boat,61,tiny
+71573,21,hair bow,hair bow,81,tiny
+71573,23,hair bow,hair bow,81,tiny
+14664,1,person,person,810,vague
+14664,2,person,person,897,vague
+14664,3,person,person,597,vague
+14664,4,person,person,471,vague
+14664,5,person,person,318,vague
+14664,6,person,person,594,vague
+14664,7,person,person,543,vague
+14664,8,person,person,384,vague
+14664,9,person,person,231,vague
+14664,10,person,person,297,vague
+14664,11,person,person,201,vague
+14664,12,person,person,171,vague
+14664,13,person,person,291,vague
+14664,14,person,person,228,vague
+14664,15,person,person,162,vague
+14664,16,person,person,120,vague
+14664,17,person,person,114,vague
+14664,24,bowler hat,bowler hat,92,tiny
+14664,31,plate,plate,92,tiny
+27980,1,person,person,2195,vague
+66144,1,person,person,96,vague
+66144,2,person,person,213,vague
+66144,3,person,person,183,vague
+66144,4,person,person,108,vague
+66144,5,person,person,105,vague
+66144,6,person,person,66,tiny + vague
+66144,7,person,person,84,tiny + vague
+66144,8,person,person,90,tiny + vague
+66144,9,hat,hat,52,tiny
+66144,10,hat,hat,78,tiny
+66144,11,hat,hat,59,tiny
+66144,12,hat,hat,48,tiny
+66144,13,hat,hat,27,tiny
+66144,14,hat,hat,32,tiny
+66144,15,hat,hat,30,tiny
+66144,16,hat,hat,39,tiny
+66144,17,hat,hat,45,tiny
+21165,1,person,person,826,vague
+21165,2,person,person,1522,vague
+11723,1,person,person,1515,vague
