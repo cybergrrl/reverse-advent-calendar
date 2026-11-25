@@ -65,6 +65,29 @@ function setTree() {
   tree.src = card.t || TREE;
 }
 
+const canShare = () => typeof navigator.share === "function" && matchMedia("(pointer: coarse)").matches;
+
+function shareDetails(url) {
+  const subject = "A Christmas postcard for you";
+  const text = `I made you a Christmas postcard, decorated with details from artworks in the Art Institute of Chicago. Open it here:`;
+  return { subject, text, url };
+}
+
+function emailHref(url) {
+  const { subject, text } = shareDetails(url);
+  const body = `${card.to ? `${card.to}\n\n` : ""}${text}\n\n${url}${card.from ? `\n\n${card.from}` : ""}`;
+  return `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
+async function sendCard(url) {
+  if (canShare()) {
+    const { subject, text } = shareDetails(url);
+    try { await navigator.share({ title: subject, text, url }); } catch {}
+  } else {
+    location.href = emailHref(url);
+  }
+}
+
 function showEditor() {
   document.body.classList.remove("reading");
   $("editor").hidden = false;
@@ -77,6 +100,7 @@ function showEditor() {
     card = { ...card, to: $("to").value.trim(), msg: $("msg").value.trim(), from: $("from").value.trim() };
     history.pushState(null, "", `#card=${encodeCard(card)}`);
     showReading(true);
+    sendCard(location.href);
   });
 }
 
@@ -93,7 +117,12 @@ function showReading(justSent) {
   $("sentBanner").hidden = !justSent;
   $("backLink").textContent = justSent ? "← Edit the postcard" : "Make your own calendar →";
   $("backLink").href = justSent ? "postcard.html" : "index.html";
-  if (justSent) { $("cardLink").value = location.href; window.scrollTo(0, 0); }
+  if (justSent) {
+    $("cardLink").value = location.href;
+    $("emailLink").href = emailHref(location.href);
+    $("shareLink").hidden = !canShare();
+    window.scrollTo(0, 0);
+  }
   renderFront();
 }
 
@@ -145,6 +174,7 @@ async function start() {
   });
   $("infoClose").addEventListener("click", hideInfo);
   document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("info").hidden) hideInfo(); });
+  $("shareLink").addEventListener("click", () => sendCard($("cardLink").value));
   $("copyLink").addEventListener("click", async () => {
     try { await navigator.clipboard.writeText($("cardLink").value); $("copyLink").textContent = "Copied"; }
     catch { $("cardLink").select(); }
