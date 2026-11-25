@@ -147,3 +147,5 @@ Decided 24 November 2026, after checking the NG app: it had three texts per pain
 - [ ] Hosting: Cloudflare Pages, fully public (all images are CC0).
 
 **Door picks connected (25 November 2026):** the 25 stickers picked on http://localhost:8770/doors (saved in `lists/doors.csv`, in pick order) become the calendar doors 1 to 25 in that order. `build_site.py` writes them to `calendar.json` as `doors`; the app uses them and only falls back to dealing random starred stickers if fewer than 25 are picked. Changing picks needs a rebuild.
+
+**Hosting (25 November 2026):** the app folder is now `docs/` (was `site/`) so GitHub Pages can serve it straight from the `main` branch, with no workflow. Live at https://cybergrrl.github.io/reverse-advent-calendar/ once Pages is set to "Deploy from a branch", `main`, `/docs`.

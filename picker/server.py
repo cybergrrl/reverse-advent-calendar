@@ -280,7 +280,7 @@ def save_cutout_review(keys, field, value):
         w.writerows(sorted(reviews.values(), key=lambda r: r["key"]))
 
 
-CALENDAR_JSON = ROOT / "site" / "data" / "calendar.json"
+CALENDAR_JSON = ROOT / "docs" / "data" / "calendar.json"
 DOORS = ROOT / "lists" / "doors.csv"
 
 
@@ -387,8 +387,8 @@ class Handler(SimpleHTTPRequestHandler):
         if path == "/api/doors":
             return self.send_json(doors_data())
         m = re.fullmatch(r"/stickers/(\d+_\d+(?:_cut)?\.webp)", path)
-        if m and (ROOT / "site" / "stickers" / m.group(1)).exists():
-            return self.send_file(ROOT / "site" / "stickers" / m.group(1), "image/webp")
+        if m and (ROOT / "docs" / "stickers" / m.group(1)).exists():
+            return self.send_file(ROOT / "docs" / "stickers" / m.group(1), "image/webp")
         if path == "/starred":
             return self.send_file(HERE / "starred.html", "text/html; charset=utf-8")
         if path == "/api/review":

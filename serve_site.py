@@ -17,7 +17,7 @@ class Server(ThreadingHTTPServer):
 
 def main():
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8766
-    handler = functools.partial(NoCacheHandler, directory=str(Path(__file__).parent / "site"))
+    handler = functools.partial(NoCacheHandler, directory=str(Path(__file__).parent / "docs"))
     print(f"Calendar preview at http://localhost:{port}")
     Server(("127.0.0.1", port), handler).serve_forever()
 

@@ -14,7 +14,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import label_rules  # noqa: E402
 from server import review_data  # noqa: E402
 
-SITE = ROOT / "site"
+SITE = ROOT / "docs"
 DATA_OUT = SITE / "data" / "calendar.json"
 PAINTINGS_OUT = SITE / "paintings"
 STICKERS_OUT = SITE / "stickers"

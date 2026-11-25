@@ -10,7 +10,7 @@ A Christmas calendar of 25 stickers cut from public-domain artworks in the Art I
 2. **Details:** Qwen3-VL found and boxed the people, animals and objects in each work. Labels were grouped, reviewed by hand, and marked festive or not.
 3. **Stickers:** festive and starred details were cut out locally with [MultiMatte](https://huggingface.co/feyninc/multimatte) and given a white border.
 4. **Image descriptions:** the AIC's own descriptions where they exist; for the rest, short descriptions written by Claude from the image and the catalogue record, marked "AI-written" in the app.
-5. **App:** a static site in `site/` (no build step to view it). `build_site.py` turns the reviewed data into `site/data/calendar.json`.
+5. **App:** a static site in `docs/` (no build step to view it). `build_site.py` turns the reviewed data into `docs/data/calendar.json`.
 
 Run it locally with `python3 serve_site.py` and open http://localhost:8766.
 
