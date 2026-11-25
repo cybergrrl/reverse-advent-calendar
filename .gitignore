@@ -5,3 +5,12 @@ __pycache__/
 .DS_Store
 .playwright-mcp/
 deploy/
+PLAN.md
+DEVELOPMENT.md
+backup/
+build_site.py
+descriptions/
+lists/
+picker/
+prompts/
+scripts/
